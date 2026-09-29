@@ -1,0 +1,825 @@
+{
+ "titulo": "Planejamento Semanal de Alimentação",
+ "objetivo": [
+  "Geladeira pequena",
+  "Duas listas de compras",
+  "Redução de estresse e desperdício",
+  "Preparo paralelo para otimizar o tempo",
+  "Passo a passo completo, do descongelamento à finalização",
+  "Lista de materiais e utensílios para cada refeição"
+ ],
+ "observacao": "As quantidades exatas ainda não foram definidas. O planejamento organiza o processo e os ingredientes; depois as quantidades podem ser ajustadas ao número de pessoas.",
+ "compras": [
+  {
+   "id": "compra1",
+   "icone": "🛒",
+   "titulo": "Compra 1",
+   "quando": "Início da semana",
+   "dia": 0,
+   "descricao": "Para as primeiras 3 refeições.",
+   "refeicoes": [
+    1,
+    2,
+    3
+   ],
+   "itens": [
+    "Arroz",
+    "Feijão",
+    "Carne moída",
+    "Batata",
+    "Laranja",
+    "Couve",
+    "Contra-filé",
+    "Cebola",
+    "Kiwi",
+    "Alface",
+    "Macarrão penne",
+    "Molho de tomate",
+    "Queijo ralado",
+    "Almôndegas"
+   ]
+  },
+  {
+   "id": "compra2",
+   "icone": "🛒",
+   "titulo": "Compra 2",
+   "quando": "Meio da semana",
+   "dia": 3,
+   "descricao": "Para as últimas 3 refeições.",
+   "refeicoes": [
+    4,
+    5,
+    6
+   ],
+   "itens": [
+    "Peito de frango",
+    "Alface",
+    "Fígado",
+    "Tomate",
+    "Pão",
+    "Espetinhos",
+    "Cebola",
+    "Tomate para vinagrete",
+    "Pimentão, se gostar",
+    "Cheiro-verde",
+    "Creme de leite",
+    "Mostarda",
+    "Ketchup, se usar"
+   ]
+  },
+  {
+   "id": "despensa",
+   "icone": "🏠",
+   "titulo": "Despensa",
+   "quando": "Para toda a semana",
+   "dia": 0,
+   "descricao": "Itens que duram a semana inteira.",
+   "refeicoes": [],
+   "itens": [
+    "Óleo/azeite",
+    "Sal",
+    "Alho",
+    "Pimenta-do-reino",
+    "Páprica",
+    "Orégano",
+    "Molho inglês, se gostar",
+    "Vinagre",
+    "Batata palha"
+   ]
+  }
+ ],
+ "blocos": [
+  {
+   "letra": "A",
+   "titulo": "Bases",
+   "descricao": "Preparar primeiro.",
+   "itens": [
+    "Arroz",
+    "Feijão",
+    "Batata",
+    "Couve"
+   ]
+  },
+  {
+   "letra": "B",
+   "titulo": "Proteínas",
+   "descricao": "Preparar individualmente.",
+   "itens": [
+    "Carne moída",
+    "Contra-filé",
+    "Almôndegas",
+    "Frango",
+    "Fígado",
+    "Espetinho"
+   ]
+  },
+  {
+   "letra": "C",
+   "titulo": "Acompanhamentos frescos",
+   "descricao": "Preparar somente perto de comer, para preservar textura e qualidade.",
+   "itens": [
+    "Alface",
+    "Tomate",
+    "Frutas",
+    "Vinagrete"
+   ]
+  }
+ ],
+ "refeicoes": [
+  {
+   "numero": 1,
+   "dia": 1,
+   "titulo": "Arroz, carne moída com batata, feijão, laranja e couve",
+   "resumo": "Arroz + carne moída com batata + feijão + laranja + couve",
+   "compra": "compra1",
+   "descongelar": "carne moída",
+   "tempo": "25 min",
+   "ingredientes": [
+    "Arroz",
+    "Carne moída",
+    "Batata",
+    "Feijão",
+    "Laranja",
+    "Couve",
+    "Cebola",
+    "Alho",
+    "Óleo/azeite",
+    "Sal",
+    "Pimenta-do-reino",
+    "Páprica"
+   ],
+   "materiais": [
+    "1 panela para arroz",
+    "1 panela para feijão",
+    "1 panela/frigideira grande para carne",
+    "1 panela pequena para cozinhar a batata",
+    "1 frigideira ou panela para couve",
+    "1 faca",
+    "1 tábua",
+    "1 colher de pau/silicone",
+    "1 colher para servir",
+    "Escorredor",
+    "Potes para armazenamento"
+   ],
+   "etapas": [
+    {
+     "titulo": "Descongelamento",
+     "intro": "Se a carne estiver congelada:",
+     "passos": [
+      "Retirar do freezer.",
+      "Colocar na geladeira no dia anterior.",
+      "Manter refrigerada até o momento do preparo."
+     ],
+     "dica": "Evitar descongelar carne em temperatura ambiente."
+    },
+    {
+     "titulo": "Arroz",
+     "passos": [
+      "Aquecer a panela.",
+      "Colocar um pouco de óleo.",
+      "Refogar o alho.",
+      "Adicionar o arroz.",
+      "Refogar.",
+      "Adicionar água.",
+      "Adicionar sal.",
+      "Deixar cozinhar."
+     ]
+    },
+    {
+     "titulo": "Batata",
+     "intro": "Enquanto o arroz cozinha:",
+     "passos": [
+      "Descascar a batata.",
+      "Cortar em cubos.",
+      "Colocar em panela com água.",
+      "Adicionar sal.",
+      "Cozinhar até ficar macia.",
+      "Escorrer."
+     ]
+    },
+    {
+     "titulo": "Carne moída",
+     "intro": "Enquanto a batata cozinha:",
+     "passos": [
+      "Aquecer a panela.",
+      "Colocar um pouco de óleo.",
+      "Adicionar a carne moída.",
+      "Deixar dourar.",
+      "Mexer e quebrar os pedaços.",
+      "Adicionar alho.",
+      "Adicionar sal.",
+      "Adicionar pimenta.",
+      "Adicionar páprica.",
+      "Adicionar a batata cozida.",
+      "Misturar."
+     ],
+     "dica": "Se quiser mais molho, pode acrescentar um pouco de molho de tomate ou água."
+    },
+    {
+     "titulo": "Couve",
+     "passos": [
+      "Lavar.",
+      "Retirar talos mais grossos.",
+      "Cortar.",
+      "Aquecer a frigideira.",
+      "Adicionar azeite.",
+      "Refogar alho.",
+      "Adicionar a couve.",
+      "Adicionar sal.",
+      "Mexer rapidamente."
+     ],
+     "dica": "Evitar cozinhar demais."
+    }
+   ],
+   "montagem": [
+    "Arroz",
+    "Carne com batata",
+    "Feijão",
+    "Couve"
+   ],
+   "nota": "A laranja pode ficar separada e ser descascada somente na hora."
+  },
+  {
+   "numero": 2,
+   "dia": 2,
+   "titulo": "Arroz, contra-filé acebolado, feijão, kiwi e salada de alface",
+   "resumo": "Arroz + contra-filé acebolado + feijão + kiwi + alface",
+   "compra": "compra1",
+   "descongelar": "contra-filé",
+   "tempo": "25 min",
+   "ingredientes": [
+    "Arroz",
+    "Contra-filé",
+    "Feijão",
+    "Cebola",
+    "Kiwi",
+    "Alface",
+    "Alho",
+    "Óleo/azeite",
+    "Sal",
+    "Pimenta-do-reino",
+    "Vinagre ou limão"
+   ],
+   "materiais": [
+    "Frigideira pesada",
+    "Panela de arroz",
+    "Panela do feijão",
+    "Faca",
+    "Tábua",
+    "Espátula ou pinça",
+    "Colher",
+    "Prato/pote",
+    "Tigela pequena para salada"
+   ],
+   "etapas": [
+    {
+     "titulo": "Descongelamento",
+     "intro": "Se o contra-filé estiver congelado:",
+     "passos": [
+      "Retirar do freezer.",
+      "Colocar na geladeira no dia anterior.",
+      "Manter refrigerado até o momento do preparo."
+     ]
+    },
+    {
+     "titulo": "Preparação da carne",
+     "passos": [
+      "Retirar da geladeira.",
+      "Secar com papel-toalha.",
+      "Temperar com sal e pimenta.",
+      "Fatiar a cebola."
+     ]
+    },
+    {
+     "titulo": "Contra-filé",
+     "passos": [
+      "Aquecer bastante a frigideira.",
+      "Colocar óleo/azeite.",
+      "Adicionar o contra-filé.",
+      "Selar dos dois lados.",
+      "Retirar e deixar descansar."
+     ]
+    },
+    {
+     "titulo": "Cebola",
+     "intro": "Na mesma frigideira:",
+     "passos": [
+      "Adicionar a cebola.",
+      "Mexer.",
+      "Aproveitar o fundo da frigideira.",
+      "Adicionar um pouco de água se necessário.",
+      "Ajustar o sal e a pimenta.",
+      "Voltar o contra-filé para a frigideira rapidamente."
+     ]
+    },
+    {
+     "titulo": "Salada",
+     "intro": "Somente na hora:",
+     "passos": [
+      "Lavar a alface.",
+      "Secar.",
+      "Rasgar.",
+      "Temperar com azeite, sal e vinagre/limão."
+     ]
+    },
+    {
+     "titulo": "Kiwi",
+     "passos": [
+      "Descascar e cortar somente na hora."
+     ]
+    }
+   ],
+   "montagem": [
+    "Arroz",
+    "Contra-filé acebolado",
+    "Feijão",
+    "Alface",
+    "Kiwi"
+   ]
+  },
+  {
+   "numero": 3,
+   "dia": 3,
+   "titulo": "Penne com molho de tomate, queijo ralado e almôndegas",
+   "resumo": "Penne + molho de tomate + queijo ralado + almôndegas",
+   "compra": "compra1",
+   "descongelar": "almôndegas",
+   "tempo": "30 min",
+   "ingredientes": [
+    "Macarrão penne",
+    "Molho de tomate",
+    "Almôndegas",
+    "Queijo ralado",
+    "Alho",
+    "Sal",
+    "Pimenta",
+    "Orégano",
+    "Óleo/azeite"
+   ],
+   "materiais": [
+    "Panela grande para macarrão",
+    "Escorredor",
+    "Panela/frigideira para molho",
+    "Frigideira para almôndegas",
+    "Colher de pau",
+    "Espátula",
+    "Faca",
+    "Tábua",
+    "Ralador, se necessário",
+    "Pegador de macarrão"
+   ],
+   "etapas": [
+    {
+     "titulo": "Descongelamento",
+     "intro": "Se as almôndegas estiverem congeladas:",
+     "passos": [
+      "Retirar do freezer.",
+      "Colocar na geladeira no dia anterior.",
+      "Manter refrigeradas até o preparo."
+     ]
+    },
+    {
+     "titulo": "Almôndegas",
+     "passos": [
+      "Aquecer a frigideira.",
+      "Colocar um pouco de óleo.",
+      "Adicionar as almôndegas.",
+      "Dourar todos os lados."
+     ]
+    },
+    {
+     "titulo": "Molho",
+     "passos": [
+      "Aquecer uma panela.",
+      "Adicionar molho de tomate.",
+      "Adicionar alho.",
+      "Adicionar sal.",
+      "Adicionar pimenta.",
+      "Adicionar orégano.",
+      "Colocar as almôndegas no molho.",
+      "Deixar cozinhar."
+     ]
+    },
+    {
+     "titulo": "Macarrão",
+     "intro": "Enquanto o molho cozinha:",
+     "passos": [
+      "Colocar bastante água em uma panela grande.",
+      "Adicionar sal.",
+      "Esperar ferver.",
+      "Adicionar o penne.",
+      "Cozinhar pelo tempo indicado na embalagem.",
+      "Escorrer."
+     ]
+    },
+    {
+     "titulo": "Finalização",
+     "passos": [
+      "Misturar o penne ao molho ou colocar o molho por cima.",
+      "Adicionar as almôndegas.",
+      "Finalizar com queijo ralado.",
+      "Adicionar orégano, se desejar."
+     ]
+    }
+   ],
+   "montagem": [
+    "Penne",
+    "Molho de tomate",
+    "Almôndegas",
+    "Queijo ralado"
+   ]
+  },
+  {
+   "numero": 4,
+   "dia": 4,
+   "titulo": "Strogonoff de frango, arroz, batata palha e salada de alface",
+   "resumo": "Strogonoff de frango + arroz + batata palha + alface",
+   "compra": "compra2",
+   "descongelar": "frango",
+   "tempo": "30 min",
+   "ingredientes": [
+    "Peito de frango",
+    "Arroz",
+    "Batata palha",
+    "Alface",
+    "Cebola",
+    "Molho de tomate",
+    "Mostarda",
+    "Ketchup, se usar",
+    "Creme de leite",
+    "Alho",
+    "Sal",
+    "Pimenta",
+    "Páprica",
+    "Óleo/azeite"
+   ],
+   "materiais": [
+    "Panela de arroz",
+    "Panela/frigideira grande",
+    "Faca",
+    "Tábua",
+    "Colher de pau",
+    "Colher para servir",
+    "Tigela para salada",
+    "Pote para batata palha"
+   ],
+   "etapas": [
+    {
+     "titulo": "Descongelamento",
+     "passos": [
+      "Retirar o frango do freezer.",
+      "Colocar na geladeira no dia anterior.",
+      "Manter refrigerado até o preparo."
+     ]
+    },
+    {
+     "titulo": "Preparar o frango",
+     "passos": [
+      "Cortar em cubos.",
+      "Temperar com sal.",
+      "Adicionar pimenta.",
+      "Adicionar páprica.",
+      "Adicionar alho."
+     ]
+    },
+    {
+     "titulo": "Dourar o frango",
+     "passos": [
+      "Aquecer bem a panela.",
+      "Adicionar óleo.",
+      "Adicionar o frango.",
+      "Dourar."
+     ]
+    },
+    {
+     "titulo": "Molho",
+     "passos": [
+      "Adicionar cebola.",
+      "Adicionar molho de tomate.",
+      "Adicionar mostarda.",
+      "Adicionar ketchup, se usar.",
+      "Adicionar creme de leite.",
+      "Misturar e deixar aquecer."
+     ],
+     "dica": "Evitar ferver agressivamente depois de colocar o creme de leite."
+    },
+    {
+     "titulo": "Arroz",
+     "passos": [
+      "Preparar simultaneamente em outra panela."
+     ]
+    },
+    {
+     "titulo": "Salada",
+     "passos": [
+      "Lavar a alface.",
+      "Secar.",
+      "Rasgar.",
+      "Temperar somente na hora."
+     ]
+    }
+   ],
+   "montagem": [
+    "Arroz",
+    "Strogonoff",
+    "Salada"
+   ],
+   "nota": "A batata palha deve ser adicionada somente no momento de comer para preservar a crocância."
+  },
+  {
+   "numero": 5,
+   "dia": 5,
+   "titulo": "Fígado acebolado, arroz, feijão e salada de tomate",
+   "resumo": "Fígado acebolado + arroz + feijão + tomate",
+   "compra": "compra2",
+   "descongelar": "fígado",
+   "tempo": "25 min",
+   "ingredientes": [
+    "Fígado",
+    "Arroz",
+    "Feijão",
+    "Tomate",
+    "Cebola",
+    "Alho",
+    "Óleo/azeite",
+    "Sal",
+    "Pimenta"
+   ],
+   "materiais": [
+    "Frigideira",
+    "Panela de arroz",
+    "Panela do feijão",
+    "Faca",
+    "Tábua",
+    "Espátula",
+    "Colher",
+    "Tigela"
+   ],
+   "etapas": [
+    {
+     "titulo": "Descongelamento",
+     "passos": [
+      "Retirar o fígado do freezer.",
+      "Colocar na geladeira no dia anterior.",
+      "Manter refrigerado até o preparo."
+     ]
+    },
+    {
+     "titulo": "Preparar o fígado",
+     "passos": [
+      "Retirar membranas, se necessário.",
+      "Cortar em tiras.",
+      "Secar bem.",
+      "Temperar pouco antes de fritar com sal, pimenta e alho."
+     ]
+    },
+    {
+     "titulo": "Cebola",
+     "passos": [
+      "Fatiar bastante cebola.",
+      "Reservar."
+     ]
+    },
+    {
+     "titulo": "Fígado",
+     "passos": [
+      "Aquecer bastante a frigideira.",
+      "Adicionar óleo.",
+      "Adicionar o fígado.",
+      "Selar rapidamente.",
+      "Retirar."
+     ],
+     "dica": "Evitar cozinhar por tempo excessivo para não deixar o fígado duro."
+    },
+    {
+     "titulo": "Cebola na frigideira",
+     "intro": "Na mesma frigideira:",
+     "passos": [
+      "Adicionar cebola.",
+      "Adicionar sal.",
+      "Dourar.",
+      "Adicionar um pouco de água se necessário.",
+      "Voltar o fígado rapidamente.",
+      "Misturar."
+     ]
+    },
+    {
+     "titulo": "Salada de tomate",
+     "passos": [
+      "Cortar o tomate.",
+      "Adicionar sal.",
+      "Adicionar azeite.",
+      "Adicionar vinagre ou limão."
+     ]
+    }
+   ],
+   "montagem": [
+    "Arroz",
+    "Feijão",
+    "Fígado acebolado",
+    "Salada de tomate"
+   ]
+  },
+  {
+   "numero": 6,
+   "dia": 6,
+   "titulo": "Pão com espetinho e vinagrete",
+   "resumo": "Pão + espetinho + vinagrete",
+   "compra": "compra2",
+   "descongelar": "espetinho",
+   "tempo": "20 min",
+   "ingredientes": [
+    "Pão",
+    "Espetinho de carne",
+    "Tomate",
+    "Cebola",
+    "Pimentão, se gostar",
+    "Cheiro-verde",
+    "Vinagre",
+    "Azeite",
+    "Sal"
+   ],
+   "materiais": [
+    "Frigideira, churrasqueira elétrica ou air fryer",
+    "Faca",
+    "Tábua",
+    "Tigela",
+    "Colher",
+    "Pegador",
+    "Prato"
+   ],
+   "etapas": [
+    {
+     "titulo": "Descongelamento",
+     "intro": "Se o espetinho estiver congelado:",
+     "passos": [
+      "Retirar do freezer.",
+      "Colocar na geladeira no dia anterior.",
+      "Manter refrigerado até o momento do preparo."
+     ]
+    },
+    {
+     "titulo": "Vinagrete",
+     "intro": "Enquanto o espetinho prepara:",
+     "passos": [
+      "Picar tomate.",
+      "Picar cebola.",
+      "Picar pimentão, se desejar.",
+      "Picar cheiro-verde.",
+      "Adicionar vinagre.",
+      "Adicionar azeite.",
+      "Adicionar sal.",
+      "Misturar."
+     ]
+    },
+    {
+     "titulo": "Espetinho",
+     "passos": [
+      "Retirar excesso de umidade.",
+      "Temperar.",
+      "Aquecer a frigideira/air fryer/churrasqueira.",
+      "Colocar o espetinho.",
+      "Virar para dourar todos os lados.",
+      "Verificar o cozimento adequado da carne."
+     ]
+    }
+   ],
+   "montagem": [
+    "Abrir o pão.",
+    "Colocar a carne.",
+    "Adicionar o vinagrete."
+   ]
+  }
+ ],
+ "paralelo": {
+  "regra": "Não terminar completamente uma tarefa antes de começar outra.",
+  "dica": "Use o tempo de cozimento de uma preparação para executar a próxima.",
+  "exemplo": "Refeição 1",
+  "linha": [
+   {
+    "tempo": "Minuto 0",
+    "fazer": [
+     "Ligar a panela do arroz",
+     "Ligar a panela da batata",
+     "Ligar a panela/frigideira da carne"
+    ],
+    "enquanto": [
+     "Cortar batata",
+     "Picar alho",
+     "Cortar couve"
+    ]
+   },
+   {
+    "tempo": "Minuto 5",
+    "fazer": [
+     "Arroz cozinhando",
+     "Batata cozinhando",
+     "Carne dourando"
+    ],
+    "enquanto": [
+     "Preparar a couve"
+    ]
+   },
+   {
+    "tempo": "Minuto 15",
+    "fazer": [
+     "Retirar e escorrer a batata",
+     "Finalizar a carne",
+     "Preparar a couve"
+    ],
+    "enquanto": []
+   },
+   {
+    "tempo": "Minuto 20–25",
+    "fazer": [
+     "Montar a refeição",
+     "Porcionar",
+     "Higienizar os utensílios"
+    ],
+    "enquanto": []
+   }
+  ]
+ },
+ "semana": [
+  {
+   "titulo": "Primeiro bloco",
+   "itens": [
+    "Arroz",
+    "Feijão",
+    "Carne moída",
+    "Batata",
+    "Couve"
+   ],
+   "nota": "As proteínas das refeições posteriores permanecem congeladas e vão para a geladeira conforme a necessidade."
+  },
+  {
+   "titulo": "Segundo bloco",
+   "itens": [
+    "Contra-filé",
+    "Almôndegas",
+    "Penne/molho"
+   ]
+  },
+  {
+   "titulo": "Terceiro bloco",
+   "itens": [
+    "Frango",
+    "Fígado",
+    "Espetinho"
+   ]
+  }
+ ],
+ "armazenamento": [
+  {
+   "icone": "🧊",
+   "titulo": "Geladeira",
+   "itens": [
+    "Carnes que serão consumidas nos próximos dias",
+    "Alface",
+    "Couve",
+    "Tomate",
+    "Frutas que precisam de refrigeração",
+    "Leite/creme de leite",
+    "Outros alimentos refrigerados"
+   ]
+  },
+  {
+   "icone": "❄️",
+   "titulo": "Freezer",
+   "itens": [
+    "Carnes das refeições posteriores",
+    "Almôndegas",
+    "Feijão já porcionado",
+    "Eventualmente arroz já preparado"
+   ]
+  },
+  {
+   "icone": "🏠",
+   "titulo": "Armário",
+   "itens": [
+    "Arroz",
+    "Macarrão",
+    "Molho de tomate",
+    "Temperos",
+    "Óleo/azeite",
+    "Batata palha",
+    "Queijo fechado",
+    "Outros produtos de despensa"
+   ]
+  }
+ ],
+ "antesDaSemana": [
+  "Conferir o que já existe em casa.",
+  "Fazer a Compra 1.",
+  "Separar as carnes por refeição.",
+  "Identificar os alimentos que irão para o freezer.",
+  "Manter na geladeira somente o que será utilizado nos próximos dias."
+ ],
+ "proximaEtapa": [
+  "Número de pessoas por refeição",
+  "Quantas vezes cada refeição será consumida",
+  "Tamanho aproximado das porções",
+  "Se arroz e feijão serão preparados em quantidade para vários dias",
+  "Se haverá marmitas congeladas"
+ ]
+}

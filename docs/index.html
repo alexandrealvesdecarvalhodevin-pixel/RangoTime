@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RangoTime · Planejamento Semanal de Alimentação</title>
+  <meta name="description" content="Lista de compras, planejamento e preparo das refeições da semana.">
+  <meta name="theme-color" content="#121214">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍽️</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="glow" aria-hidden="true"></div>
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="#planejamento">
+        <span class="brand__logo">🍽️</span>
+        <span class="brand__text">Rango<strong>Time</strong></span>
+      </a>
+      <nav class="tabs" role="tablist" aria-label="Seções">
+        <button class="tab" role="tab" data-tab="planejamento" id="tab-planejamento" aria-controls="planejamento">Planejamento</button>
+        <button class="tab" role="tab" data-tab="compras" id="tab-compras" aria-controls="compras">Lista de compras</button>
+        <button class="tab" role="tab" data-tab="preparo" id="tab-preparo" aria-controls="preparo">Preparo</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <span class="badge">Semana organizada</span>
+      <h1>Planejamento semanal de <span class="grad">alimentação</span></h1>
+      <p id="hero-desc">Duas compras, seis refeições e preparo paralelo para cozinhar com menos estresse e menos desperdício.</p>
+      <div class="hero__today" id="today"></div>
+    </section>
+
+    <section class="panel" id="planejamento" role="tabpanel" aria-labelledby="tab-planejamento"></section>
+    <section class="panel" id="compras" role="tabpanel" aria-labelledby="tab-compras"></section>
+    <section class="panel" id="preparo" role="tabpanel" aria-labelledby="tab-preparo"></section>
+  </main>
+
+  <footer class="footer container">
+    <p>Feito com 💜 · o progresso das listas fica salvo neste navegador.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

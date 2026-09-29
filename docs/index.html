@@ -2,11 +2,18 @@
 <html lang="pt-BR">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>RangoTime · Planejamento Semanal de Alimentação</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>RangoTime · Planejamento Semanal</title>
   <meta name="description" content="Lista de compras, planejamento e preparo das refeições da semana.">
-  <meta name="theme-color" content="#121214">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍽️</text></svg>">
+  <meta name="theme-color" content="#09090a">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="RangoTime">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" type="image/png" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -14,36 +21,38 @@
 </head>
 <body>
   <div class="glow" aria-hidden="true"></div>
-  <header class="header">
-    <div class="container header__inner">
-      <a class="brand" href="#planejamento">
-        <span class="brand__logo">🍽️</span>
-        <span class="brand__text">Rango<strong>Time</strong></span>
-      </a>
-      <nav class="tabs" role="tablist" aria-label="Seções">
-        <button class="tab" role="tab" data-tab="planejamento" id="tab-planejamento" aria-controls="planejamento">Planejamento</button>
-        <button class="tab" role="tab" data-tab="compras" id="tab-compras" aria-controls="compras">Lista de compras</button>
-        <button class="tab" role="tab" data-tab="preparo" id="tab-preparo" aria-controls="preparo">Preparo</button>
-      </nav>
+
+  <header class="appbar">
+    <div class="appbar__inner">
+      <img class="appbar__logo" src="icons/icon-192.png" alt="" width="32" height="32">
+      <span class="appbar__brand">Rango<strong>Time</strong></span>
+      <span class="appbar__day" id="appbar-day"></span>
     </div>
   </header>
 
-  <main class="container">
-    <section class="hero">
-      <span class="badge">Semana organizada</span>
-      <h1>Planejamento semanal de <span class="grad">alimentação</span></h1>
-      <p id="hero-desc">Duas compras, seis refeições e preparo paralelo para cozinhar com menos estresse e menos desperdício.</p>
-      <div class="hero__today" id="today"></div>
-    </section>
-
+  <main class="app">
     <section class="panel" id="planejamento" role="tabpanel" aria-labelledby="tab-planejamento"></section>
     <section class="panel" id="compras" role="tabpanel" aria-labelledby="tab-compras"></section>
     <section class="panel" id="preparo" role="tabpanel" aria-labelledby="tab-preparo"></section>
   </main>
 
-  <footer class="footer container">
-    <p>Feito com 💜 · o progresso das listas fica salvo neste navegador.</p>
-  </footer>
+  <nav class="tabbar" role="tablist" aria-label="Seções">
+    <button class="tabbar__btn" role="tab" data-tab="planejamento" id="tab-planejamento" aria-controls="planejamento">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4.5" width="18" height="16" rx="3"/><path d="M3 9.5h18M8 2.5v4M16 2.5v4"/><circle cx="8" cy="14" r="1"/><circle cx="12" cy="14" r="1"/><circle cx="16" cy="14" r="1"/></svg>
+      <span>Semana</span>
+    </button>
+    <button class="tabbar__btn" role="tab" data-tab="compras" id="tab-compras" aria-controls="compras">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2.5 3.5h3l2.4 11.2a2 2 0 0 0 2 1.6h7.7a2 2 0 0 0 1.9-1.5l1.8-7.3H6.4"/><circle cx="10" cy="20" r="1.4"/><circle cx="17.5" cy="20" r="1.4"/></svg>
+      <span>Compras</span>
+      <span class="tabbar__badge" id="badge-compras" hidden></span>
+    </button>
+    <button class="tabbar__btn" role="tab" data-tab="preparo" id="tab-preparo" aria-controls="preparo">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11h15v3a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5v-3zM18 12.5h3M7 7.5c0-1.5 1.5-1.5 1.5-3M11 7.5c0-1.5 1.5-1.5 1.5-3"/></svg>
+      <span>Preparo</span>
+    </button>
+  </nav>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
   <script src="app.js"></script>
 </body>

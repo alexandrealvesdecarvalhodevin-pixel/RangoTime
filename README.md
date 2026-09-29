@@ -2,11 +2,17 @@
 
 Hora do rango: planejamento semanal de alimentação.
 
-Página estática (GitHub Pages) com três abas:
+Página estática (GitHub Pages) pensada para celular, principalmente iPhone: barra de abas embaixo, conteúdo em cards e suporte a notch/barra inferior do iOS.
 
-- **Planejamento**: semana (domingo a sábado), objetivo, blocos de preparo, organização da geladeira e fluxo recomendado.
-- **Lista de compras**: Compra 1, Compra 2 e despensa, com checkboxes (o progresso fica salvo no navegador) e botão para copiar/compartilhar as listas.
+- **Semana**: o que fazer hoje (refeição do dia, o que descongelar), cardápio em cards deslizáveis, blocos de preparo, onde guardar cada coisa e fluxo recomendado.
+- **Compras**: Compra 1, Compra 2 e despensa, com checkboxes (o progresso fica salvo no aparelho) e botão para compartilhar as listas (WhatsApp, Notas etc.).
 - **Preparo**: ingredientes, materiais, passo a passo marcável e montagem de cada refeição, além da estratégia de preparo paralelo.
+
+## Instalar no iPhone como app
+
+1. Abra o link no **Safari**.
+2. Toque em **Compartilhar** → **Adicionar à Tela de Início**.
+3. O RangoTime ganha ícone próprio, abre em tela cheia (sem a barra do navegador) e funciona offline depois do primeiro acesso.
 
 Todo o conteúdo fica em [`docs/data.json`](docs/data.json). Para alterar refeições, itens ou dias, edite esse arquivo.
 

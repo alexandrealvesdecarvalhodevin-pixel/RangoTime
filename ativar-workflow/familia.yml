@@ -1,0 +1,45 @@
+name: Assistente da Família
+
+on:
+  schedule:
+    # 10:23 UTC = 07:23 em Brasília (depois da pesquisa do Devin, às 06:17)
+    - cron: "23 10 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: familia
+  cancel-in-progress: false
+
+jobs:
+  atualizar-e-notificar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Atualizar clima se a pesquisa de hoje não rodou
+        run: |
+          HOJE=$(TZ=America/Sao_Paulo date +%F)
+          DATA=$(python -c "import json;print(json.load(open('docs/familia/atual.json'))['data'])")
+          if [ "$DATA" != "$HOJE" ]; then
+            python scripts/familia/montar.py --reaproveitar
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add docs/familia
+            git commit -m "familia: clima atualizado $HOJE (sem pesquisa nova)" && git push
+          else
+            echo "Pesquisa de hoje já publicada."
+          fi
+      - name: Enviar resumo
+        env:
+          NOTIFICAR_CANAIS: ${{ vars.NOTIFICAR_CANAIS || 'email' }}
+          SMTP_HOST: ${{ vars.SMTP_HOST || 'smtp.gmail.com' }}
+          SMTP_PORT: ${{ vars.SMTP_PORT || '465' }}
+          EMAIL_USUARIO: ${{ secrets.EMAIL_USUARIO }}
+          EMAIL_SENHA: ${{ secrets.EMAIL_SENHA }}
+          EMAIL_DESTINO: ${{ secrets.EMAIL_DESTINO }}
+        run: python scripts/familia/notificar.py

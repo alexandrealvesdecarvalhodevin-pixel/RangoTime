@@ -34,6 +34,7 @@
     <section class="panel" id="planejamento" role="tabpanel" aria-labelledby="tab-planejamento"></section>
     <section class="panel" id="compras" role="tabpanel" aria-labelledby="tab-compras"></section>
     <section class="panel" id="preparo" role="tabpanel" aria-labelledby="tab-preparo"></section>
+    <section class="panel" id="passeios" role="tabpanel" aria-labelledby="tab-passeios"></section>
   </main>
 
   <nav class="tabbar" role="tablist" aria-label="Seções">
@@ -50,10 +51,15 @@
       <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11h15v3a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5v-3zM18 12.5h3M7 7.5c0-1.5 1.5-1.5 1.5-3M11 7.5c0-1.5 1.5-1.5 1.5-3"/></svg>
       <span>Preparo</span>
     </button>
+    <button class="tabbar__btn" role="tab" data-tab="passeios" id="tab-passeios" aria-controls="passeios">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="7.5" r="3.2"/><path d="M12 2v1.3M12 11.7V13M6.8 7.5H5.5M18.5 7.5h-1.3M8.3 3.8l.9.9M14.8 10.3l.9.9M15.7 3.8l-.9.9M9.2 10.3l-.9.9M3 21c2.5-3.5 5.5-5 9-5s6.5 1.5 9 5"/></svg>
+      <span>Passeios</span>
+    </button>
   </nav>
 
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
   <script src="app.js"></script>
+  <script src="passeios.js"></script>
 </body>
 </html>

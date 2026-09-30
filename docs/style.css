@@ -229,7 +229,7 @@ details.card[open] .step__chev { transform: rotate(180deg); }
 /* Tab bar */
 .tabbar {
   position: fixed; z-index: 30; left: 0; right: 0; bottom: 0;
-  display: grid; grid-template-columns: repeat(3, 1fr);
+  display: grid; grid-template-columns: repeat(4, 1fr);
   padding: 6px max(8px, env(safe-area-inset-left)) calc(6px + var(--safe-bottom)) max(8px, env(safe-area-inset-right));
   background: rgba(18, 18, 20, .78);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
@@ -246,9 +246,76 @@ details.card[open] .step__chev { transform: rotate(180deg); }
 .toast { position: fixed; z-index: 40; left: 50%; bottom: calc(var(--tabbar-h) + var(--safe-bottom) + 16px); transform: translate(-50%, 20px); opacity: 0; pointer-events: none; padding: 10px 16px; border-radius: 999px; background: #fff; color: #121214; font-weight: 700; font-size: 14px; transition: .25s; white-space: nowrap; }
 .toast.is-visible { opacity: 1; transform: translate(-50%, 0); }
 
+/* Passeios */
+a { color: var(--purple-light); }
+.pill--pink { background: rgba(255, 0, 142, .14); color: #ff5cb5; }
+.nc { color: var(--dim); font-style: italic; font-size: 13px; }
+.hint { margin-top: 8px; font-size: 12px; color: var(--dim); padding: 0 2px; }
+.link { cursor: pointer; color: var(--purple-light); font-weight: 600; font-size: 14px; }
+.chip--on { background: var(--purple); border-color: var(--purple); color: #fff; }
+button.chip { cursor: pointer; }
+
+.act summary { list-style: none; display: flex; align-items: flex-start; gap: 12px; cursor: pointer; }
+.act summary::-webkit-details-marker { display: none; }
+.act__head { flex: 1; min-width: 0; }
+.act__head h3 { font-size: 16px; line-height: 1.3; margin-bottom: 2px; }
+.act__head p { font-size: 13px; color: var(--dim); margin-bottom: 8px; }
+.act .step__chev { margin-top: 10px; }
+.act[open] .step__chev { transform: rotate(180deg); }
+.act__why { margin-top: 12px; color: var(--text) !important; font-size: 15px; }
+.act__info { display: grid; grid-template-columns: 1fr 1fr; gap: 10px 14px; margin-top: 12px; padding-top: 12px; border-top: .5px solid var(--surface-3); }
+.act__info dt { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--dim); }
+.act__info dd { font-size: 14px; overflow-wrap: anywhere; }
+.act__obs { margin-top: 10px; font-size: 13px !important; }
+.act__foot { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-top: 14px; font-size: 12px; color: var(--dim); }
+.act__foot .btn { color: #fff; text-decoration: none; }
+.act__foot span { flex: 1; min-width: 150px; overflow-wrap: anywhere; }
+.more { margin-top: 10px; }
+.more > summary { list-style: none; width: 100%; }
+.more > summary::-webkit-details-marker { display: none; }
+.more[open] > summary { display: none; }
+.more > .card { margin-top: 12px; }
+
+.wx__top { display: flex; align-items: center; gap: 12px; }
+.wx__top > div:nth-child(2) { flex: 1; min-width: 0; }
+.wx__top h3 { margin: 2px 0 0; }
+.wx__top p { font-size: 13px; }
+.wx__icon { font-size: 36px; line-height: 1; }
+.wx__temp { font-size: 34px; font-weight: 800; letter-spacing: -.03em; line-height: 1; text-align: right; }
+.wx__temp small { display: block; font-size: 15px; font-weight: 600; color: var(--dim); }
+.wx__grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; margin-top: 14px; }
+.wx__grid div { background: var(--surface-2); border-radius: 10px; padding: 8px 4px; text-align: center; min-width: 0; }
+.wx__grid span { display: block; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; color: var(--dim); }
+.wx__grid b { display: block; font-size: 16px; }
+.wx__grid small { display: block; font-size: 10px; color: var(--dim); }
+.wx__tip { margin-top: 12px; font-size: 14px !important; color: var(--text) !important; }
+.wx--chuvoso, .wx--instavel { border-color: rgba(96, 165, 250, .35); background: linear-gradient(160deg, rgba(96, 165, 250, .12), transparent 60%), var(--surface); }
+.wx--quente_sol, .wx--muito_quente { border-color: rgba(251, 169, 76, .4); background: linear-gradient(160deg, rgba(251, 169, 76, .14), transparent 60%), var(--surface); }
+.wx--ameno_seco { border-color: rgba(4, 211, 97, .3); background: linear-gradient(160deg, rgba(4, 211, 97, .1), transparent 60%), var(--surface); }
+
+.beach { display: flex; flex-direction: column; }
+.beach__head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+.beach__head h3 { font-size: 16px; }
+.beach__head span { font-size: 12px; color: var(--dim); white-space: nowrap; }
+.beach__days { display: grid; gap: 8px; margin-top: 10px; }
+.beach__day { padding: 10px 12px; border-radius: 12px; background: var(--surface-2); border-left: 3px solid var(--border); }
+.beach__day--boa { border-left-color: var(--green); }
+.beach__day--parcial { border-left-color: var(--orange); }
+.beach__day--ruim { border-left-color: #f75a68; }
+.beach__lbl { font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: .06em; color: var(--dim); }
+.beach__eval { font-weight: 700; font-size: 14px; }
+.beach__data { font-size: 12px; color: var(--muted); }
+.beach__why { font-size: 12px; color: var(--dim); margin-top: 2px; }
+
+.day-group + .day-group { margin-top: 18px; }
+.day-group__head { display: flex; justify-content: space-between; gap: 8px; font-size: 14px; margin: 0 2px 8px; }
+.day-group__head span { color: var(--dim); }
+
+@media (max-width: 360px) { .wx__grid { grid-template-columns: repeat(3, 1fr); } }
+
 /* Telas maiores: mantém o visual de app, só um pouco mais espaçoso */
 @media (min-width: 700px) {
-  .tabbar { left: 50%; right: auto; bottom: 16px; width: 420px; transform: translateX(-50%); border-radius: 22px; border: 1px solid var(--surface-3); padding-bottom: 6px; }
+  .tabbar { left: 50%; right: auto; bottom: 16px; width: 480px; transform: translateX(-50%); border-radius: 22px; border: 1px solid var(--surface-3); padding-bottom: 6px; }
   .toast { bottom: 100px; }
   .carousel { margin: 0; padding: 2px 0 6px; scroll-padding: 0; }
   .carousel--wide { grid-auto-columns: 46%; }

@@ -1,5 +1,5 @@
-const CACHE = "rangotime-v1";
-const ASSETS = ["./", "index.html", "style.css", "app.js", "data.json", "manifest.webmanifest", "icons/icon-192.png", "icons/apple-touch-icon.png"];
+const CACHE = "rangotime-v2";
+const ASSETS = ["./", "index.html", "style.css", "app.js", "passeios.js", "data.json", "manifest.webmanifest", "icons/icon-192.png", "icons/apple-touch-icon.png"];
 
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(ASSETS)).then(() => self.skipWaiting()));

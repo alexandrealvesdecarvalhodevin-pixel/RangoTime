@@ -1,0 +1,47 @@
+{
+  "versao": 1,
+  "site": "https://alexandrealvesdecarvalhodevin-pixel.github.io/RangoTime/#passeios",
+  "fuso": "America/Sao_Paulo",
+  "origem": { "nome": "Centro de São Paulo (Praça da Sé)", "lat": -23.5505, "lon": -46.6333 },
+  "publico": { "idade_min": 0, "idade_max": 6, "descricao": "Família com criança de 0 a 6 anos" },
+  "janela_dias": 16,
+  "locais_clima": [
+    { "id": "sp", "nome": "São Paulo (capital)", "tipo": "cidade", "lat": -23.5505, "lon": -46.6333, "distancia_km": 0, "tempo_carro": null },
+    { "id": "atibaia", "nome": "Atibaia", "tipo": "passeio", "lat": -23.1171, "lon": -46.5503, "distancia_km": 65, "tempo_carro": "~1h" },
+    { "id": "holambra", "nome": "Holambra", "tipo": "passeio", "lat": -22.6330, "lon": -47.0560, "distancia_km": 135, "tempo_carro": "~1h45" },
+    { "id": "campos-do-jordao", "nome": "Campos do Jordão", "tipo": "passeio", "lat": -22.7390, "lon": -45.5910, "distancia_km": 180, "tempo_carro": "~2h45" },
+    { "id": "santos", "nome": "Santos (Gonzaga)", "tipo": "praia", "lat": -23.9678, "lon": -46.3336, "distancia_km": 75, "tempo_carro": "~1h15" },
+    { "id": "praia-grande", "nome": "Praia Grande", "tipo": "praia", "lat": -24.0058, "lon": -46.4028, "distancia_km": 75, "tempo_carro": "~1h15" },
+    { "id": "guaruja", "nome": "Guarujá (Pitangueiras)", "tipo": "praia", "lat": -23.9975, "lon": -46.2575, "distancia_km": 90, "tempo_carro": "~1h30" },
+    { "id": "bertioga", "nome": "Bertioga (Riviera de São Lourenço)", "tipo": "praia", "lat": -23.7930, "lon": -46.0170, "distancia_km": 110, "tempo_carro": "~1h45" },
+    { "id": "maresias", "nome": "Maresias (São Sebastião)", "tipo": "praia", "lat": -23.7910, "lon": -45.5660, "distancia_km": 170, "tempo_carro": "~2h45" },
+    { "id": "ilhabela", "nome": "Ilhabela", "tipo": "praia", "lat": -23.7780, "lon": -45.3580, "distancia_km": 210, "tempo_carro": "~3h30 + balsa" },
+    { "id": "ubatuba", "nome": "Ubatuba", "tipo": "praia", "lat": -23.4336, "lon": -45.0838, "distancia_km": 230, "tempo_carro": "~3h30" }
+  ],
+  "nota_distancias": "Distâncias e tempos de carro são estimativas a partir do centro de SP, sem trânsito.",
+  "regras_clima": {
+    "chuvoso": { "chuva_prob_min": 60, "chuva_mm_com_prob": 2, "chuva_mm_min": 8 },
+    "instavel": { "chuva_prob_min": 40, "chuva_prob_forte": 70, "chuva_mm_min": 1 },
+    "muito_quente": { "tmax_min": 32, "sensacao_min": 34 },
+    "quente_sol": { "tmax_min": 26 },
+    "frio": { "tmax_max": 18 },
+    "praia": { "chuva_prob_max": 40, "chuva_mm_max": 2, "tmax_min": 24, "vento_max": 30, "ondas_max": 2.0 },
+    "uv_alto": 8
+  },
+  "categorias": {
+    "evento_infantil": { "rotulo": "Evento infantil", "icone": "👶" },
+    "teatro": { "rotulo": "Teatro", "icone": "🎭" },
+    "museu": { "rotulo": "Museu", "icone": "🏛️" },
+    "oficina": { "rotulo": "Oficina", "icone": "🎨" },
+    "cinema": { "rotulo": "Cinema", "icone": "🎬" },
+    "cultural": { "rotulo": "Cultural", "icone": "🎶" },
+    "parque": { "rotulo": "Parque", "icone": "🌳" },
+    "playground": { "rotulo": "Playground", "icone": "🛝" },
+    "zoologico_aquario": { "rotulo": "Zoo / aquário", "icone": "🐠" },
+    "fazenda": { "rotulo": "Fazenda", "icone": "🐄" },
+    "praia": { "rotulo": "Praia", "icone": "🏖️" },
+    "agua": { "rotulo": "Atividade com água", "icone": "🌊" },
+    "indoor": { "rotulo": "Atração indoor", "icone": "🧸" },
+    "shopping": { "rotulo": "Shopping", "icone": "🛍️" }
+  }
+}

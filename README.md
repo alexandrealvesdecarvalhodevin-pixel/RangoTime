@@ -7,6 +7,7 @@ Página estática (GitHub Pages) pensada para celular, principalmente iPhone: ba
 - **Semana**: o que fazer hoje (refeição do dia, o que descongelar), cardápio em cards deslizáveis, blocos de preparo, onde guardar cada coisa e fluxo recomendado.
 - **Compras**: Compra 1, Compra 2 e despensa, com checkboxes (o progresso fica salvo no aparelho) e botão para compartilhar as listas (WhatsApp, Notas etc.).
 - **Preparo**: ingredientes, materiais, passo a passo marcável e montagem de cada refeição, além da estratégia de preparo paralelo.
+- **Passeios**: Assistente Diário da Família. Todo dia de manhã, sugestões para hoje e para o próximo fim de semana com crianças de 0 a 6 anos, cruzando clima, eventos, parques e praias. Arquitetura, APIs, horários, fontes e WhatsApp em [`ASSISTENTE-FAMILIA.md`](ASSISTENTE-FAMILIA.md).
 
 ## Instalar no iPhone como app
 

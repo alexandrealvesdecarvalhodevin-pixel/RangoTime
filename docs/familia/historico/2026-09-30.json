@@ -1,0 +1,5157 @@
+{
+ "versao": 1,
+ "data": "2026-09-30",
+ "dia_semana": "quarta",
+ "gerado_em": "2026-09-30T12:34-03:00",
+ "pesquisado_em": "2026-09-30T12:40-03:00",
+ "origem_execucao": "pesquisa-completa",
+ "fase_semana": "atualizada",
+ "publico": {
+  "idade_min": 0,
+  "idade_max": 6,
+  "descricao": "Família com criança de 0 a 6 anos"
+ },
+ "dias": {
+  "hoje": {
+   "data": "2026-09-30",
+   "classe": "instavel",
+   "rotulo": "Instável, pode chover",
+   "icone": "⛅",
+   "conselho": "Pode chover: prefira programas com plano B coberto ou locais indoor próximos.",
+   "tempo": {
+    "data": "2026-09-30",
+    "ceu": "garoa",
+    "tmax": 31.5,
+    "tmin": 19.6,
+    "sensacao_max": 33.6,
+    "chuva_mm": 0.5,
+    "chuva_prob": 75,
+    "sol_h": 11.6,
+    "vento_max": 15,
+    "rajada_max": 45,
+    "uv_max": 7.7,
+    "classe": "instavel"
+   },
+   "atividades": [
+    {
+     "id": "pinacoteca-para-criancas",
+     "ordem": -3,
+     "tags": [
+      "Combina com o clima",
+      "Coberto",
+      "Confirmar no site"
+     ]
+    },
+    {
+     "id": "pinacoteca-pintura-sem-fim",
+     "ordem": 0,
+     "tags": [
+      "Combina com o clima",
+      "Coberto"
+     ]
+    },
+    {
+     "id": "aquario-sp",
+     "ordem": 4,
+     "tags": [
+      "Combina com o clima",
+      "Precisa reservar",
+      "Coberto"
+     ]
+    },
+    {
+     "id": "catavento",
+     "ordem": 5,
+     "tags": [
+      "Combina com o clima",
+      "Coberto"
+     ]
+    },
+    {
+     "id": "museu-ipiranga",
+     "ordem": 5,
+     "tags": [
+      "Combina com o clima",
+      "Coberto + ar livre"
+     ]
+    },
+    {
+     "id": "museu-imaginacao",
+     "ordem": 10,
+     "tags": [
+      "Coberto"
+     ]
+    },
+    {
+     "id": "aquario-santos",
+     "ordem": 12,
+     "tags": [
+      "Coberto",
+      "Confirmar no site"
+     ]
+    },
+    {
+     "id": "zoo-sp",
+     "ordem": 14,
+     "tags": [
+      "Ao ar livre"
+     ]
+    },
+    {
+     "id": "ibirapuera",
+     "ordem": 21,
+     "tags": [
+      "Gratuito",
+      "Ao ar livre"
+     ]
+    },
+    {
+     "id": "villa-lobos",
+     "ordem": 21,
+     "tags": [
+      "Gratuito",
+      "Ao ar livre"
+     ]
+    },
+    {
+     "id": "agua-branca",
+     "ordem": 32,
+     "tags": [
+      "Ao ar livre"
+     ]
+    },
+    {
+     "id": "praia-santos",
+     "ordem": 55,
+     "tags": [
+      "Tempo não favorece a praia",
+      "Gratuito",
+      "Ao ar livre",
+      "Confirmar no site"
+     ]
+    }
+   ]
+  },
+  "sabado": {
+   "data": "2026-10-03",
+   "classe": "instavel",
+   "rotulo": "Instável, pode chover",
+   "icone": "⛅",
+   "conselho": "Pode chover: prefira programas com plano B coberto ou locais indoor próximos.",
+   "tempo": {
+    "data": "2026-10-03",
+    "ceu": "garoa",
+    "tmax": 24.9,
+    "tmin": 15.2,
+    "sensacao_max": 26.2,
+    "chuva_mm": 2.3,
+    "chuva_prob": 52,
+    "sol_h": 6.0,
+    "vento_max": 14,
+    "rajada_max": 36,
+    "uv_max": 4.2,
+    "classe": "instavel"
+   },
+   "atividades": [
+    {
+     "id": "pinacoteca-para-criancas",
+     "ordem": -3,
+     "tags": [
+      "Combina com o clima",
+      "Coberto",
+      "Confirmar no site"
+     ]
+    },
+    {
+     "id": "sesc-paulista-caixa-memorias",
+     "ordem": -2,
+     "tags": [
+      "Combina com o clima",
+      "Gratuito",
+      "Coberto"
+     ]
+    },
+    {
+     "id": "pinacoteca-pintura-sem-fim",
+     "ordem": 0,
+     "tags": [
+      "Combina com o clima",
+      "Coberto"
+     ]
+    },
+    {
+     "id": "sabina",
+     "ordem": 0,
+     "tags": [
+      "Combina com o clima",
+      "Coberto"
+     ]
+    },
+    {
+     "id": "aquario-santos",
+     "ordem": 4,
+     "tags": [
+      "Combina com o clima",
+      "Coberto",
+      "Confirmar no site"
+     ]
+    },
+    {
+     "id": "aquario-sp",
+     "ordem": 4,
+     "tags": [
+      "Combina com o clima",
+      "Precisa reservar",
+      "Coberto"
+     ]
+    },
+    {
+     "id": "catavento",
+     "ordem": 5,
+     "tags": [
+      "Combina com o clima",
+      "Coberto"
+     ]
+    },
+    {
+     "id": "direitos-da-crianca-fernando-torres",
+     "ordem": 5,
+     "tags": [
+      "Combina com o clima",
+      "Coberto"
+     ]
+    },
+    {
+     "id": "museu-ipiranga",
+     "ordem": 5,
+     "tags": [
+      "Combina com o clima",
+      "Coberto + ar livre"
+     ]
+    },
+    {
+     "id": "museu-imaginacao",
+     "ordem": 10,
+     "tags": [
+      "Coberto"
+     ]
+    },
+    {
+     "id": "sesi-joao-joaozinho-joaozito",
+     "ordem": 13,
+     "tags": [
+      "Combina com o clima",
+      "Coberto"
+     ]
+    },
+    {
+     "id": "zoo-sp",
+     "ordem": 14,
+     "tags": [
+      "Ao ar livre"
+     ]
+    },
+    {
+     "id": "ibirapuera",
+     "ordem": 21,
+     "tags": [
+      "Gratuito",
+      "Ao ar livre"
+     ]
+    },
+    {
+     "id": "villa-lobos",
+     "ordem": 21,
+     "tags": [
+      "Gratuito",
+      "Ao ar livre"
+     ]
+    },
+    {
+     "id": "agua-branca",
+     "ordem": 32,
+     "tags": [
+      "Ao ar livre"
+     ]
+    },
+    {
+     "id": "praia-santos",
+     "ordem": 55,
+     "tags": [
+      "Tempo não favorece a praia",
+      "Gratuito",
+      "Ao ar livre",
+      "Confirmar no site"
+     ]
+    }
+   ]
+  },
+  "domingo": {
+   "data": "2026-10-04",
+   "classe": "chuvoso",
+   "rotulo": "Chuvoso",
+   "icone": "🌧️",
+   "conselho": "Dia de programa coberto: teatro, museus, oficinas e atrações indoor. Índice UV 8 (muito alto): protetor, chapéu e sombra.",
+   "tempo": {
+    "data": "2026-10-04",
+    "ceu": "trovoadas com granizo",
+    "tmax": 24.5,
+    "tmin": 18.0,
+    "sensacao_max": 26.1,
+    "chuva_mm": 17.4,
+    "chuva_prob": 100,
+    "sol_h": 8.9,
+    "vento_max": 13,
+    "rajada_max": 49,
+    "uv_max": 8.5,
+    "classe": "chuvoso"
+   },
+   "atividades": [
+    {
+     "id": "direitos-da-crianca-fernando-torres",
+     "ordem": -5,
+     "tags": [
+      "Combina com o clima",
+      "Coberto"
+     ]
+    },
+    {
+     "id": "pinacoteca-para-criancas",
+     "ordem": -3,
+     "tags": [
+      "Combina com o clima",
+      "Coberto",
+      "Confirmar no site"
+     ]
+    },
+    {
+     "id": "pinacoteca-pintura-sem-fim",
+     "ordem": 0,
+     "tags": [
+      "Combina com o clima",
+      "Coberto"
+     ]
+    },
+    {
+     "id": "sabina",
+     "ordem": 0,
+     "tags": [
+      "Combina com o clima",
+      "Coberto"
+     ]
+    },
+    {
+     "id": "museu-imaginacao",
+     "ordem": 2,
+     "tags": [
+      "Combina com o clima",
+      "Coberto"
+     ]
+    },
+    {
+     "id": "sesi-joao-joaozinho-joaozito",
+     "ordem": 3,
+     "tags": [
+      "Combina com o clima",
+      "Coberto"
+     ]
+    },
+    {
+     "id": "catavento",
+     "ordem": 5,
+     "tags": [
+      "Combina com o clima",
+      "Coberto"
+     ]
+    },
+    {
+     "id": "museu-ipiranga",
+     "ordem": 7,
+     "tags": [
+      "Combina com o clima",
+      "Coberto + ar livre"
+     ]
+    },
+    {
+     "id": "aquario-santos",
+     "ordem": 12,
+     "tags": [
+      "Coberto",
+      "Confirmar no site"
+     ]
+    },
+    {
+     "id": "aquario-sp",
+     "ordem": 12,
+     "tags": [
+      "Precisa reservar",
+      "Coberto"
+     ]
+    },
+    {
+     "id": "zoo-sp",
+     "ordem": 44,
+     "tags": [
+      "Ao ar livre"
+     ]
+    },
+    {
+     "id": "ibirapuera",
+     "ordem": 49,
+     "tags": [
+      "Gratuito",
+      "Ao ar livre"
+     ]
+    },
+    {
+     "id": "villa-lobos",
+     "ordem": 49,
+     "tags": [
+      "Gratuito",
+      "Ao ar livre"
+     ]
+    },
+    {
+     "id": "agua-branca",
+     "ordem": 54,
+     "tags": [
+      "Ao ar livre"
+     ]
+    },
+    {
+     "id": "praia-santos",
+     "ordem": 55,
+     "tags": [
+      "Tempo não favorece a praia",
+      "Gratuito",
+      "Ao ar livre",
+      "Confirmar no site"
+     ]
+    }
+   ]
+  }
+ },
+ "fim_de_semana": {
+  "sabado": "2026-10-03",
+  "domingo": "2026-10-04",
+  "comparacao": "O sábado parece mais favorável para atividades ao ar livre."
+ },
+ "praias": [
+  {
+   "id": "maresias",
+   "nome": "Maresias (São Sebastião)",
+   "distancia_km": 170,
+   "tempo_carro": "~2h45",
+   "dias": [
+    {
+     "data": "2026-09-30",
+     "avaliacao": "parcial",
+     "motivos": [
+      "chuva 57% / 3.1 mm"
+     ],
+     "tempo": {
+      "data": "2026-09-30",
+      "ceu": "garoa forte",
+      "tmax": 30.5,
+      "tmin": 21.8,
+      "sensacao_max": 36.6,
+      "chuva_mm": 3.1,
+      "chuva_prob": 57,
+      "sol_h": 11.0,
+      "vento_max": 16,
+      "rajada_max": 30,
+      "uv_max": 7.3,
+      "classe": "muito_quente",
+      "ondas_max": 1.0,
+      "praia": "parcial",
+      "praia_motivos": [
+       "chuva 57% / 3.1 mm"
+      ]
+     }
+    },
+    {
+     "data": "2026-10-03",
+     "avaliacao": "ruim",
+     "motivos": [
+      "chuva 94% / 2.1 mm",
+      "máxima de 24 °C"
+     ],
+     "tempo": {
+      "data": "2026-10-03",
+      "ceu": "garoa",
+      "tmax": 23.7,
+      "tmin": 18.9,
+      "sensacao_max": 24.0,
+      "chuva_mm": 2.1,
+      "chuva_prob": 94,
+      "sol_h": 7.9,
+      "vento_max": 22,
+      "rajada_max": 56,
+      "uv_max": 2.2,
+      "classe": "chuvoso",
+      "ondas_max": 1.62,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 94% / 2.1 mm",
+       "máxima de 24 °C"
+      ]
+     }
+    },
+    {
+     "data": "2026-10-04",
+     "avaliacao": "parcial",
+     "motivos": [
+      "chuva 67% / 1.2 mm"
+     ],
+     "tempo": {
+      "data": "2026-10-04",
+      "ceu": "garoa",
+      "tmax": 29.4,
+      "tmin": 20.3,
+      "sensacao_max": 35.8,
+      "chuva_mm": 1.2,
+      "chuva_prob": 67,
+      "sol_h": 6.7,
+      "vento_max": 16,
+      "rajada_max": 51,
+      "uv_max": 7.0,
+      "classe": "muito_quente",
+      "ondas_max": 1.34,
+      "praia": "parcial",
+      "praia_motivos": [
+       "chuva 67% / 1.2 mm"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "ilhabela",
+   "nome": "Ilhabela",
+   "distancia_km": 210,
+   "tempo_carro": "~3h30 + balsa",
+   "dias": [
+    {
+     "data": "2026-09-30",
+     "avaliacao": "parcial",
+     "motivos": [
+      "chuva 57% / 7.3 mm"
+     ],
+     "tempo": {
+      "data": "2026-09-30",
+      "ceu": "pancadas de chuva",
+      "tmax": 33.0,
+      "tmin": 21.7,
+      "sensacao_max": 39.9,
+      "chuva_mm": 7.3,
+      "chuva_prob": 57,
+      "sol_h": 9.5,
+      "vento_max": 14,
+      "rajada_max": 38,
+      "uv_max": 7.5,
+      "classe": "muito_quente",
+      "ondas_max": 1.22,
+      "praia": "parcial",
+      "praia_motivos": [
+       "chuva 57% / 7.3 mm"
+      ]
+     }
+    },
+    {
+     "data": "2026-10-03",
+     "avaliacao": "ruim",
+     "motivos": [
+      "chuva 94% / 8.3 mm",
+      "máxima de 22 °C"
+     ],
+     "tempo": {
+      "data": "2026-10-03",
+      "ceu": "garoa",
+      "tmax": 22.0,
+      "tmin": 19.2,
+      "sensacao_max": 22.7,
+      "chuva_mm": 8.3,
+      "chuva_prob": 94,
+      "sol_h": 0.6,
+      "vento_max": 23,
+      "rajada_max": 56,
+      "uv_max": 1.1,
+      "classe": "chuvoso",
+      "ondas_max": 1.84,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 94% / 8.3 mm",
+       "máxima de 22 °C"
+      ]
+     }
+    },
+    {
+     "data": "2026-10-04",
+     "avaliacao": "parcial",
+     "motivos": [
+      "chuva 67% / 1.1 mm"
+     ],
+     "tempo": {
+      "data": "2026-10-04",
+      "ceu": "garoa",
+      "tmax": 25.2,
+      "tmin": 20.3,
+      "sensacao_max": 28.3,
+      "chuva_mm": 1.1,
+      "chuva_prob": 67,
+      "sol_h": 5.7,
+      "vento_max": 16,
+      "rajada_max": 53,
+      "uv_max": 6.8,
+      "classe": "instavel",
+      "ondas_max": 1.78,
+      "praia": "parcial",
+      "praia_motivos": [
+       "chuva 67% / 1.1 mm"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "ubatuba",
+   "nome": "Ubatuba",
+   "distancia_km": 230,
+   "tempo_carro": "~3h30",
+   "dias": [
+    {
+     "data": "2026-09-30",
+     "avaliacao": "ruim",
+     "motivos": [
+      "chuva 69% / 13.6 mm"
+     ],
+     "tempo": {
+      "data": "2026-09-30",
+      "ceu": "trovoadas com granizo",
+      "tmax": 30.8,
+      "tmin": 22.4,
+      "sensacao_max": 41.1,
+      "chuva_mm": 13.6,
+      "chuva_prob": 69,
+      "sol_h": 10.9,
+      "vento_max": 14,
+      "rajada_max": 36,
+      "uv_max": 7.9,
+      "classe": "chuvoso",
+      "ondas_max": 1.16,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 69% / 13.6 mm"
+      ]
+     }
+    },
+    {
+     "data": "2026-10-03",
+     "avaliacao": "ruim",
+     "motivos": [
+      "chuva 98% / 9.2 mm",
+      "máxima de 22 °C"
+     ],
+     "tempo": {
+      "data": "2026-10-03",
+      "ceu": "garoa forte",
+      "tmax": 21.7,
+      "tmin": 19.1,
+      "sensacao_max": 24.8,
+      "chuva_mm": 9.2,
+      "chuva_prob": 98,
+      "sol_h": 4.6,
+      "vento_max": 13,
+      "rajada_max": 34,
+      "uv_max": 3.4,
+      "classe": "chuvoso",
+      "ondas_max": 1.7,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 98% / 9.2 mm",
+       "máxima de 22 °C"
+      ]
+     }
+    },
+    {
+     "data": "2026-10-04",
+     "avaliacao": "parcial",
+     "motivos": [
+      "chuva 53% / 1.5 mm"
+     ],
+     "tempo": {
+      "data": "2026-10-04",
+      "ceu": "trovoadas",
+      "tmax": 27.9,
+      "tmin": 20.7,
+      "sensacao_max": 34.9,
+      "chuva_mm": 1.5,
+      "chuva_prob": 53,
+      "sol_h": 6.7,
+      "vento_max": 6,
+      "rajada_max": 26,
+      "uv_max": 8.0,
+      "classe": "muito_quente",
+      "ondas_max": 1.7,
+      "praia": "parcial",
+      "praia_motivos": [
+       "chuva 53% / 1.5 mm"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "santos",
+   "nome": "Santos (Gonzaga)",
+   "distancia_km": 75,
+   "tempo_carro": "~1h15",
+   "dias": [
+    {
+     "data": "2026-09-30",
+     "avaliacao": "ruim",
+     "motivos": [
+      "chuva 94% / 2.0 mm"
+     ],
+     "tempo": {
+      "data": "2026-09-30",
+      "ceu": "garoa",
+      "tmax": 30.9,
+      "tmin": 21.8,
+      "sensacao_max": 37.6,
+      "chuva_mm": 2.0,
+      "chuva_prob": 94,
+      "sol_h": 11.3,
+      "vento_max": 15,
+      "rajada_max": 32,
+      "uv_max": 5.7,
+      "classe": "chuvoso",
+      "ondas_max": 1.2,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 94% / 2.0 mm"
+      ]
+     }
+    },
+    {
+     "data": "2026-10-03",
+     "avaliacao": "ruim",
+     "motivos": [
+      "chuva 92% / 0.9 mm",
+      "máxima de 24 °C"
+     ],
+     "tempo": {
+      "data": "2026-10-03",
+      "ceu": "garoa",
+      "tmax": 23.8,
+      "tmin": 19.5,
+      "sensacao_max": 25.7,
+      "chuva_mm": 0.9,
+      "chuva_prob": 92,
+      "sol_h": 6.8,
+      "vento_max": 18,
+      "rajada_max": 41,
+      "uv_max": 6.4,
+      "classe": "instavel",
+      "ondas_max": 1.84,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 92% / 0.9 mm",
+       "máxima de 24 °C"
+      ]
+     }
+    },
+    {
+     "data": "2026-10-04",
+     "avaliacao": "ruim",
+     "motivos": [
+      "chuva 88% / 3.6 mm"
+     ],
+     "tempo": {
+      "data": "2026-10-04",
+      "ceu": "garoa",
+      "tmax": 26.8,
+      "tmin": 20.3,
+      "sensacao_max": 31.6,
+      "chuva_mm": 3.6,
+      "chuva_prob": 88,
+      "sol_h": 9.0,
+      "vento_max": 8,
+      "rajada_max": 24,
+      "uv_max": 8.0,
+      "classe": "chuvoso",
+      "ondas_max": 1.76,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 88% / 3.6 mm"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "praia-grande",
+   "nome": "Praia Grande",
+   "distancia_km": 75,
+   "tempo_carro": "~1h15",
+   "dias": [
+    {
+     "data": "2026-09-30",
+     "avaliacao": "ruim",
+     "motivos": [
+      "chuva 94% / 2.2 mm"
+     ],
+     "tempo": {
+      "data": "2026-09-30",
+      "ceu": "garoa",
+      "tmax": 30.2,
+      "tmin": 21.7,
+      "sensacao_max": 38.7,
+      "chuva_mm": 2.2,
+      "chuva_prob": 94,
+      "sol_h": 10.5,
+      "vento_max": 16,
+      "rajada_max": 35,
+      "uv_max": 5.7,
+      "classe": "chuvoso",
+      "ondas_max": 1.2,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 94% / 2.2 mm"
+      ]
+     }
+    },
+    {
+     "data": "2026-10-03",
+     "avaliacao": "ruim",
+     "motivos": [
+      "chuva 92% / 4.7 mm",
+      "máxima de 23 °C"
+     ],
+     "tempo": {
+      "data": "2026-10-03",
+      "ceu": "garoa",
+      "tmax": 23.2,
+      "tmin": 19.0,
+      "sensacao_max": 24.6,
+      "chuva_mm": 4.7,
+      "chuva_prob": 92,
+      "sol_h": 6.9,
+      "vento_max": 20,
+      "rajada_max": 49,
+      "uv_max": 6.4,
+      "classe": "chuvoso",
+      "ondas_max": 1.84,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 92% / 4.7 mm",
+       "máxima de 23 °C"
+      ]
+     }
+    },
+    {
+     "data": "2026-10-04",
+     "avaliacao": "ruim",
+     "motivos": [
+      "chuva 88% / 2.1 mm"
+     ],
+     "tempo": {
+      "data": "2026-10-04",
+      "ceu": "garoa",
+      "tmax": 26.9,
+      "tmin": 20.2,
+      "sensacao_max": 31.7,
+      "chuva_mm": 2.1,
+      "chuva_prob": 88,
+      "sol_h": 9.1,
+      "vento_max": 9,
+      "rajada_max": 26,
+      "uv_max": 8.0,
+      "classe": "chuvoso",
+      "ondas_max": 1.76,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 88% / 2.1 mm"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "guaruja",
+   "nome": "Guarujá (Pitangueiras)",
+   "distancia_km": 90,
+   "tempo_carro": "~1h30",
+   "dias": [
+    {
+     "data": "2026-09-30",
+     "avaliacao": "ruim",
+     "motivos": [
+      "chuva 94% / 1.3 mm"
+     ],
+     "tempo": {
+      "data": "2026-09-30",
+      "ceu": "garoa",
+      "tmax": 29.3,
+      "tmin": 21.6,
+      "sensacao_max": 37.3,
+      "chuva_mm": 1.3,
+      "chuva_prob": 94,
+      "sol_h": 11.3,
+      "vento_max": 16,
+      "rajada_max": 34,
+      "uv_max": 5.7,
+      "classe": "instavel",
+      "ondas_max": 1.2,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 94% / 1.3 mm"
+      ]
+     }
+    },
+    {
+     "data": "2026-10-03",
+     "avaliacao": "ruim",
+     "motivos": [
+      "chuva 92% / 1.4 mm",
+      "máxima de 24 °C"
+     ],
+     "tempo": {
+      "data": "2026-10-03",
+      "ceu": "garoa",
+      "tmax": 23.9,
+      "tmin": 19.1,
+      "sensacao_max": 25.5,
+      "chuva_mm": 1.4,
+      "chuva_prob": 92,
+      "sol_h": 7.0,
+      "vento_max": 24,
+      "rajada_max": 58,
+      "uv_max": 6.4,
+      "classe": "instavel",
+      "ondas_max": 1.86,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 92% / 1.4 mm",
+       "máxima de 24 °C"
+      ]
+     }
+    },
+    {
+     "data": "2026-10-04",
+     "avaliacao": "ruim",
+     "motivos": [
+      "chuva 88% / 3.6 mm"
+     ],
+     "tempo": {
+      "data": "2026-10-04",
+      "ceu": "garoa",
+      "tmax": 25.6,
+      "tmin": 20.5,
+      "sensacao_max": 31.2,
+      "chuva_mm": 3.6,
+      "chuva_prob": 88,
+      "sol_h": 9.0,
+      "vento_max": 10,
+      "rajada_max": 29,
+      "uv_max": 8.0,
+      "classe": "chuvoso",
+      "ondas_max": 1.78,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 88% / 3.6 mm"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "bertioga",
+   "nome": "Bertioga (Riviera de São Lourenço)",
+   "distancia_km": 110,
+   "tempo_carro": "~1h45",
+   "dias": [
+    {
+     "data": "2026-09-30",
+     "avaliacao": "ruim",
+     "motivos": [
+      "chuva 92% / 11.0 mm"
+     ],
+     "tempo": {
+      "data": "2026-09-30",
+      "ceu": "trovoadas com granizo",
+      "tmax": 30.1,
+      "tmin": 21.9,
+      "sensacao_max": 38.9,
+      "chuva_mm": 11.0,
+      "chuva_prob": 92,
+      "sol_h": 11.9,
+      "vento_max": 14,
+      "rajada_max": 35,
+      "uv_max": 6.5,
+      "classe": "chuvoso",
+      "ondas_max": 0.82,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 92% / 11.0 mm"
+      ]
+     }
+    },
+    {
+     "data": "2026-10-03",
+     "avaliacao": "ruim",
+     "motivos": [
+      "chuva 80% / 0.7 mm",
+      "máxima de 23 °C"
+     ],
+     "tempo": {
+      "data": "2026-10-03",
+      "ceu": "garoa",
+      "tmax": 22.9,
+      "tmin": 19.1,
+      "sensacao_max": 25.0,
+      "chuva_mm": 0.7,
+      "chuva_prob": 80,
+      "sol_h": 6.3,
+      "vento_max": 10,
+      "rajada_max": 26,
+      "uv_max": 4.7,
+      "classe": "instavel",
+      "ondas_max": 1.16,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 80% / 0.7 mm",
+       "máxima de 23 °C"
+      ]
+     }
+    },
+    {
+     "data": "2026-10-04",
+     "avaliacao": "ruim",
+     "motivos": [
+      "chuva 87% / 2.4 mm"
+     ],
+     "tempo": {
+      "data": "2026-10-04",
+      "ceu": "garoa",
+      "tmax": 26.6,
+      "tmin": 20.2,
+      "sensacao_max": 33.3,
+      "chuva_mm": 2.4,
+      "chuva_prob": 87,
+      "sol_h": 9.3,
+      "vento_max": 7,
+      "rajada_max": 20,
+      "uv_max": 8.3,
+      "classe": "chuvoso",
+      "ondas_max": 1.04,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 87% / 2.4 mm"
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "proximos": [
+  {
+   "data": "2026-10-06",
+   "classe": "chuvoso",
+   "rotulo": "Chuvoso",
+   "icone": "🌧️",
+   "conselho": "Dia de programa coberto: teatro, museus, oficinas e atrações indoor.",
+   "tempo": {
+    "data": "2026-10-06",
+    "ceu": "pancadas de chuva",
+    "tmax": 23.7,
+    "tmin": 17.8,
+    "sensacao_max": 27.9,
+    "chuva_mm": 10.0,
+    "chuva_prob": 76,
+    "sol_h": 11.1,
+    "vento_max": 14,
+    "rajada_max": 35,
+    "uv_max": 3.7,
+    "classe": "chuvoso"
+   },
+   "atividades": [
+    "sesc-paulista-grudi"
+   ]
+  },
+  {
+   "data": "2026-10-10",
+   "classe": "chuvoso",
+   "rotulo": "Chuvoso",
+   "icone": "🌧️",
+   "conselho": "Dia de programa coberto: teatro, museus, oficinas e atrações indoor.",
+   "tempo": {
+    "data": "2026-10-10",
+    "ceu": "garoa",
+    "tmax": 24.6,
+    "tmin": 17.8,
+    "sensacao_max": 28.7,
+    "chuva_mm": 4.0,
+    "chuva_prob": 71,
+    "sol_h": 9.9,
+    "vento_max": 12,
+    "rajada_max": 42,
+    "uv_max": 7.5,
+    "classe": "chuvoso"
+   },
+   "atividades": [
+    "sesc-paulista-gruuvi",
+    "museu-lingua-festival-criancas",
+    "festival-brincantinho"
+   ]
+  },
+  {
+   "data": "2026-10-11",
+   "classe": "instavel",
+   "rotulo": "Instável, pode chover",
+   "icone": "⛅",
+   "conselho": "Pode chover: prefira programas com plano B coberto ou locais indoor próximos.",
+   "tempo": {
+    "data": "2026-10-11",
+    "ceu": "nublado",
+    "tmax": 24.2,
+    "tmin": 19.1,
+    "sensacao_max": 25.7,
+    "chuva_mm": 0,
+    "chuva_prob": 55,
+    "sol_h": 8.8,
+    "vento_max": 12,
+    "rajada_max": 36,
+    "uv_max": 7.8,
+    "classe": "instavel"
+   },
+   "atividades": [
+    "sesc-paulista-guitarradas",
+    "sesi-joao-joaozinho-joaozito",
+    "festival-brincantinho",
+    "sesc-santana-fera-nenem"
+   ]
+  },
+  {
+   "data": "2026-10-12",
+   "classe": "instavel",
+   "rotulo": "Instável, pode chover",
+   "icone": "⛅",
+   "conselho": "Pode chover: prefira programas com plano B coberto ou locais indoor próximos. Índice UV 9 (muito alto): protetor, chapéu e sombra.",
+   "tempo": {
+    "data": "2026-10-12",
+    "ceu": "garoa",
+    "tmax": 24.7,
+    "tmin": 18.8,
+    "sensacao_max": 29.1,
+    "chuva_mm": 1.8,
+    "chuva_prob": 52,
+    "sol_h": 11.7,
+    "vento_max": 7,
+    "rajada_max": 28,
+    "uv_max": 8.8,
+    "classe": "instavel"
+   },
+   "atividades": [
+    "sesc-paulista-caixa-memorias",
+    "sesc-paulista-mundo-aflora",
+    "festival-brincantinho",
+    "chiki-toonz"
+   ]
+  }
+ ],
+ "atividades": {
+  "sesc-paulista-caixa-memorias": {
+   "id": "sesc-paulista-caixa-memorias",
+   "nome": "Caixa de Memórias (instalação para até 6 anos)",
+   "categoria": "evento_infantil",
+   "ambiente": "indoor",
+   "datas": [
+    "2026-10-03",
+    "2026-10-12",
+    "2026-10-17",
+    "2026-10-18"
+   ],
+   "horario": "14h30 às 16h30",
+   "local": "Sesc Avenida Paulista — Estúdio (4º andar)",
+   "cidade": "São Paulo",
+   "endereco": null,
+   "preco": "Grátis",
+   "gratuito": true,
+   "faixa_etaria": "Até 6 anos",
+   "duracao": null,
+   "reserva": "Sem reserva: senhas no local, 30 min antes",
+   "adequado_0_6": "sim",
+   "destaque": true,
+   "confirmado": true,
+   "por_que": "Instalação visual e sonora sobre brincadeiras de infância feita justamente para crianças de até 6 anos. Coberta e gratuita, boa opção para sábado com chuva.",
+   "link": "https://www.sescsp.org.br/editorial/dia-das-criancas-o-que-fazer-no-sesc-avenida-paulista/",
+   "fonte": {
+    "nome": "Sesc São Paulo",
+    "url": "https://www.sescsp.org.br/editorial/dia-das-criancas-o-que-fazer-no-sesc-avenida-paulista/"
+   },
+   "verificado_em": "2026-09-30"
+  },
+  "sesc-paulista-grudi": {
+   "id": "sesc-paulista-grudi",
+   "nome": "Grudi — oficina de adesivos",
+   "categoria": "oficina",
+   "ambiente": "indoor",
+   "datas": [
+    "2026-10-06",
+    "2026-10-20",
+    "2026-10-27"
+   ],
+   "horario": "16h às 17h",
+   "local": "Sesc Avenida Paulista — Espaço Brincar (3º andar)",
+   "cidade": "São Paulo",
+   "endereco": null,
+   "preco": "Grátis",
+   "gratuito": true,
+   "faixa_etaria": "Até 6 anos",
+   "duracao": "1h",
+   "reserva": "Não precisa (sem retirada de ingresso)",
+   "adequado_0_6": "sim",
+   "confirmado": true,
+   "por_que": "Oficina curta de criação de adesivos pensada para crianças pequenas, gratuita e sem necessidade de retirar ingresso.",
+   "link": "https://www.sescsp.org.br/editorial/dia-das-criancas-o-que-fazer-no-sesc-avenida-paulista/",
+   "fonte": {
+    "nome": "Sesc São Paulo",
+    "url": "https://www.sescsp.org.br/editorial/dia-das-criancas-o-que-fazer-no-sesc-avenida-paulista/"
+   },
+   "verificado_em": "2026-09-30"
+  },
+  "sesc-paulista-gruuvi": {
+   "id": "sesc-paulista-gruuvi",
+   "nome": "Banda Gruuvi — especial mês das crianças",
+   "categoria": "cultural",
+   "ambiente": "indoor",
+   "datas": [
+    "2026-10-10"
+   ],
+   "horario": "17h às 18h",
+   "local": "Sesc Avenida Paulista — Térreo",
+   "cidade": "São Paulo",
+   "endereco": null,
+   "preco": "Grátis",
+   "gratuito": true,
+   "faixa_etaria": "Livre",
+   "duracao": "1h",
+   "reserva": "Não precisa (sujeito à lotação)",
+   "adequado_0_6": "sim",
+   "confirmado": true,
+   "por_que": "Show de banda infantil com ritmos dançantes, gratuito e com classificação livre.",
+   "link": "https://www.sescsp.org.br/editorial/dia-das-criancas-o-que-fazer-no-sesc-avenida-paulista/",
+   "fonte": {
+    "nome": "Sesc São Paulo",
+    "url": "https://www.sescsp.org.br/editorial/dia-das-criancas-o-que-fazer-no-sesc-avenida-paulista/"
+   },
+   "verificado_em": "2026-09-30"
+  },
+  "sesc-paulista-guitarradas": {
+   "id": "sesc-paulista-guitarradas",
+   "nome": "Guitarradas para crianças",
+   "categoria": "cultural",
+   "ambiente": "indoor",
+   "datas": [
+    "2026-10-11"
+   ],
+   "horario": "17h às 18h",
+   "local": "Sesc Avenida Paulista — Térreo",
+   "cidade": "São Paulo",
+   "endereco": null,
+   "preco": "Grátis",
+   "gratuito": true,
+   "faixa_etaria": "Livre",
+   "duracao": "1h",
+   "reserva": "Não precisa (sujeito à lotação)",
+   "adequado_0_6": "sim",
+   "confirmado": true,
+   "por_que": "Clássicos da música infantil em ritmos brasileiros, com classificação livre e entrada gratuita.",
+   "link": "https://www.sescsp.org.br/editorial/dia-das-criancas-o-que-fazer-no-sesc-avenida-paulista/",
+   "fonte": {
+    "nome": "Sesc São Paulo",
+    "url": "https://www.sescsp.org.br/editorial/dia-das-criancas-o-que-fazer-no-sesc-avenida-paulista/"
+   },
+   "verificado_em": "2026-09-30"
+  },
+  "sesc-paulista-mundo-aflora": {
+   "id": "sesc-paulista-mundo-aflora",
+   "nome": "Mundo Aflora — música e brincadeiras",
+   "categoria": "cultural",
+   "ambiente": "indoor",
+   "datas": [
+    "2026-10-12"
+   ],
+   "horario": "17h às 18h",
+   "local": "Sesc Avenida Paulista — Térreo",
+   "cidade": "São Paulo",
+   "endereco": null,
+   "preco": "Grátis",
+   "gratuito": true,
+   "faixa_etaria": "Livre",
+   "duracao": "1h",
+   "reserva": "Não precisa (sujeito à lotação)",
+   "adequado_0_6": "sim",
+   "confirmado": true,
+   "por_que": "Música corporal, instrumentos de sucata e brincadeiras com a plateia no feriado de Dia das Crianças.",
+   "link": "https://www.sescsp.org.br/editorial/dia-das-criancas-o-que-fazer-no-sesc-avenida-paulista/",
+   "fonte": {
+    "nome": "Sesc São Paulo",
+    "url": "https://www.sescsp.org.br/editorial/dia-das-criancas-o-que-fazer-no-sesc-avenida-paulista/"
+   },
+   "verificado_em": "2026-09-30"
+  },
+  "direitos-da-crianca-fernando-torres": {
+   "id": "direitos-da-crianca-fernando-torres",
+   "nome": "Os Direitos da Criança — musical de Toquinho",
+   "categoria": "teatro",
+   "ambiente": "indoor",
+   "datas": [
+    "2026-10-03",
+    "2026-10-04"
+   ],
+   "horario": "16h",
+   "local": "Teatro Fernando Torres",
+   "cidade": "São Paulo (Tatuapé)",
+   "endereco": "Rua Padre Estevão Pernet, 588 — Tatuapé",
+   "preco": null,
+   "gratuito": false,
+   "faixa_etaria": "Infantil; crianças a partir de 2 anos pagam meia",
+   "duracao": "60 min",
+   "reserva": "Compra de ingresso (bilheteria qua–dom 14h–19h ou online)",
+   "adequado_0_6": "sim",
+   "destaque": true,
+   "confirmado": true,
+   "por_que": "Últimas sessões da curta temporada (termina 4/10). Musical com as canções infantis de Toquinho (Aquarela, É bom ser criança) em 60 minutos, duração boa para os pequenos.",
+   "link": "https://www.teatrofernandotorres.com.br/369-os-direitos-da-crianca.html.html",
+   "fonte": {
+    "nome": "Teatro Fernando Torres",
+    "url": "https://www.teatrofernandotorres.com.br/369-os-direitos-da-crianca.html.html"
+   },
+   "verificado_em": "2026-09-30"
+  },
+  "sesi-joao-joaozinho-joaozito": {
+   "id": "sesi-joao-joaozinho-joaozito",
+   "nome": "João, Joãozinho, Joãozito — teatro musical",
+   "categoria": "teatro",
+   "ambiente": "indoor",
+   "datas": [
+    "2026-10-03",
+    "2026-10-04",
+    "2026-10-11",
+    "2026-10-17",
+    "2026-10-18",
+    "2026-10-24",
+    "2026-10-25",
+    "2026-10-31"
+   ],
+   "horario": "15h ou 14h conforme a data (ver no site)",
+   "local": "Teatro do SESI São Paulo (Centro Cultural Fiesp)",
+   "cidade": "São Paulo",
+   "endereco": "Av. Paulista, 1313",
+   "preco": null,
+   "faixa_etaria": null,
+   "duracao": "60 min",
+   "reserva": null,
+   "adequado_0_6": "parcial",
+   "confirmado": true,
+   "por_que": "Espetáculo musical com bonecos sobre a infância de Guimarães Rosa, na Paulista. Linguagem lúdica, mas o tema agrada mais a crianças a partir de uns 4 anos.",
+   "link": "https://www.sesisp.org.br/evento/ad173985-1f64-4308-adfc-7590dd7588b1/joao-joaozinho-joaozito",
+   "fonte": {
+    "nome": "Sesi SP Cultura",
+    "url": "https://www.sesisp.org.br/evento/ad173985-1f64-4308-adfc-7590dd7588b1/joao-joaozinho-joaozito"
+   },
+   "verificado_em": "2026-09-30"
+  },
+  "pinacoteca-para-criancas": {
+   "id": "pinacoteca-para-criancas",
+   "nome": "Para crianças: experiências com arte desde 1968",
+   "categoria": "museu",
+   "ambiente": "indoor",
+   "permanente": true,
+   "dias_semana": [
+    0,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "ate": "2026-10-18",
+   "datas": [],
+   "horario": "10h às 18h (entrada até 17h), fecha às terças",
+   "local": "Pina Contemporânea — Grande Galeria",
+   "cidade": "São Paulo (Luz)",
+   "endereco": "Av. Tiradentes, 273 — Luz",
+   "preco": null,
+   "faixa_etaria": "Todas as idades (inclui obra para a primeiríssima infância)",
+   "duracao": null,
+   "reserva": null,
+   "adequado_0_6": "sim",
+   "destaque": true,
+   "confirmado": false,
+   "por_que": "Exposição interativa com 11 obras feitas para crianças (Ólafur Elíasson, Graziela Kunsch e outros): dá para desenhar, brincar e ocupar o espaço. Fica só até 18/10.",
+   "observacoes": "A Pinacoteca informa sábados gratuitos para o edifício Pina Luz; confirmar se vale para a Pina Contemporânea.",
+   "link": "https://pinacoteca.org.br",
+   "fonte": {
+    "nome": "ARTEINFORMADO",
+    "url": "https://www.arteinformado.com/agenda/f/para-crianas-experincias-com-a-arte-desde-1968-245097"
+   },
+   "verificado_em": "2026-09-30"
+  },
+  "pinacoteca-pintura-sem-fim": {
+   "id": "pinacoteca-pintura-sem-fim",
+   "nome": "Uma Obra: Pintura sem fim (Pinacoteca)",
+   "categoria": "museu",
+   "ambiente": "indoor",
+   "permanente": true,
+   "dias_semana": [
+    0,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "datas": [],
+   "horario": "10h às 18h (entrada até 17h), fecha às terças",
+   "local": "Pina Luz (2º andar)",
+   "cidade": "São Paulo (Luz)",
+   "endereco": "Praça da Luz, 2 — Bom Retiro",
+   "preco": "Sábados e segundos domingos do mês gratuitos; demais dias, ver site",
+   "faixa_etaria": "Pensada para a primeira infância, aberta a todas as idades",
+   "duracao": null,
+   "reserva": null,
+   "adequado_0_6": "sim",
+   "confirmado": true,
+   "por_que": "Parede gigante de carpete com centenas de peças de feltro para as crianças montarem figuras. Feita pensando na primeira infância e gratuita aos sábados.",
+   "link": "https://pinacoteca.org.br/programacao/exposicoes/uma-obra-pintura-sem-fim/",
+   "fonte": {
+    "nome": "Pinacoteca de São Paulo",
+    "url": "https://pinacoteca.org.br/programacao/exposicoes/uma-obra-pintura-sem-fim/"
+   },
+   "verificado_em": "2026-09-30"
+  },
+  "museu-ipiranga": {
+   "id": "museu-ipiranga",
+   "nome": "Museu do Ipiranga",
+   "categoria": "museu",
+   "ambiente": "misto",
+   "permanente": true,
+   "dias_semana": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "datas": [],
+   "horario": "Ter a dom, 10h às 17h (última entrada 16h)",
+   "local": "Museu do Ipiranga + jardins",
+   "cidade": "São Paulo (Ipiranga)",
+   "endereco": null,
+   "preco": "Gratuito às quartas e no 1º domingo do mês (4/10); crianças até 6 anos não precisam de ingresso",
+   "gratuito": false,
+   "faixa_etaria": "Crianças até 6 anos entram sem ingresso",
+   "duracao": null,
+   "reserva": "Nos dias gratuitos, retirar ingresso na bilheteria no dia (limitado)",
+   "adequado_0_6": "parcial",
+   "confirmado": true,
+   "por_que": "Domingo 4/10 é primeiro domingo do mês: entrada gratuita. Museu coberto com jardim na frente, bom para dia instável.",
+   "link": "https://museudoipiranga.org.br/visite/",
+   "fonte": {
+    "nome": "Museu do Ipiranga",
+    "url": "https://museudoipiranga.org.br/visite/"
+   },
+   "verificado_em": "2026-09-30"
+  },
+  "museu-lingua-festival-criancas": {
+   "id": "museu-lingua-festival-criancas",
+   "nome": "Festival Dia das Crianças no Museu da Língua Portuguesa",
+   "categoria": "evento_infantil",
+   "ambiente": "indoor",
+   "datas": [
+    "2026-10-10"
+   ],
+   "horario": "10h às 17h",
+   "local": "Museu da Língua Portuguesa (Estação da Luz)",
+   "cidade": "São Paulo (Luz)",
+   "endereco": null,
+   "preco": "Até R$ 25 (algumas atividades gratuitas)",
+   "faixa_etaria": "Instalação Esconderijos para até 6 anos; demais atividades para todas as idades",
+   "duracao": null,
+   "reserva": "Ingressos na bilheteria e pela internet",
+   "adequado_0_6": "sim",
+   "destaque": true,
+   "confirmado": true,
+   "por_que": "Dia inteiro de programação infantil: instalação Esconderijos (até 6 anos), show do Duo Badulaque e oficinas de origami e desenho.",
+   "link": "https://www.museudalinguaportuguesa.org.br/vem-ai-museu-celebra-o-dia-das-criancas-no-dia-10-de-outubro%e2%80%af",
+   "fonte": {
+    "nome": "Museu da Língua Portuguesa",
+    "url": "https://www.museudalinguaportuguesa.org.br/vem-ai-museu-celebra-o-dia-das-criancas-no-dia-10-de-outubro%e2%80%af"
+   },
+   "verificado_em": "2026-09-30"
+  },
+  "festival-brincantinho": {
+   "id": "festival-brincantinho",
+   "nome": "Festival Brincantinho (Instituto Brincante)",
+   "categoria": "teatro",
+   "ambiente": "indoor",
+   "datas": [
+    "2026-10-10",
+    "2026-10-11",
+    "2026-10-12",
+    "2026-10-17",
+    "2026-10-18"
+   ],
+   "horario": "Varia por atividade (ex.: 11h e 16h)",
+   "local": "Instituto Brincante",
+   "cidade": "São Paulo (Sumarezinho)",
+   "endereco": "R. Purpurina, 412 — Sumarezinho",
+   "preco": null,
+   "classificacao": "Livre",
+   "faixa_etaria": "Todas as idades",
+   "duracao": null,
+   "reserva": "Necessária: escolher sessão na compra pelo Sympla",
+   "adequado_0_6": "sim",
+   "confirmado": true,
+   "por_que": "Espetáculos de cultura popular brasileira com música, dança e histórias para crianças de todas as idades.",
+   "link": "https://www.sympla.com.br/evento/festival-brincantinho-cultura-da-infancia-para-todas-as-idades/3563357",
+   "fonte": {
+    "nome": "Sympla",
+    "url": "https://www.sympla.com.br/evento/festival-brincantinho-cultura-da-infancia-para-todas-as-idades/3563357"
+   },
+   "verificado_em": "2026-09-30"
+  },
+  "chiki-toonz": {
+   "id": "chiki-toonz",
+   "nome": "Chiki Toonz ao vivo",
+   "categoria": "evento_infantil",
+   "ambiente": "indoor",
+   "datas": [
+    "2026-10-12"
+   ],
+   "horario": "15h",
+   "local": "Tokio Marine Hall",
+   "cidade": "São Paulo",
+   "endereco": null,
+   "preco": "A partir de R$ 25",
+   "classificacao": "Livre",
+   "faixa_etaria": "Livre",
+   "duracao": null,
+   "reserva": "Compra de ingresso necessária",
+   "adequado_0_6": "sim",
+   "confirmado": true,
+   "por_que": "Primeiro show no Brasil do fenômeno infantil peruano, com música e dança para os pequenos no Dia das Crianças.",
+   "link": "https://www.tokiomarinehall.com.br/chiki-toonz/",
+   "fonte": {
+    "nome": "Tokio Marine Hall",
+    "url": "https://www.tokiomarinehall.com.br/chiki-toonz/"
+   },
+   "verificado_em": "2026-09-30"
+  },
+  "pe-de-sonho-bradesco": {
+   "id": "pe-de-sonho-bradesco",
+   "nome": "Pé de Sonho com Duo Badulaque",
+   "categoria": "evento_infantil",
+   "ambiente": "indoor",
+   "datas": [
+    "2026-10-18"
+   ],
+   "horario": "15h",
+   "local": "Teatro Bradesco",
+   "cidade": "São Paulo",
+   "endereco": null,
+   "preco": "A partir de R$ 40 + taxas; até 2 anos no colo não paga",
+   "classificacao": "Livre",
+   "faixa_etaria": "Todas as idades",
+   "duracao": null,
+   "reserva": "Compra de ingresso necessária",
+   "adequado_0_6": "sim",
+   "acompanhante_adulto": true,
+   "confirmado": false,
+   "por_que": "Show musical infantil com músicas sobre dinossauros, bichos e o Sistema Solar, na Semana das Crianças.",
+   "link": "https://saopauloparacriancas.com.br/pe-de-sonho-teatro-sp/",
+   "fonte": {
+    "nome": "São Paulo para Crianças",
+    "url": "https://saopauloparacriancas.com.br/pe-de-sonho-teatro-sp/"
+   },
+   "verificado_em": "2026-09-30"
+  },
+  "sesc-santana-fera-nenem": {
+   "id": "sesc-santana-fera-nenem",
+   "nome": "Banda Fera Neném (Sesc Santana)",
+   "categoria": "cultural",
+   "ambiente": "indoor",
+   "datas": [
+    "2026-10-11"
+   ],
+   "horario": "12h às 13h",
+   "local": "Sesc Santana — área de convivência",
+   "cidade": "São Paulo (Zona Norte)",
+   "endereco": "Av. Luiz Dumont Villares, 579 — Jardim São Paulo",
+   "preco": "Grátis",
+   "gratuito": true,
+   "classificacao": "Livre",
+   "faixa_etaria": "Livre",
+   "duracao": "1h",
+   "reserva": "100 lugares",
+   "adequado_0_6": "sim",
+   "confirmado": false,
+   "por_que": "Rock autoral para crianças e famílias, gratuito, na programação do Mês das Crianças do Sesc Santana.",
+   "link": "https://www.sescsp.org.br/programacao/",
+   "fonte": {
+    "nome": "Universo ZN",
+    "url": "https://universozn.com.br/mes-das-criancas-sesc-santana/"
+   },
+   "verificado_em": "2026-09-30"
+  },
+  "museu-imaginacao": {
+   "id": "museu-imaginacao",
+   "nome": "Museu da Imaginação",
+   "categoria": "indoor",
+   "ambiente": "indoor",
+   "permanente": true,
+   "dias_semana": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "datas": [],
+   "horario": "Ter a sex 9h–17h; sáb, dom e feriados 9h–18h",
+   "local": "Museu da Imaginação",
+   "cidade": "São Paulo (Água Branca)",
+   "endereco": "Rua Virgílio Wey, 100 (estacionamento pela Rua Antônio Nagib Ibrahim, 350)",
+   "preco": "R$ 120 (adulto ou criança, promocional); bebês até 1 ano e 11 meses grátis",
+   "faixa_etaria": "Feito para crianças",
+   "duracao": null,
+   "reserva": "Compra antecipada online recomendada",
+   "adequado_0_6": "sim",
+   "confirmado": true,
+   "por_que": "Museu interativo feito para crianças brincarem, totalmente coberto: plano certeiro para dia de chuva.",
+   "link": "https://www.museudaimaginacao.org.br/ingressos/",
+   "fonte": {
+    "nome": "Museu da Imaginação",
+    "url": "https://www.museudaimaginacao.org.br/ingressos/"
+   },
+   "verificado_em": "2026-09-30"
+  },
+  "catavento": {
+   "id": "catavento",
+   "nome": "Museu Catavento",
+   "categoria": "museu",
+   "ambiente": "indoor",
+   "permanente": true,
+   "dias_semana": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "datas": [],
+   "horario": "Ter a dom, 9h às 17h (bilheteria até 16h)",
+   "local": "Museu Catavento (Palácio das Indústrias)",
+   "cidade": "São Paulo (Centro)",
+   "endereco": "Av. Mercúrio, s/n — Parque Dom Pedro II",
+   "preco": "R$ 20 inteira / R$ 10 meia",
+   "faixa_etaria": null,
+   "duracao": null,
+   "reserva": "Senhas para atividades extras só online, nos fins de semana",
+   "adequado_0_6": "parcial",
+   "confirmado": true,
+   "por_que": "Museu de ciências interativo e barato. Aproveita-se mais a partir dos 4 anos, mas os menores gostam das áreas de animais e do universo.",
+   "link": "https://www.museucatavento.org.br/horarios-e-precos",
+   "fonte": {
+    "nome": "Museu Catavento",
+    "url": "https://www.museucatavento.org.br/horarios-e-precos"
+   },
+   "verificado_em": "2026-09-30"
+  },
+  "sabina": {
+   "id": "sabina",
+   "nome": "Sabina Escola Parque do Conhecimento",
+   "categoria": "museu",
+   "ambiente": "indoor",
+   "permanente": true,
+   "dias_semana": [
+    5,
+    6
+   ],
+   "datas": [],
+   "horario": "Sáb, dom e feriados, 9h30 às 17h30 (bilheteria até 16h30); planetário 11h e 15h",
+   "local": "Sabina",
+   "cidade": "Santo André",
+   "endereco": null,
+   "preco": "Crianças de 0 a 5 anos grátis; 6 a 12 anos pagam meia",
+   "faixa_etaria": "Todas as idades; menores de 16 com responsável",
+   "duracao": null,
+   "reserva": null,
+   "adequado_0_6": "sim",
+   "confirmado": true,
+   "por_que": "Espaço de ciências com planetário, gratuito para crianças até 5 anos. Aberto ao público só nos fins de semana.",
+   "link": "https://sabina.org.br/perguntas-frequentes/",
+   "fonte": {
+    "nome": "Sabina",
+    "url": "https://sabina.org.br/perguntas-frequentes/"
+   },
+   "verificado_em": "2026-09-30"
+  },
+  "aquario-sp": {
+   "id": "aquario-sp",
+   "nome": "Aquário de São Paulo",
+   "categoria": "zoologico_aquario",
+   "ambiente": "indoor",
+   "permanente": true,
+   "datas": [],
+   "horario": "Todos os dias, 9h às 17h",
+   "local": "Aquário de São Paulo",
+   "cidade": "São Paulo (Ipiranga)",
+   "endereco": null,
+   "preco": "Infantil (2 a 12 anos) R$ 120; adulto R$ 150 (promocionais online)",
+   "faixa_etaria": "Todas as idades",
+   "duracao": null,
+   "reserva": "Necessário agendar horário na compra online",
+   "adequado_0_6": "sim",
+   "confirmado": true,
+   "por_que": "Bichos marinhos, pinguins e urso-polar em ambiente coberto: agrada muito crianças pequenas e funciona com qualquer tempo.",
+   "link": "https://aquariodesp.com.br/site/preco-e-horarios/",
+   "fonte": {
+    "nome": "Aquário de São Paulo",
+    "url": "https://aquariodesp.com.br/site/preco-e-horarios/"
+   },
+   "verificado_em": "2026-09-30"
+  },
+  "zoo-sp": {
+   "id": "zoo-sp",
+   "nome": "Zoológico de São Paulo",
+   "categoria": "zoologico_aquario",
+   "ambiente": "outdoor",
+   "permanente": true,
+   "datas": [],
+   "horario": "Seg a sex 9h–17h; sáb, dom e feriados 8h30–18h (entrada até 17h)",
+   "local": "Zoo São Paulo",
+   "cidade": "São Paulo (Água Funda)",
+   "endereco": null,
+   "preco": "R$ 99,90 antecipado / R$ 119,90 no dia (valor infantil não confirmado)",
+   "faixa_etaria": "Todas as idades",
+   "duracao": "Meio dia a dia inteiro",
+   "reserva": "Compra antecipada mais barata (1 dia antes)",
+   "adequado_0_6": "sim",
+   "confirmado": true,
+   "por_que": "Passeio clássico ao ar livre com muitos animais. Melhor em dia seco; chegue cedo no calor.",
+   "link": "https://www.zoologico.com.br/tickets",
+   "fonte": {
+    "nome": "Zoológico de São Paulo",
+    "url": "https://ingressos.zoologico.com.br/produto/vitrine/ingresso-avulso-zoo-sp"
+   },
+   "verificado_em": "2026-09-30"
+  },
+  "ibirapuera": {
+   "id": "ibirapuera",
+   "nome": "Parque Ibirapuera",
+   "categoria": "parque",
+   "ambiente": "outdoor",
+   "permanente": true,
+   "datas": [],
+   "horario": "Todos os dias, 5h às 0h",
+   "local": "Parque Ibirapuera",
+   "cidade": "São Paulo (Vila Mariana)",
+   "endereco": "Av. Pedro Álvares Cabral, s/n — Vila Mariana",
+   "preco": "Grátis",
+   "gratuito": true,
+   "faixa_etaria": "Todas as idades",
+   "duracao": null,
+   "reserva": "Não precisa",
+   "adequado_0_6": "sim",
+   "confirmado": true,
+   "por_que": "Gramados, lago e parquinho: o passeio gratuito mais versátil da cidade para crianças pequenas em dia seco.",
+   "link": "https://www.urbiaparques.com.br/parques/ibirapuera",
+   "fonte": {
+    "nome": "Urbia Parques",
+    "url": "https://www.urbiaparques.com.br/parques/ibirapuera"
+   },
+   "verificado_em": "2026-09-30"
+  },
+  "villa-lobos": {
+   "id": "villa-lobos",
+   "nome": "Parque Villa-Lobos",
+   "categoria": "parque",
+   "ambiente": "outdoor",
+   "permanente": true,
+   "datas": [],
+   "horario": "Todos os dias, 5h30 às 19h",
+   "local": "Parque Villa-Lobos",
+   "cidade": "São Paulo (Alto de Pinheiros)",
+   "endereco": "Av. Prof. Fonseca Rodrigues, 2001 — Alto de Pinheiros",
+   "preco": "Grátis",
+   "gratuito": true,
+   "faixa_etaria": "Todas as idades",
+   "duracao": null,
+   "reserva": "Não precisa",
+   "adequado_0_6": "sim",
+   "confirmado": true,
+   "por_que": "Parque amplo e plano, com playground ao lado da biblioteca. Bom para carrinho, bicicleta e piquenique.",
+   "link": "https://parquevillalobos.com.br/faq/",
+   "fonte": {
+    "nome": "Parque Villa-Lobos",
+    "url": "https://parquevillalobos.com.br/faq/"
+   },
+   "verificado_em": "2026-09-30"
+  },
+  "agua-branca": {
+   "id": "agua-branca",
+   "nome": "Parque da Água Branca",
+   "categoria": "fazenda",
+   "ambiente": "outdoor",
+   "permanente": true,
+   "datas": [],
+   "horario": "Todos os dias, 6h às 20h",
+   "local": "Parque da Água Branca",
+   "cidade": "São Paulo (Água Branca)",
+   "endereco": "Av. Francisco Matarazzo, 455 — Água Branca",
+   "preco": null,
+   "faixa_etaria": "Todas as idades",
+   "duracao": null,
+   "reserva": "Não precisa",
+   "adequado_0_6": "sim",
+   "confirmado": true,
+   "por_que": "Parque com galinhas, patos e outros animais soltos e playground perto do aquário. Clima de fazendinha no meio da cidade.",
+   "link": "https://parqueaguabranca.com.br/",
+   "fonte": {
+    "nome": "Parque da Água Branca",
+    "url": "https://parqueaguabranca.com.br/?page_id=616"
+   },
+   "verificado_em": "2026-09-30"
+  },
+  "praia-santos": {
+   "id": "praia-santos",
+   "nome": "Praia do Gonzaga + orla de Santos",
+   "categoria": "praia",
+   "ambiente": "outdoor",
+   "clima_local": "santos",
+   "permanente": true,
+   "datas": [],
+   "horario": null,
+   "local": "Orla de Santos",
+   "cidade": "Santos (~75 km)",
+   "endereco": null,
+   "preco": "Grátis",
+   "gratuito": true,
+   "faixa_etaria": "Todas as idades",
+   "duracao": "Dia inteiro",
+   "reserva": "Não precisa",
+   "adequado_0_6": "sim",
+   "confirmado": false,
+   "por_que": "Praia mais perto de SP, com orla estruturada e jardins. Só vale em dia de sol: veja o comparativo de praias abaixo.",
+   "link": "https://www.santos.sp.gov.br",
+   "fonte": {
+    "nome": "Prefeitura de Santos",
+    "url": "https://www.santos.sp.gov.br"
+   },
+   "verificado_em": "2026-09-30"
+  },
+  "aquario-santos": {
+   "id": "aquario-santos",
+   "nome": "Aquário Municipal de Santos",
+   "categoria": "zoologico_aquario",
+   "ambiente": "indoor",
+   "clima_local": "santos",
+   "permanente": true,
+   "dias_semana": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "datas": [],
+   "horario": "Ter a dom, 9h às 18h (bilheteria até 17h30)",
+   "local": "Aquário de Santos — Ponta da Praia",
+   "cidade": "Santos (~75 km)",
+   "endereco": "Praça Luís La Scala, s/nº — Ponta da Praia",
+   "preco": "R$ 10; menores de 8 anos grátis",
+   "faixa_etaria": "Todas as idades",
+   "duracao": "1 a 2 h",
+   "reserva": null,
+   "adequado_0_6": "sim",
+   "confirmado": false,
+   "por_que": "Plano B barato e coberto se o dia de praia virar. Crianças menores de 8 anos não pagam.",
+   "observacoes": "O aquário passou por obras nas passarelas em 2026; confirmar funcionamento antes de ir.",
+   "link": "https://www.santos.sp.gov.br",
+   "fonte": {
+    "nome": "Prefeitura de Santos",
+    "url": "https://www.santos.sp.gov.br/?q=noticia/aquario-de-santos-entra-em-obras-para-reforma-de-passarelas-a-partir-de-9-de-junho"
+   },
+   "verificado_em": "2026-09-30"
+  }
+ },
+ "clima": {
+  "fonte": {
+   "nome": "Open-Meteo",
+   "url": "https://open-meteo.com"
+  },
+  "locais": {
+   "sp": {
+    "nome": "São Paulo (capital)",
+    "tipo": "cidade",
+    "distancia_km": 0,
+    "tempo_carro": null,
+    "dias": [
+     {
+      "data": "2026-09-30",
+      "ceu": "garoa",
+      "tmax": 31.5,
+      "tmin": 19.6,
+      "sensacao_max": 33.6,
+      "chuva_mm": 0.5,
+      "chuva_prob": 75,
+      "sol_h": 11.6,
+      "vento_max": 15,
+      "rajada_max": 45,
+      "uv_max": 7.7,
+      "classe": "instavel"
+     },
+     {
+      "data": "2026-10-01",
+      "ceu": "trovoadas",
+      "tmax": 29.3,
+      "tmin": 19.8,
+      "sensacao_max": 30.0,
+      "chuva_mm": 11.9,
+      "chuva_prob": 91,
+      "sol_h": 10.3,
+      "vento_max": 13,
+      "rajada_max": 43,
+      "uv_max": 5.2,
+      "classe": "chuvoso"
+     },
+     {
+      "data": "2026-10-02",
+      "ceu": "garoa",
+      "tmax": 19.3,
+      "tmin": 15.4,
+      "sensacao_max": 21.7,
+      "chuva_mm": 2.2,
+      "chuva_prob": 78,
+      "sol_h": 0.0,
+      "vento_max": 13,
+      "rajada_max": 34,
+      "uv_max": 1.1,
+      "classe": "chuvoso"
+     },
+     {
+      "data": "2026-10-03",
+      "ceu": "garoa",
+      "tmax": 24.9,
+      "tmin": 15.2,
+      "sensacao_max": 26.2,
+      "chuva_mm": 2.3,
+      "chuva_prob": 52,
+      "sol_h": 6.0,
+      "vento_max": 14,
+      "rajada_max": 36,
+      "uv_max": 4.2,
+      "classe": "instavel"
+     },
+     {
+      "data": "2026-10-04",
+      "ceu": "trovoadas com granizo",
+      "tmax": 24.5,
+      "tmin": 18.0,
+      "sensacao_max": 26.1,
+      "chuva_mm": 17.4,
+      "chuva_prob": 100,
+      "sol_h": 8.9,
+      "vento_max": 13,
+      "rajada_max": 49,
+      "uv_max": 8.5,
+      "classe": "chuvoso"
+     },
+     {
+      "data": "2026-10-05",
+      "ceu": "trovoadas",
+      "tmax": 23.1,
+      "tmin": 18.1,
+      "sensacao_max": 25.7,
+      "chuva_mm": 11.9,
+      "chuva_prob": 97,
+      "sol_h": 10.8,
+      "vento_max": 12,
+      "rajada_max": 41,
+      "uv_max": 6.7,
+      "classe": "chuvoso"
+     },
+     {
+      "data": "2026-10-06",
+      "ceu": "pancadas de chuva",
+      "tmax": 23.7,
+      "tmin": 17.8,
+      "sensacao_max": 27.9,
+      "chuva_mm": 10.0,
+      "chuva_prob": 76,
+      "sol_h": 11.1,
+      "vento_max": 14,
+      "rajada_max": 35,
+      "uv_max": 3.7,
+      "classe": "chuvoso"
+     },
+     {
+      "data": "2026-10-07",
+      "ceu": "garoa",
+      "tmax": 26.3,
+      "tmin": 17.7,
+      "sensacao_max": 30.0,
+      "chuva_mm": 1.2,
+      "chuva_prob": 54,
+      "sol_h": 12.0,
+      "vento_max": 8,
+      "rajada_max": 32,
+      "uv_max": 7.9,
+      "classe": "instavel"
+     },
+     {
+      "data": "2026-10-08",
+      "ceu": "garoa forte",
+      "tmax": 25.3,
+      "tmin": 19.4,
+      "sensacao_max": 28.8,
+      "chuva_mm": 11.8,
+      "chuva_prob": 55,
+      "sol_h": 9.1,
+      "vento_max": 10,
+      "rajada_max": 38,
+      "uv_max": 2.5,
+      "classe": "chuvoso"
+     },
+     {
+      "data": "2026-10-09",
+      "ceu": "garoa",
+      "tmax": 21.8,
+      "tmin": 17.8,
+      "sensacao_max": 23.9,
+      "chuva_mm": 5.2,
+      "chuva_prob": 56,
+      "sol_h": 0.0,
+      "vento_max": 8,
+      "rajada_max": 24,
+      "uv_max": 3.2,
+      "classe": "instavel"
+     },
+     {
+      "data": "2026-10-10",
+      "ceu": "garoa",
+      "tmax": 24.6,
+      "tmin": 17.8,
+      "sensacao_max": 28.7,
+      "chuva_mm": 4.0,
+      "chuva_prob": 71,
+      "sol_h": 9.9,
+      "vento_max": 12,
+      "rajada_max": 42,
+      "uv_max": 7.5,
+      "classe": "chuvoso"
+     },
+     {
+      "data": "2026-10-11",
+      "ceu": "nublado",
+      "tmax": 24.2,
+      "tmin": 19.1,
+      "sensacao_max": 25.7,
+      "chuva_mm": 0,
+      "chuva_prob": 55,
+      "sol_h": 8.8,
+      "vento_max": 12,
+      "rajada_max": 36,
+      "uv_max": 7.8,
+      "classe": "instavel"
+     },
+     {
+      "data": "2026-10-12",
+      "ceu": "garoa",
+      "tmax": 24.7,
+      "tmin": 18.8,
+      "sensacao_max": 29.1,
+      "chuva_mm": 1.8,
+      "chuva_prob": 52,
+      "sol_h": 11.7,
+      "vento_max": 7,
+      "rajada_max": 28,
+      "uv_max": 8.8,
+      "classe": "instavel"
+     },
+     {
+      "data": "2026-10-13",
+      "ceu": "nublado",
+      "tmax": 27.2,
+      "tmin": 19.0,
+      "sensacao_max": 31.6,
+      "chuva_mm": 0,
+      "chuva_prob": 60,
+      "sol_h": 11.6,
+      "vento_max": 7,
+      "rajada_max": 28,
+      "uv_max": 7.5,
+      "classe": "instavel"
+     },
+     {
+      "data": "2026-10-14",
+      "ceu": "nublado",
+      "tmax": 27.1,
+      "tmin": 19.1,
+      "sensacao_max": 31.2,
+      "chuva_mm": 0,
+      "chuva_prob": 56,
+      "sol_h": 11.2,
+      "vento_max": 10,
+      "rajada_max": 30,
+      "uv_max": 6.7,
+      "classe": "instavel"
+     },
+     {
+      "data": "2026-10-15",
+      "ceu": "garoa",
+      "tmax": 18.9,
+      "tmin": 17.1,
+      "sensacao_max": 20.5,
+      "chuva_mm": 1.2,
+      "chuva_prob": 77,
+      "sol_h": 0.1,
+      "vento_max": 12,
+      "rajada_max": 18,
+      "uv_max": 1.6,
+      "classe": "instavel"
+     }
+    ]
+   },
+   "atibaia": {
+    "nome": "Atibaia",
+    "tipo": "passeio",
+    "distancia_km": 65,
+    "tempo_carro": "~1h",
+    "dias": [
+     {
+      "data": "2026-09-30",
+      "ceu": "garoa",
+      "tmax": 28.4,
+      "tmin": 17.8,
+      "sensacao_max": 31.2,
+      "chuva_mm": 1.4,
+      "chuva_prob": 73,
+      "sol_h": 12.0,
+      "vento_max": 17,
+      "rajada_max": 46,
+      "uv_max": 8.6,
+      "classe": "instavel"
+     },
+     {
+      "data": "2026-10-01",
+      "ceu": "pancadas de chuva",
+      "tmax": 27.5,
+      "tmin": 18.6,
+      "sensacao_max": 29.5,
+      "chuva_mm": 9.8,
+      "chuva_prob": 92,
+      "sol_h": 10.3,
+      "vento_max": 17,
+      "rajada_max": 45,
+      "uv_max": 8.4,
+      "classe": "chuvoso"
+     },
+     {
+      "data": "2026-10-02",
+      "ceu": "garoa",
+      "tmax": 19.6,
+      "tmin": 14.7,
+      "sensacao_max": 21.3,
+      "chuva_mm": 1.7,
+      "chuva_prob": 84,
+      "sol_h": 0.9,
+      "vento_max": 16,
+      "rajada_max": 38,
+      "uv_max": 3.6,
+      "classe": "instavel"
+     },
+     {
+      "data": "2026-10-03",
+      "ceu": "garoa",
+      "tmax": 24.3,
+      "tmin": 14.6,
+      "sensacao_max": 26.1,
+      "chuva_mm": 0.8,
+      "chuva_prob": 80,
+      "sol_h": 9.4,
+      "vento_max": 17,
+      "rajada_max": 39,
+      "uv_max": 5.9,
+      "classe": "instavel"
+     },
+     {
+      "data": "2026-10-04",
+      "ceu": "trovoadas com granizo",
+      "tmax": 22.9,
+      "tmin": 16.6,
+      "sensacao_max": 25.4,
+      "chuva_mm": 18.6,
+      "chuva_prob": 99,
+      "sol_h": 9.3,
+      "vento_max": 16,
+      "rajada_max": 48,
+      "uv_max": 7.8,
+      "classe": "chuvoso"
+     },
+     {
+      "data": "2026-10-05",
+      "ceu": "trovoadas",
+      "tmax": 21.8,
+      "tmin": 16.9,
+      "sensacao_max": 23.9,
+      "chuva_mm": 15.5,
+      "chuva_prob": 94,
+      "sol_h": 11.2,
+      "vento_max": 13,
+      "rajada_max": 50,
+      "uv_max": 5.0,
+      "classe": "chuvoso"
+     },
+     {
+      "data": "2026-10-06",
+      "ceu": "pancadas de chuva",
+      "tmax": 25.8,
+      "tmin": 17.2,
+      "sensacao_max": 30.3,
+      "chuva_mm": 10.3,
+      "chuva_prob": 80,
+      "sol_h": 12.0,
+      "vento_max": 11,
+      "rajada_max": 36,
+      "uv_max": 2.6,
+      "classe": "chuvoso"
+     },
+     {
+      "data": "2026-10-07",
+      "ceu": "garoa",
+      "tmax": 24.6,
+      "tmin": 17.3,
+      "sensacao_max": 28.8,
+      "chuva_mm": 4.2,
+      "chuva_prob": 59,
+      "sol_h": 11.8,
+      "vento_max": 9,
+      "rajada_max": 38,
+      "uv_max": 8.8,
+      "classe": "instavel"
+     },
+     {
+      "data": "2026-10-08",
+      "ceu": "trovoadas com granizo",
+      "tmax": 23.8,
+      "tmin": 18.5,
+      "sensacao_max": 28.3,
+      "chuva_mm": 23.0,
+      "chuva_prob": 66,
+      "sol_h": 9.4,
+      "vento_max": 8,
+      "rajada_max": 44,
+      "uv_max": 6.3,
+      "classe": "chuvoso"
+     },
+     {
+      "data": "2026-10-09",
+      "ceu": "trovoadas",
+      "tmax": 26.1,
+      "tmin": 17.8,
+      "sensacao_max": 28.9,
+      "chuva_mm": 8.8,
+      "chuva_prob": 67,
+      "sol_h": 7.9,
+      "vento_max": 10,
+      "rajada_max": 25,
+      "uv_max": 4.8,
+      "classe": "chuvoso"
+     },
+     {
+      "data": "2026-10-10",
+      "ceu": "garoa",
+      "tmax": 26.4,
+      "tmin": 17.7,
+      "sensacao_max": 29.1,
+      "chuva_mm": 4.2,
+      "chuva_prob": 79,
+      "sol_h": 12.0,
+      "vento_max": 14,
+      "rajada_max": 54,
+      "uv_max": 7.7,
+      "classe": "chuvoso"
+     },
+     {
+      "data": "2026-10-11",
+      "ceu": "garoa",
+      "tmax": 24.4,
+      "tmin": 17.8,
+      "sensacao_max": 26.5,
+      "chuva_mm": 0.6,
+      "chuva_prob": 63,
+      "sol_h": 9.3,
+      "vento_max": 12,
+      "rajada_max": 34,
+      "uv_max": 7.3,
+      "classe": "instavel"
+     },
+     {
+      "data": "2026-10-12",
+      "ceu": "trovoadas",
+      "tmax": 25.9,
+      "tmin": 18.1,
+      "sensacao_max": 31.0,
+      "chuva_mm": 2.4,
+      "chuva_prob": 58,
+      "sol_h": 11.9,
+      "vento_max": 10,
+      "rajada_max": 30,
+      "uv_max": 8.8,
+      "classe": "instavel"
+     },
+     {
+      "data": "2026-10-13",
+      "ceu": "garoa",
+      "tmax": 28.7,
+      "tmin": 17.6,
+      "sensacao_max": 32.4,
+      "chuva_mm": 0.6,
+      "chuva_prob": 65,
+      "sol_h": 11.8,
+      "vento_max": 11,
+      "rajada_max": 27,
+      "uv_max": 6.7,
+      "classe": "instavel"
+     },
+     {
+      "data": "2026-10-14",
+      "ceu": "garoa",
+      "tmax": 29.0,
+      "tmin": 18.1,
+      "sensacao_max": 32.7,
+      "chuva_mm": 1.4,
+      "chuva_prob": 69,
+      "sol_h": 11.2,
+      "vento_max": 9,
+      "rajada_max": 26,
+      "uv_max": 6.8,
+      "classe": "instavel"
+     },
+     {
+      "data": "2026-10-15",
+      "ceu": "garoa forte",
+      "tmax": 23.3,
+      "tmin": 17.3,
+      "sensacao_max": 26.4,
+      "chuva_mm": 5.5,
+      "chuva_prob": 73,
+      "sol_h": 9.5,
+      "vento_max": 7,
+      "rajada_max": 24,
+      "uv_max": 5.8,
+      "classe": "chuvoso"
+     }
+    ]
+   },
+   "holambra": {
+    "nome": "Holambra",
+    "tipo": "passeio",
+    "distancia_km": 135,
+    "tempo_carro": "~1h45",
+    "dias": [
+     {
+      "data": "2026-09-30",
+      "ceu": "trovoadas",
+      "tmax": 31.2,
+      "tmin": 19.1,
+      "sensacao_max": 34.9,
+      "chuva_mm": 0.4,
+      "chuva_prob": 66,
+      "sol_h": 12.0,
+      "vento_max": 13,
+      "rajada_max": 28,
+      "uv_max": 8.6,
+      "classe": "muito_quente"
+     },
+     {
+      "data": "2026-10-01",
+      "ceu": "trovoadas",
+      "tmax": 29.9,
+      "tmin": 18.9,
+      "sensacao_max": 33.6,
+      "chuva_mm": 5.7,
+      "chuva_prob": 94,
+      "sol_h": 11.0,
+      "vento_max": 20,
+      "rajada_max": 39,
+      "uv_max": 8.1,
+      "classe": "chuvoso"
+     },
+     {
+      "data": "2026-10-02",
+      "ceu": "pancadas de chuva",
+      "tmax": 24.8,
+      "tmin": 17.9,
+      "sensacao_max": 26.5,
+      "chuva_mm": 5.0,
+      "chuva_prob": 76,
+      "sol_h": 3.7,
+      "vento_max": 17,
+      "rajada_max": 35,
+      "uv_max": 6.7,
+      "classe": "chuvoso"
+     },
+     {
+      "data": "2026-10-03",
+      "ceu": "pancadas fortes",
+      "tmax": 29.5,
+      "tmin": 16.7,
+      "sensacao_max": 32.9,
+      "chuva_mm": 10.6,
+      "chuva_prob": 83,
+      "sol_h": 8.3,
+      "vento_max": 15,
+      "rajada_max": 40,
+      "uv_max": 6.2,
+      "classe": "chuvoso"
+     },
+     {
+      "data": "2026-10-04",
+      "ceu": "trovoadas com granizo",
+      "tmax": 23.9,
+      "tmin": 19.2,
+      "sensacao_max": 27.2,
+      "chuva_mm": 26.2,
+      "chuva_prob": 100,
+      "sol_h": 9.2,
+      "vento_max": 18,
+      "rajada_max": 37,
+      "uv_max": 7.9,
+      "classe": "chuvoso"
+     },
+     {
+      "data": "2026-10-05",
+      "ceu": "trovoadas",
+      "tmax": 25.6,
+      "tmin": 18.3,
+      "sensacao_max": 29.2,
+      "chuva_mm": 16.5,
+      "chuva_prob": 96,
+      "sol_h": 11.7,
+      "vento_max": 18,
+      "rajada_max": 40,
+      "uv_max": 6.5,
+      "classe": "chuvoso"
+     },
+     {
+      "data": "2026-10-06",
+      "ceu": "pancadas de chuva",
+      "tmax": 29.6,
+      "tmin": 19.2,
+      "sensacao_max": 33.9,
+      "chuva_mm": 12.7,
+      "chuva_prob": 86,
+      "sol_h": 12.0,
+      "vento_max": 10,
+      "rajada_max": 36,
+      "uv_max": 4.0,
+      "classe": "chuvoso"
+     },
+     {
+      "data": "2026-10-07",
+      "ceu": "garoa",
+      "tmax": 27.0,
+      "tmin": 18.9,
+      "sensacao_max": 32.9,
+      "chuva_mm": 6.8,
+      "chuva_prob": 57,
+      "sol_h": 12.0,
+      "vento_max": 7,
+      "rajada_max": 30,
+      "uv_max": 8.8,
+      "classe": "instavel"
+     },
+     {
+      "data": "2026-10-08",
+      "ceu": "trovoadas com granizo",
+      "tmax": 26.1,
+      "tmin": 20.0,
+      "sensacao_max": 31.3,
+      "chuva_mm": 28.2,
+      "chuva_prob": 63,
+      "sol_h": 9.3,
+      "vento_max": 13,
+      "rajada_max": 31,
+      "uv_max": 8.1,
+      "classe": "chuvoso"
+     },
+     {
+      "data": "2026-10-09",
+      "ceu": "garoa",
+      "tmax": 25.3,
+      "tmin": 19.7,
+      "sensacao_max": 31.2,
+      "chuva_mm": 6.0,
+      "chuva_prob": 71,
+      "sol_h": 11.8,
+      "vento_max": 8,
+      "rajada_max": 33,
+      "uv_max": 6.2,
+      "classe": "chuvoso"
+     },
+     {
+      "data": "2026-10-10",
+      "ceu": "garoa",
+      "tmax": 27.9,
+      "tmin": 19.8,
+      "sensacao_max": 33.2,
+      "chuva_mm": 0.6,
+      "chuva_prob": 72,
+      "sol_h": 12.0,
+      "vento_max": 8,
+      "rajada_max": 26,
+      "uv_max": 8.4,
+      "classe": "instavel"
+     },
+     {
+      "data": "2026-10-11",
+      "ceu": "garoa",
+      "tmax": 29.7,
+      "tmin": 20.0,
+      "sensacao_max": 34.1,
+      "chuva_mm": 0.6,
+      "chuva_prob": 59,
+      "sol_h": 11.6,
+      "vento_max": 12,
+      "rajada_max": 30,
+      "uv_max": 7.5,
+      "classe": "muito_quente"
+     },
+     {
+      "data": "2026-10-12",
+      "ceu": "garoa forte",
+      "tmax": 28.5,
+      "tmin": 19.7,
+      "sensacao_max": 34.4,
+      "chuva_mm": 6.0,
+      "chuva_prob": 61,
+      "sol_h": 12.0,
+      "vento_max": 12,
+      "rajada_max": 30,
+      "uv_max": 8.1,
+      "classe": "chuvoso"
+     },
+     {
+      "data": "2026-10-13",
+      "ceu": "nublado",
+      "tmax": 30.8,
+      "tmin": 19.1,
+      "sensacao_max": 36.4,
+      "chuva_mm": 0,
+      "chuva_prob": 55,
+      "sol_h": 12.1,
+      "vento_max": 11,
+      "rajada_max": 22,
+      "uv_max": 6.8,
+      "classe": "muito_quente"
+     },
+     {
+      "data": "2026-10-14",
+      "ceu": "nublado",
+      "tmax": 31.5,
+      "tmin": 20.7,
+      "sensacao_max": 37.1,
+      "chuva_mm": 0.9,
+      "chuva_prob": 65,
+      "sol_h": 11.8,
+      "vento_max": 10,
+      "rajada_max": 22,
+      "uv_max": 5.8,
+      "classe": "muito_quente"
+     },
+     {
+      "data": "2026-10-15",
+      "ceu": "trovoadas",
+      "tmax": 26.5,
+      "tmin": 19.7,
+      "sensacao_max": 29.9,
+      "chuva_mm": 11.7,
+      "chuva_prob": 57,
+      "sol_h": 12.0,
+      "vento_max": 14,
+      "rajada_max": 31,
+      "uv_max": 7.4,
+      "classe": "chuvoso"
+     }
+    ]
+   },
+   "campos-do-jordao": {
+    "nome": "Campos do Jordão",
+    "tipo": "passeio",
+    "distancia_km": 180,
+    "tempo_carro": "~2h45",
+    "dias": [
+     {
+      "data": "2026-09-30",
+      "ceu": "trovoadas",
+      "tmax": 24.3,
+      "tmin": 15.5,
+      "sensacao_max": 25.1,
+      "chuva_mm": 3.3,
+      "chuva_prob": 100,
+      "sol_h": 11.7,
+      "vento_max": 16,
+      "rajada_max": 51,
+      "uv_max": 8.8,
+      "classe": "chuvoso"
+     },
+     {
+      "data": "2026-10-01",
+      "ceu": "trovoadas",
+      "tmax": 24.0,
+      "tmin": 14.8,
+      "sensacao_max": 24.4,
+      "chuva_mm": 19.1,
+      "chuva_prob": 100,
+      "sol_h": 10.1,
+      "vento_max": 15,
+      "rajada_max": 46,
+      "uv_max": 8.4,
+      "classe": "chuvoso"
+     },
+     {
+      "data": "2026-10-02",
+      "ceu": "pancadas de chuva",
+      "tmax": 16.4,
+      "tmin": 11.7,
+      "sensacao_max": 16.4,
+      "chuva_mm": 9.6,
+      "chuva_prob": 100,
+      "sol_h": 1.9,
+      "vento_max": 10,
+      "rajada_max": 29,
+      "uv_max": 6.5,
+      "classe": "chuvoso"
+     },
+     {
+      "data": "2026-10-03",
+      "ceu": "garoa",
+      "tmax": 20.5,
+      "tmin": 11.7,
+      "sensacao_max": 21.5,
+      "chuva_mm": 3.7,
+      "chuva_prob": 100,
+      "sol_h": 10.3,
+      "vento_max": 14,
+      "rajada_max": 42,
+      "uv_max": 2.5,
+      "classe": "chuvoso"
+     },
+     {
+      "data": "2026-10-04",
+      "ceu": "pancadas de chuva",
+      "tmax": 16.7,
+      "tmin": 13.3,
+      "sensacao_max": 16.2,
+      "chuva_mm": 16.8,
+      "chuva_prob": 100,
+      "sol_h": 2.3,
+      "vento_max": 18,
+      "rajada_max": 61,
+      "uv_max": 2.5,
+      "classe": "chuvoso"
+     },
+     {
+      "data": "2026-10-05",
+      "ceu": "garoa",
+      "tmax": 20.1,
+      "tmin": 14.4,
+      "sensacao_max": 19.9,
+      "chuva_mm": 4.5,
+      "chuva_prob": 91,
+      "sol_h": 9.0,
+      "vento_max": 18,
+      "rajada_max": 56,
+      "uv_max": 3.5,
+      "classe": "chuvoso"
+     },
+     {
+      "data": "2026-10-06",
+      "ceu": "garoa",
+      "tmax": 20.9,
+      "tmin": 14.0,
+      "sensacao_max": 22.8,
+      "chuva_mm": 6.9,
+      "chuva_prob": 100,
+      "sol_h": 11.9,
+      "vento_max": 14,
+      "rajada_max": 41,
+      "uv_max": 4.8,
+      "classe": "chuvoso"
+     },
+     {
+      "data": "2026-10-07",
+      "ceu": "garoa",
+      "tmax": 21.0,
+      "tmin": 14.1,
+      "sensacao_max": 22.3,
+      "chuva_mm": 3.0,
+      "chuva_prob": 100,
+      "sol_h": 10.1,
+      "vento_max": 15,
+      "rajada_max": 48,
+      "uv_max": 8.3,
+      "classe": "chuvoso"
+     },
+     {
+      "data": "2026-10-08",
+      "ceu": "pancadas de chuva",
+      "tmax": 21.8,
+      "tmin": 15.2,
+      "sensacao_max": 22.4,
+      "chuva_mm": 10.2,
+      "chuva_prob": 98,
+      "sol_h": 11.6,
+      "vento_max": 14,
+      "rajada_max": 44,
+      "uv_max": 8.2,
+      "classe": "chuvoso"
+     },
+     {
+      "data": "2026-10-09",
+      "ceu": "garoa",
+      "tmax": 20.3,
+      "tmin": 14.9,
+      "sensacao_max": 23.0,
+      "chuva_mm": 7.2,
+      "chuva_prob": 97,
+      "sol_h": 9.9,
+      "vento_max": 3,
+      "rajada_max": 25,
+      "uv_max": 7.7,
+      "classe": "chuvoso"
+     },
+     {
+      "data": "2026-10-10",
+      "ceu": "garoa forte",
+      "tmax": 20.6,
+      "tmin": 14.6,
+      "sensacao_max": 22.0,
+      "chuva_mm": 9.6,
+      "chuva_prob": 94,
+      "sol_h": 12.0,
+      "vento_max": 13,
+      "rajada_max": 45,
+      "uv_max": 8.0,
+      "classe": "chuvoso"
+     },
+     {
+      "data": "2026-10-11",
+      "ceu": "garoa",
+      "tmax": 19.1,
+      "tmin": 14.3,
+      "sensacao_max": 20.4,
+      "chuva_mm": 4.8,
+      "chuva_prob": 95,
+      "sol_h": 11.9,
+      "vento_max": 6,
+      "rajada_max": 27,
+      "uv_max": 8.3,
+      "classe": "chuvoso"
+     },
+     {
+      "data": "2026-10-12",
+      "ceu": "garoa",
+      "tmax": 22.1,
+      "tmin": 13.6,
+      "sensacao_max": 23.6,
+      "chuva_mm": 1.8,
+      "chuva_prob": 100,
+      "sol_h": 12.2,
+      "vento_max": 14,
+      "rajada_max": 42,
+      "uv_max": 8.8,
+      "classe": "instavel"
+     },
+     {
+      "data": "2026-10-13",
+      "ceu": "garoa",
+      "tmax": 22.6,
+      "tmin": 13.9,
+      "sensacao_max": 25.9,
+      "chuva_mm": 1.2,
+      "chuva_prob": 89,
+      "sol_h": 12.2,
+      "vento_max": 11,
+      "rajada_max": 37,
+      "uv_max": 7.9,
+      "classe": "instavel"
+     },
+     {
+      "data": "2026-10-14",
+      "ceu": "garoa",
+      "tmax": 22.1,
+      "tmin": 14.4,
+      "sensacao_max": 24.9,
+      "chuva_mm": 1.2,
+      "chuva_prob": 68,
+      "sol_h": 12.0,
+      "vento_max": 7,
+      "rajada_max": 25,
+      "uv_max": 7.0,
+      "classe": "instavel"
+     },
+     {
+      "data": "2026-10-15",
+      "ceu": "pancadas de chuva",
+      "tmax": 18.8,
+      "tmin": 14.1,
+      "sensacao_max": 21.2,
+      "chuva_mm": 18.8,
+      "chuva_prob": 81,
+      "sol_h": 10.3,
+      "vento_max": 5,
+      "rajada_max": 9,
+      "uv_max": 6.2,
+      "classe": "chuvoso"
+     }
+    ]
+   },
+   "santos": {
+    "nome": "Santos (Gonzaga)",
+    "tipo": "praia",
+    "distancia_km": 75,
+    "tempo_carro": "~1h15",
+    "dias": [
+     {
+      "data": "2026-09-30",
+      "ceu": "garoa",
+      "tmax": 30.9,
+      "tmin": 21.8,
+      "sensacao_max": 37.6,
+      "chuva_mm": 2.0,
+      "chuva_prob": 94,
+      "sol_h": 11.3,
+      "vento_max": 15,
+      "rajada_max": 32,
+      "uv_max": 5.7,
+      "classe": "chuvoso",
+      "ondas_max": 1.2,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 94% / 2.0 mm"
+      ]
+     },
+     {
+      "data": "2026-10-01",
+      "ceu": "pancadas de chuva",
+      "tmax": 22.7,
+      "tmin": 20.7,
+      "sensacao_max": 27.2,
+      "chuva_mm": 13.1,
+      "chuva_prob": 99,
+      "sol_h": 0.1,
+      "vento_max": 14,
+      "rajada_max": 34,
+      "uv_max": 3.6,
+      "classe": "chuvoso",
+      "ondas_max": 1.28,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 99% / 13.1 mm",
+       "máxima de 23 °C"
+      ]
+     },
+     {
+      "data": "2026-10-02",
+      "ceu": "pancadas de chuva",
+      "tmax": 20.9,
+      "tmin": 19.5,
+      "sensacao_max": 23.9,
+      "chuva_mm": 21.5,
+      "chuva_prob": 100,
+      "sol_h": 0.0,
+      "vento_max": 13,
+      "rajada_max": 26,
+      "uv_max": 0.7,
+      "classe": "chuvoso",
+      "ondas_max": 1.62,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 100% / 21.5 mm",
+       "máxima de 21 °C"
+      ]
+     },
+     {
+      "data": "2026-10-03",
+      "ceu": "garoa",
+      "tmax": 23.8,
+      "tmin": 19.5,
+      "sensacao_max": 25.7,
+      "chuva_mm": 0.9,
+      "chuva_prob": 92,
+      "sol_h": 6.8,
+      "vento_max": 18,
+      "rajada_max": 41,
+      "uv_max": 6.4,
+      "classe": "instavel",
+      "ondas_max": 1.84,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 92% / 0.9 mm",
+       "máxima de 24 °C"
+      ]
+     },
+     {
+      "data": "2026-10-04",
+      "ceu": "garoa",
+      "tmax": 26.8,
+      "tmin": 20.3,
+      "sensacao_max": 31.6,
+      "chuva_mm": 3.6,
+      "chuva_prob": 88,
+      "sol_h": 9.0,
+      "vento_max": 8,
+      "rajada_max": 24,
+      "uv_max": 8.0,
+      "classe": "chuvoso",
+      "ondas_max": 1.76,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 88% / 3.6 mm"
+      ]
+     },
+     {
+      "data": "2026-10-05",
+      "ceu": "garoa",
+      "tmax": 23.4,
+      "tmin": 20.6,
+      "sensacao_max": 27.5,
+      "chuva_mm": 4.1,
+      "chuva_prob": 84,
+      "sol_h": 6.4,
+      "vento_max": 14,
+      "rajada_max": 41,
+      "uv_max": 6.8,
+      "classe": "chuvoso",
+      "ondas_max": 1.2,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 84% / 4.1 mm",
+       "máxima de 23 °C"
+      ]
+     },
+     {
+      "data": "2026-10-06",
+      "ceu": "garoa forte",
+      "tmax": 22.4,
+      "tmin": 19.9,
+      "sensacao_max": 26.5,
+      "chuva_mm": 5.5,
+      "chuva_prob": 78,
+      "sol_h": 0.0,
+      "vento_max": 14,
+      "rajada_max": 28,
+      "uv_max": 3.1,
+      "classe": "chuvoso",
+      "ondas_max": 1.14,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 78% / 5.5 mm",
+       "máxima de 22 °C"
+      ]
+     },
+     {
+      "data": "2026-10-07",
+      "ceu": "nublado",
+      "tmax": 24.2,
+      "tmin": 20.4,
+      "sensacao_max": 28.3,
+      "chuva_mm": 0,
+      "chuva_prob": 70,
+      "sol_h": 10.6,
+      "vento_max": 6,
+      "rajada_max": 25,
+      "uv_max": 7.4,
+      "classe": "instavel",
+      "ondas_max": 1.1,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 70% / 0 mm"
+      ]
+     },
+     {
+      "data": "2026-10-08",
+      "ceu": "garoa",
+      "tmax": 28.2,
+      "tmin": 21.7,
+      "sensacao_max": 34.5,
+      "chuva_mm": 7.2,
+      "chuva_prob": 67,
+      "sol_h": 8.9,
+      "vento_max": 6,
+      "rajada_max": 27,
+      "uv_max": 2.5,
+      "classe": "chuvoso",
+      "ondas_max": null,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 67% / 7.2 mm"
+      ]
+     },
+     {
+      "data": "2026-10-09",
+      "ceu": "garoa",
+      "tmax": 22.7,
+      "tmin": 21.5,
+      "sensacao_max": 26.3,
+      "chuva_mm": 8.4,
+      "chuva_prob": 74,
+      "sol_h": 0.0,
+      "vento_max": 9,
+      "rajada_max": 22,
+      "uv_max": 2.4,
+      "classe": "chuvoso",
+      "ondas_max": null,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 74% / 8.4 mm",
+       "máxima de 23 °C"
+      ]
+     },
+     {
+      "data": "2026-10-10",
+      "ceu": "garoa",
+      "tmax": 25.4,
+      "tmin": 21.4,
+      "sensacao_max": 30.6,
+      "chuva_mm": 2.0,
+      "chuva_prob": 79,
+      "sol_h": 11.0,
+      "vento_max": 9,
+      "rajada_max": 32,
+      "uv_max": 5.0,
+      "classe": "chuvoso",
+      "ondas_max": null,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 79% / 2.0 mm"
+      ]
+     },
+     {
+      "data": "2026-10-11",
+      "ceu": "garoa",
+      "tmax": 25.2,
+      "tmin": 22.4,
+      "sensacao_max": 29.4,
+      "chuva_mm": 5.2,
+      "chuva_prob": 76,
+      "sol_h": 9.4,
+      "vento_max": 10,
+      "rajada_max": 27,
+      "uv_max": 6.2,
+      "classe": "chuvoso",
+      "ondas_max": null,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 76% / 5.2 mm"
+      ]
+     },
+     {
+      "data": "2026-10-12",
+      "ceu": "nublado",
+      "tmax": 25.7,
+      "tmin": 22.3,
+      "sensacao_max": 31.1,
+      "chuva_mm": 0,
+      "chuva_prob": 80,
+      "sol_h": 12.0,
+      "vento_max": 5,
+      "rajada_max": 24,
+      "uv_max": 8.2,
+      "classe": "instavel",
+      "ondas_max": null,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 80% / 0 mm"
+      ]
+     },
+     {
+      "data": "2026-10-13",
+      "ceu": "garoa",
+      "tmax": 24.3,
+      "tmin": 22.8,
+      "sensacao_max": 28.3,
+      "chuva_mm": 1.8,
+      "chuva_prob": 75,
+      "sol_h": 7.8,
+      "vento_max": 9,
+      "rajada_max": 26,
+      "uv_max": 7.8,
+      "classe": "instavel",
+      "ondas_max": null,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 75% / 1.8 mm"
+      ]
+     },
+     {
+      "data": "2026-10-14",
+      "ceu": "garoa",
+      "tmax": 23.9,
+      "tmin": 20.5,
+      "sensacao_max": 27.7,
+      "chuva_mm": 3.2,
+      "chuva_prob": 71,
+      "sol_h": 0.0,
+      "vento_max": 5,
+      "rajada_max": 24,
+      "uv_max": 4.7,
+      "classe": "chuvoso",
+      "ondas_max": null,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 71% / 3.2 mm",
+       "máxima de 24 °C"
+      ]
+     },
+     {
+      "data": "2026-10-15",
+      "ceu": "garoa",
+      "tmax": 20.5,
+      "tmin": 20.0,
+      "sensacao_max": 23.7,
+      "chuva_mm": 4.6,
+      "chuva_prob": 71,
+      "sol_h": 0.0,
+      "vento_max": 9,
+      "rajada_max": 15,
+      "uv_max": 1.1,
+      "classe": "chuvoso",
+      "ondas_max": null,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 71% / 4.6 mm",
+       "máxima de 20 °C"
+      ]
+     }
+    ]
+   },
+   "praia-grande": {
+    "nome": "Praia Grande",
+    "tipo": "praia",
+    "distancia_km": 75,
+    "tempo_carro": "~1h15",
+    "dias": [
+     {
+      "data": "2026-09-30",
+      "ceu": "garoa",
+      "tmax": 30.2,
+      "tmin": 21.7,
+      "sensacao_max": 38.7,
+      "chuva_mm": 2.2,
+      "chuva_prob": 94,
+      "sol_h": 10.5,
+      "vento_max": 16,
+      "rajada_max": 35,
+      "uv_max": 5.7,
+      "classe": "chuvoso",
+      "ondas_max": 1.2,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 94% / 2.2 mm"
+      ]
+     },
+     {
+      "data": "2026-10-01",
+      "ceu": "chuva fraca",
+      "tmax": 22.7,
+      "tmin": 20.5,
+      "sensacao_max": 26.7,
+      "chuva_mm": 8.6,
+      "chuva_prob": 99,
+      "sol_h": 0.2,
+      "vento_max": 17,
+      "rajada_max": 40,
+      "uv_max": 3.6,
+      "classe": "chuvoso",
+      "ondas_max": 1.28,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 99% / 8.6 mm",
+       "máxima de 23 °C"
+      ]
+     },
+     {
+      "data": "2026-10-02",
+      "ceu": "pancadas de chuva",
+      "tmax": 20.7,
+      "tmin": 18.8,
+      "sensacao_max": 23.7,
+      "chuva_mm": 20.8,
+      "chuva_prob": 100,
+      "sol_h": 0.0,
+      "vento_max": 16,
+      "rajada_max": 35,
+      "uv_max": 0.7,
+      "classe": "chuvoso",
+      "ondas_max": 1.62,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 100% / 20.8 mm",
+       "máxima de 21 °C"
+      ]
+     },
+     {
+      "data": "2026-10-03",
+      "ceu": "garoa",
+      "tmax": 23.2,
+      "tmin": 19.0,
+      "sensacao_max": 24.6,
+      "chuva_mm": 4.7,
+      "chuva_prob": 92,
+      "sol_h": 6.9,
+      "vento_max": 20,
+      "rajada_max": 49,
+      "uv_max": 6.4,
+      "classe": "chuvoso",
+      "ondas_max": 1.84,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 92% / 4.7 mm",
+       "máxima de 23 °C"
+      ]
+     },
+     {
+      "data": "2026-10-04",
+      "ceu": "garoa",
+      "tmax": 26.9,
+      "tmin": 20.2,
+      "sensacao_max": 31.7,
+      "chuva_mm": 2.1,
+      "chuva_prob": 88,
+      "sol_h": 9.1,
+      "vento_max": 9,
+      "rajada_max": 26,
+      "uv_max": 8.0,
+      "classe": "chuvoso",
+      "ondas_max": 1.76,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 88% / 2.1 mm"
+      ]
+     },
+     {
+      "data": "2026-10-05",
+      "ceu": "garoa",
+      "tmax": 24.0,
+      "tmin": 20.7,
+      "sensacao_max": 28.6,
+      "chuva_mm": 5.9,
+      "chuva_prob": 84,
+      "sol_h": 10.1,
+      "vento_max": 15,
+      "rajada_max": 43,
+      "uv_max": 6.8,
+      "classe": "chuvoso",
+      "ondas_max": 1.2,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 84% / 5.9 mm"
+      ]
+     },
+     {
+      "data": "2026-10-06",
+      "ceu": "pancadas de chuva",
+      "tmax": 22.2,
+      "tmin": 19.9,
+      "sensacao_max": 25.5,
+      "chuva_mm": 5.2,
+      "chuva_prob": 78,
+      "sol_h": 0.0,
+      "vento_max": 20,
+      "rajada_max": 40,
+      "uv_max": 3.1,
+      "classe": "chuvoso",
+      "ondas_max": 1.14,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 78% / 5.2 mm",
+       "máxima de 22 °C"
+      ]
+     },
+     {
+      "data": "2026-10-07",
+      "ceu": "nublado",
+      "tmax": 23.8,
+      "tmin": 20.2,
+      "sensacao_max": 27.7,
+      "chuva_mm": 0,
+      "chuva_prob": 70,
+      "sol_h": 6.9,
+      "vento_max": 5,
+      "rajada_max": 25,
+      "uv_max": 7.4,
+      "classe": "instavel",
+      "ondas_max": 1.1,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 70% / 0 mm",
+       "máxima de 24 °C"
+      ]
+     },
+     {
+      "data": "2026-10-08",
+      "ceu": "garoa",
+      "tmax": 27.5,
+      "tmin": 21.7,
+      "sensacao_max": 34.2,
+      "chuva_mm": 6.2,
+      "chuva_prob": 67,
+      "sol_h": 9.0,
+      "vento_max": 10,
+      "rajada_max": 34,
+      "uv_max": 2.5,
+      "classe": "chuvoso",
+      "ondas_max": null,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 67% / 6.2 mm"
+      ]
+     },
+     {
+      "data": "2026-10-09",
+      "ceu": "garoa",
+      "tmax": 22.6,
+      "tmin": 21.1,
+      "sensacao_max": 25.9,
+      "chuva_mm": 6.8,
+      "chuva_prob": 74,
+      "sol_h": 0.0,
+      "vento_max": 11,
+      "rajada_max": 27,
+      "uv_max": 2.4,
+      "classe": "chuvoso",
+      "ondas_max": null,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 74% / 6.8 mm",
+       "máxima de 23 °C"
+      ]
+     },
+     {
+      "data": "2026-10-10",
+      "ceu": "garoa",
+      "tmax": 25.5,
+      "tmin": 21.2,
+      "sensacao_max": 29.8,
+      "chuva_mm": 2.6,
+      "chuva_prob": 79,
+      "sol_h": 11.5,
+      "vento_max": 12,
+      "rajada_max": 36,
+      "uv_max": 5.0,
+      "classe": "chuvoso",
+      "ondas_max": null,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 79% / 2.6 mm"
+      ]
+     },
+     {
+      "data": "2026-10-11",
+      "ceu": "garoa",
+      "tmax": 25.0,
+      "tmin": 22.0,
+      "sensacao_max": 29.3,
+      "chuva_mm": 1.8,
+      "chuva_prob": 76,
+      "sol_h": 10.5,
+      "vento_max": 8,
+      "rajada_max": 32,
+      "uv_max": 6.2,
+      "classe": "instavel",
+      "ondas_max": null,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 76% / 1.8 mm"
+      ]
+     },
+     {
+      "data": "2026-10-12",
+      "ceu": "nublado",
+      "tmax": 24.8,
+      "tmin": 21.2,
+      "sensacao_max": 30.4,
+      "chuva_mm": 0,
+      "chuva_prob": 80,
+      "sol_h": 10.9,
+      "vento_max": 4,
+      "rajada_max": 22,
+      "uv_max": 8.2,
+      "classe": "instavel",
+      "ondas_max": null,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 80% / 0 mm"
+      ]
+     },
+     {
+      "data": "2026-10-13",
+      "ceu": "garoa",
+      "tmax": 25.0,
+      "tmin": 22.1,
+      "sensacao_max": 28.7,
+      "chuva_mm": 0.6,
+      "chuva_prob": 75,
+      "sol_h": 8.8,
+      "vento_max": 12,
+      "rajada_max": 35,
+      "uv_max": 7.8,
+      "classe": "instavel",
+      "ondas_max": null,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 75% / 0.6 mm"
+      ]
+     },
+     {
+      "data": "2026-10-14",
+      "ceu": "garoa",
+      "tmax": 23.6,
+      "tmin": 20.5,
+      "sensacao_max": 27.4,
+      "chuva_mm": 1.6,
+      "chuva_prob": 71,
+      "sol_h": 1.9,
+      "vento_max": 6,
+      "rajada_max": 28,
+      "uv_max": 4.7,
+      "classe": "instavel",
+      "ondas_max": null,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 71% / 1.6 mm",
+       "máxima de 24 °C"
+      ]
+     },
+     {
+      "data": "2026-10-15",
+      "ceu": "garoa",
+      "tmax": 20.6,
+      "tmin": 20.1,
+      "sensacao_max": 23.8,
+      "chuva_mm": 4.6,
+      "chuva_prob": 71,
+      "sol_h": 0.0,
+      "vento_max": 9,
+      "rajada_max": 15,
+      "uv_max": 1.1,
+      "classe": "chuvoso",
+      "ondas_max": null,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 71% / 4.6 mm",
+       "máxima de 21 °C"
+      ]
+     }
+    ]
+   },
+   "guaruja": {
+    "nome": "Guarujá (Pitangueiras)",
+    "tipo": "praia",
+    "distancia_km": 90,
+    "tempo_carro": "~1h30",
+    "dias": [
+     {
+      "data": "2026-09-30",
+      "ceu": "garoa",
+      "tmax": 29.3,
+      "tmin": 21.6,
+      "sensacao_max": 37.3,
+      "chuva_mm": 1.3,
+      "chuva_prob": 94,
+      "sol_h": 11.3,
+      "vento_max": 16,
+      "rajada_max": 34,
+      "uv_max": 5.7,
+      "classe": "instavel",
+      "ondas_max": 1.2,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 94% / 1.3 mm"
+      ]
+     },
+     {
+      "data": "2026-10-01",
+      "ceu": "pancadas de chuva",
+      "tmax": 22.6,
+      "tmin": 20.7,
+      "sensacao_max": 26.6,
+      "chuva_mm": 12.2,
+      "chuva_prob": 99,
+      "sol_h": 0.4,
+      "vento_max": 17,
+      "rajada_max": 44,
+      "uv_max": 3.6,
+      "classe": "chuvoso",
+      "ondas_max": 1.3,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 99% / 12.2 mm",
+       "máxima de 23 °C"
+      ]
+     },
+     {
+      "data": "2026-10-02",
+      "ceu": "pancadas de chuva",
+      "tmax": 20.7,
+      "tmin": 19.0,
+      "sensacao_max": 24.2,
+      "chuva_mm": 21.2,
+      "chuva_prob": 100,
+      "sol_h": 0.0,
+      "vento_max": 17,
+      "rajada_max": 34,
+      "uv_max": 0.7,
+      "classe": "chuvoso",
+      "ondas_max": 1.64,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 100% / 21.2 mm",
+       "máxima de 21 °C"
+      ]
+     },
+     {
+      "data": "2026-10-03",
+      "ceu": "garoa",
+      "tmax": 23.9,
+      "tmin": 19.1,
+      "sensacao_max": 25.5,
+      "chuva_mm": 1.4,
+      "chuva_prob": 92,
+      "sol_h": 7.0,
+      "vento_max": 24,
+      "rajada_max": 58,
+      "uv_max": 6.4,
+      "classe": "instavel",
+      "ondas_max": 1.86,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 92% / 1.4 mm",
+       "máxima de 24 °C"
+      ]
+     },
+     {
+      "data": "2026-10-04",
+      "ceu": "garoa",
+      "tmax": 25.6,
+      "tmin": 20.5,
+      "sensacao_max": 31.2,
+      "chuva_mm": 3.6,
+      "chuva_prob": 88,
+      "sol_h": 9.0,
+      "vento_max": 10,
+      "rajada_max": 29,
+      "uv_max": 8.0,
+      "classe": "chuvoso",
+      "ondas_max": 1.78,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 88% / 3.6 mm"
+      ]
+     },
+     {
+      "data": "2026-10-05",
+      "ceu": "garoa",
+      "tmax": 22.8,
+      "tmin": 20.6,
+      "sensacao_max": 27.0,
+      "chuva_mm": 5.1,
+      "chuva_prob": 84,
+      "sol_h": 6.7,
+      "vento_max": 15,
+      "rajada_max": 34,
+      "uv_max": 6.8,
+      "classe": "chuvoso",
+      "ondas_max": 1.2,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 84% / 5.1 mm",
+       "máxima de 23 °C"
+      ]
+     },
+     {
+      "data": "2026-10-06",
+      "ceu": "garoa",
+      "tmax": 22.0,
+      "tmin": 19.8,
+      "sensacao_max": 25.7,
+      "chuva_mm": 5.1,
+      "chuva_prob": 78,
+      "sol_h": 0.0,
+      "vento_max": 14,
+      "rajada_max": 32,
+      "uv_max": 3.1,
+      "classe": "chuvoso",
+      "ondas_max": 1.16,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 78% / 5.1 mm",
+       "máxima de 22 °C"
+      ]
+     },
+     {
+      "data": "2026-10-07",
+      "ceu": "nublado",
+      "tmax": 24.7,
+      "tmin": 19.9,
+      "sensacao_max": 28.4,
+      "chuva_mm": 0,
+      "chuva_prob": 70,
+      "sol_h": 12.0,
+      "vento_max": 8,
+      "rajada_max": 31,
+      "uv_max": 7.4,
+      "classe": "instavel",
+      "ondas_max": 1.1,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 70% / 0 mm"
+      ]
+     },
+     {
+      "data": "2026-10-08",
+      "ceu": "garoa",
+      "tmax": 27.7,
+      "tmin": 21.3,
+      "sensacao_max": 34.6,
+      "chuva_mm": 6.2,
+      "chuva_prob": 67,
+      "sol_h": 8.9,
+      "vento_max": 9,
+      "rajada_max": 28,
+      "uv_max": 2.5,
+      "classe": "chuvoso",
+      "ondas_max": null,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 67% / 6.2 mm"
+      ]
+     },
+     {
+      "data": "2026-10-09",
+      "ceu": "garoa",
+      "tmax": 21.9,
+      "tmin": 21.2,
+      "sensacao_max": 25.9,
+      "chuva_mm": 9.6,
+      "chuva_prob": 74,
+      "sol_h": 0.0,
+      "vento_max": 16,
+      "rajada_max": 32,
+      "uv_max": 2.4,
+      "classe": "chuvoso",
+      "ondas_max": null,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 74% / 9.6 mm",
+       "máxima de 22 °C"
+      ]
+     },
+     {
+      "data": "2026-10-10",
+      "ceu": "garoa",
+      "tmax": 25.2,
+      "tmin": 21.3,
+      "sensacao_max": 30.9,
+      "chuva_mm": 2.4,
+      "chuva_prob": 79,
+      "sol_h": 10.6,
+      "vento_max": 14,
+      "rajada_max": 41,
+      "uv_max": 5.0,
+      "classe": "chuvoso",
+      "ondas_max": null,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 79% / 2.4 mm"
+      ]
+     },
+     {
+      "data": "2026-10-11",
+      "ceu": "garoa",
+      "tmax": 25.3,
+      "tmin": 22.2,
+      "sensacao_max": 29.5,
+      "chuva_mm": 3.4,
+      "chuva_prob": 76,
+      "sol_h": 9.0,
+      "vento_max": 10,
+      "rajada_max": 29,
+      "uv_max": 6.2,
+      "classe": "chuvoso",
+      "ondas_max": null,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 76% / 3.4 mm"
+      ]
+     },
+     {
+      "data": "2026-10-12",
+      "ceu": "nublado",
+      "tmax": 26.0,
+      "tmin": 21.6,
+      "sensacao_max": 31.7,
+      "chuva_mm": 0,
+      "chuva_prob": 80,
+      "sol_h": 12.0,
+      "vento_max": 5,
+      "rajada_max": 26,
+      "uv_max": 8.2,
+      "classe": "instavel",
+      "ondas_max": null,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 80% / 0 mm"
+      ]
+     },
+     {
+      "data": "2026-10-13",
+      "ceu": "garoa",
+      "tmax": 24.1,
+      "tmin": 22.4,
+      "sensacao_max": 27.8,
+      "chuva_mm": 0.6,
+      "chuva_prob": 75,
+      "sol_h": 7.3,
+      "vento_max": 11,
+      "rajada_max": 32,
+      "uv_max": 7.8,
+      "classe": "instavel",
+      "ondas_max": null,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 75% / 0.6 mm"
+      ]
+     },
+     {
+      "data": "2026-10-14",
+      "ceu": "garoa",
+      "tmax": 23.4,
+      "tmin": 20.5,
+      "sensacao_max": 27.2,
+      "chuva_mm": 3.2,
+      "chuva_prob": 71,
+      "sol_h": 0.0,
+      "vento_max": 6,
+      "rajada_max": 26,
+      "uv_max": 4.7,
+      "classe": "chuvoso",
+      "ondas_max": null,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 71% / 3.2 mm",
+       "máxima de 23 °C"
+      ]
+     },
+     {
+      "data": "2026-10-15",
+      "ceu": "garoa",
+      "tmax": 20.6,
+      "tmin": 20.1,
+      "sensacao_max": 23.7,
+      "chuva_mm": 4.6,
+      "chuva_prob": 71,
+      "sol_h": 0.0,
+      "vento_max": 9,
+      "rajada_max": 13,
+      "uv_max": 1.1,
+      "classe": "chuvoso",
+      "ondas_max": null,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 71% / 4.6 mm",
+       "máxima de 21 °C"
+      ]
+     }
+    ]
+   },
+   "bertioga": {
+    "nome": "Bertioga (Riviera de São Lourenço)",
+    "tipo": "praia",
+    "distancia_km": 110,
+    "tempo_carro": "~1h45",
+    "dias": [
+     {
+      "data": "2026-09-30",
+      "ceu": "trovoadas com granizo",
+      "tmax": 30.1,
+      "tmin": 21.9,
+      "sensacao_max": 38.9,
+      "chuva_mm": 11.0,
+      "chuva_prob": 92,
+      "sol_h": 11.9,
+      "vento_max": 14,
+      "rajada_max": 35,
+      "uv_max": 6.5,
+      "classe": "chuvoso",
+      "ondas_max": 0.82,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 92% / 11.0 mm"
+      ]
+     },
+     {
+      "data": "2026-10-01",
+      "ceu": "pancadas de chuva",
+      "tmax": 23.0,
+      "tmin": 20.7,
+      "sensacao_max": 26.8,
+      "chuva_mm": 9.7,
+      "chuva_prob": 100,
+      "sol_h": 0.8,
+      "vento_max": 12,
+      "rajada_max": 33,
+      "uv_max": 7.8,
+      "classe": "chuvoso",
+      "ondas_max": 0.78,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 100% / 9.7 mm",
+       "máxima de 23 °C"
+      ]
+     },
+     {
+      "data": "2026-10-02",
+      "ceu": "pancadas de chuva",
+      "tmax": 20.7,
+      "tmin": 18.9,
+      "sensacao_max": 24.3,
+      "chuva_mm": 27.2,
+      "chuva_prob": 100,
+      "sol_h": 0.0,
+      "vento_max": 11,
+      "rajada_max": 26,
+      "uv_max": 0.7,
+      "classe": "chuvoso",
+      "ondas_max": 1.16,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 100% / 27.2 mm",
+       "máxima de 21 °C"
+      ]
+     },
+     {
+      "data": "2026-10-03",
+      "ceu": "garoa",
+      "tmax": 22.9,
+      "tmin": 19.1,
+      "sensacao_max": 25.0,
+      "chuva_mm": 0.7,
+      "chuva_prob": 80,
+      "sol_h": 6.3,
+      "vento_max": 10,
+      "rajada_max": 26,
+      "uv_max": 4.7,
+      "classe": "instavel",
+      "ondas_max": 1.16,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 80% / 0.7 mm",
+       "máxima de 23 °C"
+      ]
+     },
+     {
+      "data": "2026-10-04",
+      "ceu": "garoa",
+      "tmax": 26.6,
+      "tmin": 20.2,
+      "sensacao_max": 33.3,
+      "chuva_mm": 2.4,
+      "chuva_prob": 87,
+      "sol_h": 9.3,
+      "vento_max": 7,
+      "rajada_max": 20,
+      "uv_max": 8.3,
+      "classe": "chuvoso",
+      "ondas_max": 1.04,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 87% / 2.4 mm"
+      ]
+     },
+     {
+      "data": "2026-10-05",
+      "ceu": "garoa",
+      "tmax": 24.1,
+      "tmin": 21.3,
+      "sensacao_max": 28.3,
+      "chuva_mm": 7.3,
+      "chuva_prob": 89,
+      "sol_h": 10.5,
+      "vento_max": 11,
+      "rajada_max": 30,
+      "uv_max": 5.5,
+      "classe": "chuvoso",
+      "ondas_max": 0.78,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 89% / 7.3 mm"
+      ]
+     },
+     {
+      "data": "2026-10-06",
+      "ceu": "garoa",
+      "tmax": 22.0,
+      "tmin": 20.7,
+      "sensacao_max": 25.6,
+      "chuva_mm": 5.0,
+      "chuva_prob": 87,
+      "sol_h": 0.0,
+      "vento_max": 10,
+      "rajada_max": 27,
+      "uv_max": 2.8,
+      "classe": "chuvoso",
+      "ondas_max": 0.72,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 87% / 5.0 mm",
+       "máxima de 22 °C"
+      ]
+     },
+     {
+      "data": "2026-10-07",
+      "ceu": "nublado",
+      "tmax": 24.8,
+      "tmin": 20.5,
+      "sensacao_max": 28.9,
+      "chuva_mm": 0,
+      "chuva_prob": 55,
+      "sol_h": 12.0,
+      "vento_max": 7,
+      "rajada_max": 30,
+      "uv_max": 7.3,
+      "classe": "instavel",
+      "ondas_max": 0.72,
+      "praia": "parcial",
+      "praia_motivos": [
+       "chuva 55% / 0 mm"
+      ]
+     },
+     {
+      "data": "2026-10-08",
+      "ceu": "garoa",
+      "tmax": 28.9,
+      "tmin": 22.0,
+      "sensacao_max": 36.8,
+      "chuva_mm": 5.2,
+      "chuva_prob": 68,
+      "sol_h": 9.9,
+      "vento_max": 6,
+      "rajada_max": 27,
+      "uv_max": 1.4,
+      "classe": "chuvoso",
+      "ondas_max": null,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 68% / 5.2 mm"
+      ]
+     },
+     {
+      "data": "2026-10-09",
+      "ceu": "garoa",
+      "tmax": 22.5,
+      "tmin": 21.6,
+      "sensacao_max": 26.4,
+      "chuva_mm": 9.4,
+      "chuva_prob": 68,
+      "sol_h": 0.0,
+      "vento_max": 10,
+      "rajada_max": 25,
+      "uv_max": 3.0,
+      "classe": "chuvoso",
+      "ondas_max": null,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 68% / 9.4 mm",
+       "máxima de 22 °C"
+      ]
+     },
+     {
+      "data": "2026-10-10",
+      "ceu": "garoa",
+      "tmax": 27.0,
+      "tmin": 21.2,
+      "sensacao_max": 33.1,
+      "chuva_mm": 0.4,
+      "chuva_prob": 76,
+      "sol_h": 9.2,
+      "vento_max": 12,
+      "rajada_max": 36,
+      "uv_max": 5.8,
+      "classe": "instavel",
+      "ondas_max": null,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 76% / 0.4 mm"
+      ]
+     },
+     {
+      "data": "2026-10-11",
+      "ceu": "garoa",
+      "tmax": 24.7,
+      "tmin": 21.5,
+      "sensacao_max": 28.7,
+      "chuva_mm": 1.8,
+      "chuva_prob": 78,
+      "sol_h": 9.5,
+      "vento_max": 8,
+      "rajada_max": 26,
+      "uv_max": 6.5,
+      "classe": "instavel",
+      "ondas_max": null,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 78% / 1.8 mm"
+      ]
+     },
+     {
+      "data": "2026-10-12",
+      "ceu": "nublado",
+      "tmax": 26.2,
+      "tmin": 20.8,
+      "sensacao_max": 31.6,
+      "chuva_mm": 0,
+      "chuva_prob": 74,
+      "sol_h": 12.1,
+      "vento_max": 5,
+      "rajada_max": 26,
+      "uv_max": 7.8,
+      "classe": "instavel",
+      "ondas_max": null,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 74% / 0 mm"
+      ]
+     },
+     {
+      "data": "2026-10-13",
+      "ceu": "garoa",
+      "tmax": 25.9,
+      "tmin": 21.5,
+      "sensacao_max": 30.8,
+      "chuva_mm": 0.6,
+      "chuva_prob": 67,
+      "sol_h": 12.1,
+      "vento_max": 10,
+      "rajada_max": 31,
+      "uv_max": 8.0,
+      "classe": "instavel",
+      "ondas_max": null,
+      "praia": "parcial",
+      "praia_motivos": [
+       "chuva 67% / 0.6 mm"
+      ]
+     },
+     {
+      "data": "2026-10-14",
+      "ceu": "garoa",
+      "tmax": 24.4,
+      "tmin": 20.9,
+      "sensacao_max": 28.9,
+      "chuva_mm": 3.0,
+      "chuva_prob": 61,
+      "sol_h": 3.7,
+      "vento_max": 5,
+      "rajada_max": 24,
+      "uv_max": 3.7,
+      "classe": "chuvoso",
+      "ondas_max": null,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 61% / 3.0 mm"
+      ]
+     },
+     {
+      "data": "2026-10-15",
+      "ceu": "garoa",
+      "tmax": 21.6,
+      "tmin": 20.6,
+      "sensacao_max": 25.4,
+      "chuva_mm": 4.9,
+      "chuva_prob": 68,
+      "sol_h": 0.0,
+      "vento_max": 8,
+      "rajada_max": 10,
+      "uv_max": 0.9,
+      "classe": "chuvoso",
+      "ondas_max": null,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 68% / 4.9 mm",
+       "máxima de 22 °C"
+      ]
+     }
+    ]
+   },
+   "maresias": {
+    "nome": "Maresias (São Sebastião)",
+    "tipo": "praia",
+    "distancia_km": 170,
+    "tempo_carro": "~2h45",
+    "dias": [
+     {
+      "data": "2026-09-30",
+      "ceu": "garoa forte",
+      "tmax": 30.5,
+      "tmin": 21.8,
+      "sensacao_max": 36.6,
+      "chuva_mm": 3.1,
+      "chuva_prob": 57,
+      "sol_h": 11.0,
+      "vento_max": 16,
+      "rajada_max": 30,
+      "uv_max": 7.3,
+      "classe": "muito_quente",
+      "ondas_max": 1.0,
+      "praia": "parcial",
+      "praia_motivos": [
+       "chuva 57% / 3.1 mm"
+      ]
+     },
+     {
+      "data": "2026-10-01",
+      "ceu": "pancadas de chuva",
+      "tmax": 22.8,
+      "tmin": 20.9,
+      "sensacao_max": 26.7,
+      "chuva_mm": 10.7,
+      "chuva_prob": 100,
+      "sol_h": 1.5,
+      "vento_max": 16,
+      "rajada_max": 39,
+      "uv_max": 6.0,
+      "classe": "chuvoso",
+      "ondas_max": 1.08,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 100% / 10.7 mm",
+       "máxima de 23 °C"
+      ]
+     },
+     {
+      "data": "2026-10-02",
+      "ceu": "garoa forte",
+      "tmax": 20.9,
+      "tmin": 19.2,
+      "sensacao_max": 24.3,
+      "chuva_mm": 9.5,
+      "chuva_prob": 100,
+      "sol_h": 0.0,
+      "vento_max": 16,
+      "rajada_max": 37,
+      "uv_max": 1.4,
+      "classe": "chuvoso",
+      "ondas_max": 1.6,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 100% / 9.5 mm",
+       "máxima de 21 °C"
+      ]
+     },
+     {
+      "data": "2026-10-03",
+      "ceu": "garoa",
+      "tmax": 23.7,
+      "tmin": 18.9,
+      "sensacao_max": 24.0,
+      "chuva_mm": 2.1,
+      "chuva_prob": 94,
+      "sol_h": 7.9,
+      "vento_max": 22,
+      "rajada_max": 56,
+      "uv_max": 2.2,
+      "classe": "chuvoso",
+      "ondas_max": 1.62,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 94% / 2.1 mm",
+       "máxima de 24 °C"
+      ]
+     },
+     {
+      "data": "2026-10-04",
+      "ceu": "garoa",
+      "tmax": 29.4,
+      "tmin": 20.3,
+      "sensacao_max": 35.8,
+      "chuva_mm": 1.2,
+      "chuva_prob": 67,
+      "sol_h": 6.7,
+      "vento_max": 16,
+      "rajada_max": 51,
+      "uv_max": 7.0,
+      "classe": "muito_quente",
+      "ondas_max": 1.34,
+      "praia": "parcial",
+      "praia_motivos": [
+       "chuva 67% / 1.2 mm"
+      ]
+     },
+     {
+      "data": "2026-10-05",
+      "ceu": "garoa forte",
+      "tmax": 25.9,
+      "tmin": 21.8,
+      "sensacao_max": 31.8,
+      "chuva_mm": 10.7,
+      "chuva_prob": 83,
+      "sol_h": 8.7,
+      "vento_max": 10,
+      "rajada_max": 36,
+      "uv_max": 4.2,
+      "classe": "chuvoso",
+      "ondas_max": 0.94,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 83% / 10.7 mm"
+      ]
+     },
+     {
+      "data": "2026-10-06",
+      "ceu": "garoa",
+      "tmax": 22.2,
+      "tmin": 20.7,
+      "sensacao_max": 26.0,
+      "chuva_mm": 4.6,
+      "chuva_prob": 84,
+      "sol_h": 0.0,
+      "vento_max": 11,
+      "rajada_max": 30,
+      "uv_max": 1.9,
+      "classe": "chuvoso",
+      "ondas_max": 1.0,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 84% / 4.6 mm",
+       "máxima de 22 °C"
+      ]
+     },
+     {
+      "data": "2026-10-07",
+      "ceu": "nublado",
+      "tmax": 25.0,
+      "tmin": 20.2,
+      "sensacao_max": 30.0,
+      "chuva_mm": 0,
+      "chuva_prob": 62,
+      "sol_h": 12.0,
+      "vento_max": 11,
+      "rajada_max": 30,
+      "uv_max": 7.0,
+      "classe": "instavel",
+      "ondas_max": 1.0,
+      "praia": "parcial",
+      "praia_motivos": [
+       "chuva 62% / 0 mm"
+      ]
+     },
+     {
+      "data": "2026-10-08",
+      "ceu": "garoa",
+      "tmax": 29.6,
+      "tmin": 22.0,
+      "sensacao_max": 37.0,
+      "chuva_mm": 3.4,
+      "chuva_prob": 63,
+      "sol_h": 11.4,
+      "vento_max": 10,
+      "rajada_max": 27,
+      "uv_max": 2.1,
+      "classe": "chuvoso",
+      "ondas_max": null,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 63% / 3.4 mm"
+      ]
+     },
+     {
+      "data": "2026-10-09",
+      "ceu": "garoa",
+      "tmax": 22.5,
+      "tmin": 21.9,
+      "sensacao_max": 26.5,
+      "chuva_mm": 8.2,
+      "chuva_prob": 66,
+      "sol_h": 0.0,
+      "vento_max": 9,
+      "rajada_max": 23,
+      "uv_max": 6.1,
+      "classe": "chuvoso",
+      "ondas_max": null,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 66% / 8.2 mm",
+       "máxima de 22 °C"
+      ]
+     },
+     {
+      "data": "2026-10-10",
+      "ceu": "garoa",
+      "tmax": 28.0,
+      "tmin": 21.8,
+      "sensacao_max": 33.1,
+      "chuva_mm": 2.4,
+      "chuva_prob": 71,
+      "sol_h": 9.6,
+      "vento_max": 14,
+      "rajada_max": 40,
+      "uv_max": 1.9,
+      "classe": "chuvoso",
+      "ondas_max": null,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 71% / 2.4 mm"
+      ]
+     },
+     {
+      "data": "2026-10-11",
+      "ceu": "garoa",
+      "tmax": 24.9,
+      "tmin": 22.2,
+      "sensacao_max": 28.6,
+      "chuva_mm": 4.6,
+      "chuva_prob": 69,
+      "sol_h": 9.2,
+      "vento_max": 12,
+      "rajada_max": 31,
+      "uv_max": 5.0,
+      "classe": "chuvoso",
+      "ondas_max": null,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 69% / 4.6 mm"
+      ]
+     },
+     {
+      "data": "2026-10-12",
+      "ceu": "nublado",
+      "tmax": 27.8,
+      "tmin": 21.8,
+      "sensacao_max": 33.9,
+      "chuva_mm": 0,
+      "chuva_prob": 71,
+      "sol_h": 11.6,
+      "vento_max": 8,
+      "rajada_max": 22,
+      "uv_max": 7.3,
+      "classe": "instavel",
+      "ondas_max": null,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 71% / 0 mm"
+      ]
+     },
+     {
+      "data": "2026-10-13",
+      "ceu": "garoa",
+      "tmax": 25.7,
+      "tmin": 21.7,
+      "sensacao_max": 30.3,
+      "chuva_mm": 2.4,
+      "chuva_prob": 75,
+      "sol_h": 12.1,
+      "vento_max": 13,
+      "rajada_max": 33,
+      "uv_max": 8.6,
+      "classe": "chuvoso",
+      "ondas_max": null,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 75% / 2.4 mm"
+      ]
+     },
+     {
+      "data": "2026-10-14",
+      "ceu": "garoa",
+      "tmax": 24.5,
+      "tmin": 21.5,
+      "sensacao_max": 28.6,
+      "chuva_mm": 2.5,
+      "chuva_prob": 65,
+      "sol_h": 1.0,
+      "vento_max": 7,
+      "rajada_max": 31,
+      "uv_max": 4.2,
+      "classe": "chuvoso",
+      "ondas_max": null,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 65% / 2.5 mm"
+      ]
+     },
+     {
+      "data": "2026-10-15",
+      "ceu": "garoa",
+      "tmax": 22.0,
+      "tmin": 20.9,
+      "sensacao_max": 26.0,
+      "chuva_mm": 4.8,
+      "chuva_prob": 66,
+      "sol_h": 0.0,
+      "vento_max": 6,
+      "rajada_max": 8,
+      "uv_max": 0.8,
+      "classe": "chuvoso",
+      "ondas_max": null,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 66% / 4.8 mm",
+       "máxima de 22 °C"
+      ]
+     }
+    ]
+   },
+   "ilhabela": {
+    "nome": "Ilhabela",
+    "tipo": "praia",
+    "distancia_km": 210,
+    "tempo_carro": "~3h30 + balsa",
+    "dias": [
+     {
+      "data": "2026-09-30",
+      "ceu": "pancadas de chuva",
+      "tmax": 33.0,
+      "tmin": 21.7,
+      "sensacao_max": 39.9,
+      "chuva_mm": 7.3,
+      "chuva_prob": 57,
+      "sol_h": 9.5,
+      "vento_max": 14,
+      "rajada_max": 38,
+      "uv_max": 7.5,
+      "classe": "muito_quente",
+      "ondas_max": 1.22,
+      "praia": "parcial",
+      "praia_motivos": [
+       "chuva 57% / 7.3 mm"
+      ]
+     },
+     {
+      "data": "2026-10-01",
+      "ceu": "pancadas de chuva",
+      "tmax": 24.8,
+      "tmin": 21.0,
+      "sensacao_max": 27.6,
+      "chuva_mm": 8.8,
+      "chuva_prob": 100,
+      "sol_h": 4.2,
+      "vento_max": 16,
+      "rajada_max": 45,
+      "uv_max": 7.4,
+      "classe": "chuvoso",
+      "ondas_max": 1.18,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 100% / 8.8 mm"
+      ]
+     },
+     {
+      "data": "2026-10-02",
+      "ceu": "pancadas de chuva",
+      "tmax": 21.9,
+      "tmin": 19.3,
+      "sensacao_max": 25.8,
+      "chuva_mm": 8.9,
+      "chuva_prob": 100,
+      "sol_h": 0.0,
+      "vento_max": 8,
+      "rajada_max": 25,
+      "uv_max": 1.4,
+      "classe": "chuvoso",
+      "ondas_max": 1.74,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 100% / 8.9 mm",
+       "máxima de 22 °C"
+      ]
+     },
+     {
+      "data": "2026-10-03",
+      "ceu": "garoa",
+      "tmax": 22.0,
+      "tmin": 19.2,
+      "sensacao_max": 22.7,
+      "chuva_mm": 8.3,
+      "chuva_prob": 94,
+      "sol_h": 0.6,
+      "vento_max": 23,
+      "rajada_max": 56,
+      "uv_max": 1.1,
+      "classe": "chuvoso",
+      "ondas_max": 1.84,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 94% / 8.3 mm",
+       "máxima de 22 °C"
+      ]
+     },
+     {
+      "data": "2026-10-04",
+      "ceu": "garoa",
+      "tmax": 25.2,
+      "tmin": 20.3,
+      "sensacao_max": 28.3,
+      "chuva_mm": 1.1,
+      "chuva_prob": 67,
+      "sol_h": 5.7,
+      "vento_max": 16,
+      "rajada_max": 53,
+      "uv_max": 6.8,
+      "classe": "instavel",
+      "ondas_max": 1.78,
+      "praia": "parcial",
+      "praia_motivos": [
+       "chuva 67% / 1.1 mm"
+      ]
+     },
+     {
+      "data": "2026-10-05",
+      "ceu": "garoa",
+      "tmax": 27.0,
+      "tmin": 21.9,
+      "sensacao_max": 32.4,
+      "chuva_mm": 3.9,
+      "chuva_prob": 83,
+      "sol_h": 10.3,
+      "vento_max": 11,
+      "rajada_max": 28,
+      "uv_max": 5.7,
+      "classe": "chuvoso",
+      "ondas_max": 1.24,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 83% / 3.9 mm"
+      ]
+     },
+     {
+      "data": "2026-10-06",
+      "ceu": "garoa",
+      "tmax": 24.1,
+      "tmin": 21.1,
+      "sensacao_max": 27.4,
+      "chuva_mm": 1.5,
+      "chuva_prob": 84,
+      "sol_h": 5.8,
+      "vento_max": 11,
+      "rajada_max": 35,
+      "uv_max": 2.5,
+      "classe": "instavel",
+      "ondas_max": 1.14,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 84% / 1.5 mm"
+      ]
+     },
+     {
+      "data": "2026-10-07",
+      "ceu": "nublado",
+      "tmax": 25.8,
+      "tmin": 20.2,
+      "sensacao_max": 30.5,
+      "chuva_mm": 0,
+      "chuva_prob": 62,
+      "sol_h": 12.0,
+      "vento_max": 11,
+      "rajada_max": 34,
+      "uv_max": 7.5,
+      "classe": "instavel",
+      "ondas_max": 1.14,
+      "praia": "parcial",
+      "praia_motivos": [
+       "chuva 62% / 0 mm"
+      ]
+     },
+     {
+      "data": "2026-10-08",
+      "ceu": "trovoadas",
+      "tmax": 31.3,
+      "tmin": 21.6,
+      "sensacao_max": 37.7,
+      "chuva_mm": 5.0,
+      "chuva_prob": 63,
+      "sol_h": 12.0,
+      "vento_max": 10,
+      "rajada_max": 33,
+      "uv_max": 3.4,
+      "classe": "chuvoso",
+      "ondas_max": null,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 63% / 5.0 mm"
+      ]
+     },
+     {
+      "data": "2026-10-09",
+      "ceu": "garoa",
+      "tmax": 23.1,
+      "tmin": 22.0,
+      "sensacao_max": 27.7,
+      "chuva_mm": 7.6,
+      "chuva_prob": 66,
+      "sol_h": 0.0,
+      "vento_max": 8,
+      "rajada_max": 29,
+      "uv_max": 4.5,
+      "classe": "chuvoso",
+      "ondas_max": null,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 66% / 7.6 mm",
+       "máxima de 23 °C"
+      ]
+     },
+     {
+      "data": "2026-10-10",
+      "ceu": "garoa",
+      "tmax": 24.4,
+      "tmin": 22.0,
+      "sensacao_max": 28.4,
+      "chuva_mm": 3.0,
+      "chuva_prob": 71,
+      "sol_h": 8.0,
+      "vento_max": 10,
+      "rajada_max": 32,
+      "uv_max": 1.1,
+      "classe": "chuvoso",
+      "ondas_max": null,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 71% / 3.0 mm"
+      ]
+     },
+     {
+      "data": "2026-10-11",
+      "ceu": "garoa",
+      "tmax": 26.4,
+      "tmin": 22.4,
+      "sensacao_max": 31.3,
+      "chuva_mm": 4.4,
+      "chuva_prob": 69,
+      "sol_h": 3.1,
+      "vento_max": 9,
+      "rajada_max": 23,
+      "uv_max": 6.5,
+      "classe": "chuvoso",
+      "ondas_max": null,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 69% / 4.4 mm"
+      ]
+     },
+     {
+      "data": "2026-10-12",
+      "ceu": "garoa",
+      "tmax": 26.3,
+      "tmin": 21.7,
+      "sensacao_max": 31.8,
+      "chuva_mm": 1.0,
+      "chuva_prob": 71,
+      "sol_h": 9.4,
+      "vento_max": 9,
+      "rajada_max": 32,
+      "uv_max": 8.6,
+      "classe": "instavel",
+      "ondas_max": null,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 71% / 1.0 mm"
+      ]
+     },
+     {
+      "data": "2026-10-13",
+      "ceu": "nublado",
+      "tmax": 28.1,
+      "tmin": 21.7,
+      "sensacao_max": 34.0,
+      "chuva_mm": 0,
+      "chuva_prob": 75,
+      "sol_h": 9.1,
+      "vento_max": 11,
+      "rajada_max": 45,
+      "uv_max": 8.1,
+      "classe": "instavel",
+      "ondas_max": null,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 75% / 0 mm"
+      ]
+     },
+     {
+      "data": "2026-10-14",
+      "ceu": "garoa",
+      "tmax": 26.3,
+      "tmin": 21.7,
+      "sensacao_max": 31.2,
+      "chuva_mm": 3.5,
+      "chuva_prob": 65,
+      "sol_h": 6.5,
+      "vento_max": 8,
+      "rajada_max": 29,
+      "uv_max": 7.2,
+      "classe": "chuvoso",
+      "ondas_max": null,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 65% / 3.5 mm"
+      ]
+     },
+     {
+      "data": "2026-10-15",
+      "ceu": "garoa",
+      "tmax": 21.6,
+      "tmin": 20.5,
+      "sensacao_max": 26.1,
+      "chuva_mm": 4.9,
+      "chuva_prob": 66,
+      "sol_h": 0.0,
+      "vento_max": 5,
+      "rajada_max": 8,
+      "uv_max": 0.8,
+      "classe": "chuvoso",
+      "ondas_max": null,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 66% / 4.9 mm",
+       "máxima de 22 °C"
+      ]
+     }
+    ]
+   },
+   "ubatuba": {
+    "nome": "Ubatuba",
+    "tipo": "praia",
+    "distancia_km": 230,
+    "tempo_carro": "~3h30",
+    "dias": [
+     {
+      "data": "2026-09-30",
+      "ceu": "trovoadas com granizo",
+      "tmax": 30.8,
+      "tmin": 22.4,
+      "sensacao_max": 41.1,
+      "chuva_mm": 13.6,
+      "chuva_prob": 69,
+      "sol_h": 10.9,
+      "vento_max": 14,
+      "rajada_max": 36,
+      "uv_max": 7.9,
+      "classe": "chuvoso",
+      "ondas_max": 1.16,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 69% / 13.6 mm"
+      ]
+     },
+     {
+      "data": "2026-10-01",
+      "ceu": "pancadas de chuva",
+      "tmax": 27.2,
+      "tmin": 21.6,
+      "sensacao_max": 33.4,
+      "chuva_mm": 17.3,
+      "chuva_prob": 100,
+      "sol_h": 8.5,
+      "vento_max": 9,
+      "rajada_max": 27,
+      "uv_max": 7.2,
+      "classe": "chuvoso",
+      "ondas_max": 0.94,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 100% / 17.3 mm"
+      ]
+     },
+     {
+      "data": "2026-10-02",
+      "ceu": "pancadas de chuva",
+      "tmax": 21.6,
+      "tmin": 19.2,
+      "sensacao_max": 25.9,
+      "chuva_mm": 41.5,
+      "chuva_prob": 100,
+      "sol_h": 0.0,
+      "vento_max": 8,
+      "rajada_max": 25,
+      "uv_max": 0.9,
+      "classe": "chuvoso",
+      "ondas_max": 1.2,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 100% / 41.5 mm",
+       "máxima de 22 °C"
+      ]
+     },
+     {
+      "data": "2026-10-03",
+      "ceu": "garoa forte",
+      "tmax": 21.7,
+      "tmin": 19.1,
+      "sensacao_max": 24.8,
+      "chuva_mm": 9.2,
+      "chuva_prob": 98,
+      "sol_h": 4.6,
+      "vento_max": 13,
+      "rajada_max": 34,
+      "uv_max": 3.4,
+      "classe": "chuvoso",
+      "ondas_max": 1.7,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 98% / 9.2 mm",
+       "máxima de 22 °C"
+      ]
+     },
+     {
+      "data": "2026-10-04",
+      "ceu": "trovoadas",
+      "tmax": 27.9,
+      "tmin": 20.7,
+      "sensacao_max": 34.9,
+      "chuva_mm": 1.5,
+      "chuva_prob": 53,
+      "sol_h": 6.7,
+      "vento_max": 6,
+      "rajada_max": 26,
+      "uv_max": 8.0,
+      "classe": "muito_quente",
+      "ondas_max": 1.7,
+      "praia": "parcial",
+      "praia_motivos": [
+       "chuva 53% / 1.5 mm"
+      ]
+     },
+     {
+      "data": "2026-10-05",
+      "ceu": "trovoadas",
+      "tmax": 26.9,
+      "tmin": 22.2,
+      "sensacao_max": 33.3,
+      "chuva_mm": 8.1,
+      "chuva_prob": 76,
+      "sol_h": 11.2,
+      "vento_max": 7,
+      "rajada_max": 31,
+      "uv_max": 6.3,
+      "classe": "chuvoso",
+      "ondas_max": 1.26,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 76% / 8.1 mm"
+      ]
+     },
+     {
+      "data": "2026-10-06",
+      "ceu": "garoa",
+      "tmax": 24.3,
+      "tmin": 21.8,
+      "sensacao_max": 29.2,
+      "chuva_mm": 1.2,
+      "chuva_prob": 68,
+      "sol_h": 9.6,
+      "vento_max": 9,
+      "rajada_max": 30,
+      "uv_max": 2.2,
+      "classe": "instavel",
+      "ondas_max": 0.9,
+      "praia": "parcial",
+      "praia_motivos": [
+       "chuva 68% / 1.2 mm"
+      ]
+     },
+     {
+      "data": "2026-10-07",
+      "ceu": "garoa",
+      "tmax": 26.0,
+      "tmin": 21.5,
+      "sensacao_max": 31.5,
+      "chuva_mm": 0.6,
+      "chuva_prob": 45,
+      "sol_h": 11.8,
+      "vento_max": 7,
+      "rajada_max": 24,
+      "uv_max": 7.7,
+      "classe": "instavel",
+      "ondas_max": 0.82,
+      "praia": "parcial",
+      "praia_motivos": [
+       "chuva 45% / 0.6 mm"
+      ]
+     },
+     {
+      "data": "2026-10-08",
+      "ceu": "trovoadas com granizo",
+      "tmax": 30.9,
+      "tmin": 22.6,
+      "sensacao_max": 40.7,
+      "chuva_mm": 9.6,
+      "chuva_prob": 51,
+      "sol_h": 9.9,
+      "vento_max": 7,
+      "rajada_max": 24,
+      "uv_max": 2.8,
+      "classe": "chuvoso",
+      "ondas_max": null,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 51% / 9.6 mm"
+      ]
+     },
+     {
+      "data": "2026-10-09",
+      "ceu": "garoa forte",
+      "tmax": 23.3,
+      "tmin": 21.8,
+      "sensacao_max": 28.5,
+      "chuva_mm": 13.2,
+      "chuva_prob": 51,
+      "sol_h": 0.0,
+      "vento_max": 5,
+      "rajada_max": 19,
+      "uv_max": 3.5,
+      "classe": "chuvoso",
+      "ondas_max": null,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 51% / 13.2 mm",
+       "máxima de 23 °C"
+      ]
+     },
+     {
+      "data": "2026-10-10",
+      "ceu": "garoa",
+      "tmax": 26.3,
+      "tmin": 21.1,
+      "sensacao_max": 33.6,
+      "chuva_mm": 2.4,
+      "chuva_prob": 53,
+      "sol_h": 12.1,
+      "vento_max": 5,
+      "rajada_max": 28,
+      "uv_max": 6.0,
+      "classe": "instavel",
+      "ondas_max": null,
+      "praia": "parcial",
+      "praia_motivos": [
+       "chuva 53% / 2.4 mm"
+      ]
+     },
+     {
+      "data": "2026-10-11",
+      "ceu": "garoa",
+      "tmax": 25.4,
+      "tmin": 22.5,
+      "sensacao_max": 30.3,
+      "chuva_mm": 3.0,
+      "chuva_prob": 57,
+      "sol_h": 8.0,
+      "vento_max": 7,
+      "rajada_max": 23,
+      "uv_max": 7.7,
+      "classe": "instavel",
+      "ondas_max": null,
+      "praia": "parcial",
+      "praia_motivos": [
+       "chuva 57% / 3.0 mm"
+      ]
+     },
+     {
+      "data": "2026-10-12",
+      "ceu": "garoa",
+      "tmax": 26.6,
+      "tmin": 21.5,
+      "sensacao_max": 32.9,
+      "chuva_mm": 1.8,
+      "chuva_prob": 51,
+      "sol_h": 11.9,
+      "vento_max": 5,
+      "rajada_max": 26,
+      "uv_max": 8.5,
+      "classe": "instavel",
+      "ondas_max": null,
+      "praia": "parcial",
+      "praia_motivos": [
+       "chuva 51% / 1.8 mm"
+      ]
+     },
+     {
+      "data": "2026-10-13",
+      "ceu": "garoa",
+      "tmax": 28.9,
+      "tmin": 21.0,
+      "sensacao_max": 37.1,
+      "chuva_mm": 3.6,
+      "chuva_prob": 53,
+      "sol_h": 11.2,
+      "vento_max": 8,
+      "rajada_max": 28,
+      "uv_max": 8.2,
+      "classe": "muito_quente",
+      "ondas_max": null,
+      "praia": "parcial",
+      "praia_motivos": [
+       "chuva 53% / 3.6 mm"
+      ]
+     },
+     {
+      "data": "2026-10-14",
+      "ceu": "garoa",
+      "tmax": 24.4,
+      "tmin": 22.1,
+      "sensacao_max": 29.2,
+      "chuva_mm": 3.3,
+      "chuva_prob": 69,
+      "sol_h": 6.6,
+      "vento_max": 6,
+      "rajada_max": 21,
+      "uv_max": 7.5,
+      "classe": "chuvoso",
+      "ondas_max": null,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 69% / 3.3 mm"
+      ]
+     },
+     {
+      "data": "2026-10-15",
+      "ceu": "pancadas de chuva",
+      "tmax": 22.4,
+      "tmin": 21.0,
+      "sensacao_max": 26.8,
+      "chuva_mm": 19.4,
+      "chuva_prob": 74,
+      "sol_h": 0.0,
+      "vento_max": 7,
+      "rajada_max": 14,
+      "uv_max": 0.7,
+      "classe": "chuvoso",
+      "ondas_max": null,
+      "praia": "ruim",
+      "praia_motivos": [
+       "chuva 74% / 19.4 mm",
+       "máxima de 22 °C"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "fontes_consultadas": [
+  {
+   "nome": "Sesc São Paulo",
+   "url": "https://www.sescsp.org.br/editorial/dia-das-criancas-o-que-fazer-no-sesc-avenida-paulista/"
+  },
+  {
+   "nome": "Sesc São Paulo — programação de outubro",
+   "url": "https://www.sescsp.org.br/editorial/programacao-de-outubro-2026/"
+  },
+  {
+   "nome": "Sesi SP Cultura",
+   "url": "https://www.sesisp.org.br/evento/ad173985-1f64-4308-adfc-7590dd7588b1/joao-joaozinho-joaozito"
+  },
+  {
+   "nome": "Teatro Fernando Torres",
+   "url": "https://www.teatrofernandotorres.com.br/369-os-direitos-da-crianca.html.html"
+  },
+  {
+   "nome": "Pinacoteca de São Paulo",
+   "url": "https://pinacoteca.org.br/programacao/exposicoes/uma-obra-pintura-sem-fim/"
+  },
+  {
+   "nome": "ARTEINFORMADO (Pinacoteca — Para crianças)",
+   "url": "https://www.arteinformado.com/agenda/f/para-crianas-experincias-com-a-arte-desde-1968-245097"
+  },
+  {
+   "nome": "Museu da Língua Portuguesa",
+   "url": "https://www.museudalinguaportuguesa.org.br/vem-ai-museu-celebra-o-dia-das-criancas-no-dia-10-de-outubro%e2%80%af"
+  },
+  {
+   "nome": "Museu do Ipiranga",
+   "url": "https://museudoipiranga.org.br/visite/"
+  },
+  {
+   "nome": "Museu Catavento",
+   "url": "https://www.museucatavento.org.br/horarios-e-precos"
+  },
+  {
+   "nome": "Museu da Imaginação",
+   "url": "https://www.museudaimaginacao.org.br/ingressos/"
+  },
+  {
+   "nome": "Sabina",
+   "url": "https://sabina.org.br/perguntas-frequentes/"
+  },
+  {
+   "nome": "Aquário de São Paulo",
+   "url": "https://aquariodesp.com.br/site/preco-e-horarios/"
+  },
+  {
+   "nome": "Zoológico de São Paulo",
+   "url": "https://www.zoologico.com.br/tickets"
+  },
+  {
+   "nome": "Urbia — Parque Ibirapuera",
+   "url": "https://www.urbiaparques.com.br/parques/ibirapuera"
+  },
+  {
+   "nome": "Parque Villa-Lobos",
+   "url": "https://parquevillalobos.com.br/faq/"
+  },
+  {
+   "nome": "Parque da Água Branca",
+   "url": "https://parqueaguabranca.com.br/?page_id=616"
+  },
+  {
+   "nome": "Sympla — Festival Brincantinho",
+   "url": "https://www.sympla.com.br/evento/festival-brincantinho-cultura-da-infancia-para-todas-as-idades/3563357"
+  },
+  {
+   "nome": "Tokio Marine Hall",
+   "url": "https://www.tokiomarinehall.com.br/chiki-toonz/"
+  },
+  {
+   "nome": "São Paulo para Crianças",
+   "url": "https://saopauloparacriancas.com.br/pe-de-sonho-teatro-sp/"
+  },
+  {
+   "nome": "Universo ZN (Sesc Santana)",
+   "url": "https://universozn.com.br/mes-das-criancas-sesc-santana/"
+  },
+  {
+   "nome": "Prefeitura de Santos",
+   "url": "https://www.santos.sp.gov.br/?q=noticia/aquario-de-santos-entra-em-obras-para-reforma-de-passarelas-a-partir-de-9-de-junho"
+  },
+  {
+   "nome": "Open-Meteo",
+   "url": "https://open-meteo.com"
+  }
+ ],
+ "observacoes_pesquisa": "Primeira pesquisa: foco no próximo fim de semana (3 e 4/10) e na programação do Mês das Crianças (até 18/10).",
+ "descartados": [],
+ "nota_distancias": "Distâncias e tempos de carro são estimativas a partir do centro de SP, sem trânsito.",
+ "resumo": {
+  "texto": "⛅ Bom dia! Hoje: instável, pode chover, 20–32 °C, chuva 75%.\n\nEncontrei 15 opções interessantes para o fim de semana (03/10 e 04/10).\n\n🌳 6 parques e passeios ao ar livre\n👶 3 eventos infantis\n🏛️ 6 museus e atrações cobertas\n\nO sábado parece mais favorável para atividades ao ar livre.\n\nVeja tudo:\nhttps://alexandrealvesdecarvalhodevin-pixel.github.io/RangoTime/#passeios",
+  "link": "https://alexandrealvesdecarvalhodevin-pixel.github.io/RangoTime/#passeios"
+ }
+}

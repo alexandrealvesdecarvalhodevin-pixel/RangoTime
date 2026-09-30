@@ -1,6 +1,6 @@
 const DIAS = ["Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado"];
 const STORE_KEY = "planejamento-semanal:v1";
-const TABS = ["planejamento", "compras", "preparo"];
+const TABS = ["planejamento", "compras", "preparo", "passeios"];
 
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const $ = (sel, root = document) => root.querySelector(sel);
@@ -286,6 +286,7 @@ function setTab(tab) {
     $(`#tab-${t}`).setAttribute("aria-selected", String(t === tab));
   });
   tabAtual = tab;
+  if (tab === "preparo") scrollPickerToActive();
 }
 
 function route() {
@@ -299,6 +300,7 @@ function route() {
     listaAtual = param;
     renderCompras();
   }
+  if (tab === "passeios") Passeios.abrir(param);
   setTab(tab);
   if (anterior !== tabAtual) window.scrollTo({ top: 0 });
 }

@@ -52,8 +52,11 @@ svg { display: block; }
   -webkit-backdrop-filter: saturate(180%) blur(18px);
   backdrop-filter: saturate(180%) blur(18px);
   border-bottom: .5px solid rgba(255, 255, 255, .08);
+  height: 250px;
+  position: relative;
+  overflow: hidden;
 }
-.appbar__inner { max-width: 640px; margin: 0 auto; display: flex; align-items: center; gap: 10px; padding: 10px var(--pad); padding-left: max(var(--pad), env(safe-area-inset-left)); padding-right: max(var(--pad), env(safe-area-inset-right)); }
+.appbar__inner { max-width: 640px; margin: 0 auto; display: flex; align-items: center; gap: 10px; padding: 10px var(--pad); padding-left: max(var(--pad), env(safe-area-inset-left)); padding-right: max(var(--pad), env(safe-area-inset-right)); position: absolute; top: 10px; left: 50%; transform: translateX(-50%); z-index: 10; background: rgba(0,0,0,0.5); border-radius: var(--radius-sm); }
 .appbar__logo { border-radius: 9px; box-shadow: 0 0 18px rgba(130, 87, 229, .55); }
 .appbar__brand { font-weight: 700; font-size: 17px; letter-spacing: -.01em; }
 .appbar__brand strong { color: var(--purple-light); }
@@ -226,10 +229,21 @@ details.card[open] .step__chev { transform: rotate(180deg); }
 .tl-item h4 { font-size: 13px; color: var(--purple-light); text-transform: uppercase; letter-spacing: .08em; margin-bottom: 4px; }
 .tl-item h5 { font-size: 12px; color: var(--dim); font-weight: 600; margin-top: 8px; text-transform: uppercase; letter-spacing: .05em; }
 
+/* Dashboard cards */
+.dashboard-grid { display: grid; grid-template-columns: 1fr; gap: 10px; margin-top: 10px; }
+.dash-card { display: flex; flex-direction: row; align-items: center; gap: 16px; padding: 18px; border-radius: var(--radius); background: var(--surface); border: 1px solid var(--surface-3); text-align: left; transition: transform .15s, border-color .15s; position: relative; }
+.dash-card:active { transform: scale(.98); }
+.dash-card__icon { font-size: 32px; flex: none; }
+.dash-card__content { flex: 1; min-width: 0; }
+.dash-card__title { font-size: 16px; font-weight: 700; margin-bottom: 4px; }
+.dash-card__info { font-size: 13px; color: var(--muted); margin-bottom: 2px; }
+.dash-card__detail { font-size: 12px; color: var(--dim); }
+.dash-card__arrow { position: absolute; right: 16px; top: 50%; transform: translateY(-50%); font-size: 20px; color: var(--dim); }
+
 /* Tab bar */
 .tabbar {
   position: fixed; z-index: 30; left: 0; right: 0; bottom: 0;
-  display: grid; grid-template-columns: repeat(4, 1fr);
+  display: grid; grid-template-columns: repeat(5, 1fr);
   padding: 6px max(8px, env(safe-area-inset-left)) calc(6px + var(--safe-bottom)) max(8px, env(safe-area-inset-right));
   background: rgba(18, 18, 20, .78);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
@@ -293,6 +307,67 @@ button.chip { cursor: pointer; }
 .wx--quente_sol, .wx--muito_quente { border-color: rgba(251, 169, 76, .4); background: linear-gradient(160deg, rgba(251, 169, 76, .14), transparent 60%), var(--surface); }
 .wx--ameno_seco { border-color: rgba(4, 211, 97, .3); background: linear-gradient(160deg, rgba(4, 211, 97, .1), transparent 60%), var(--surface); }
 
+/* Pixel Art Background System */
+.pixel-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  image-rendering: pixelated;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: var(--radius-sm);
+}
+
+.pixel-scene {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+/* Home Scene - Living Room with Sofa */
+.scene-home, .scene-dash {
+  background: url('home-background.png') center center no-repeat;
+  background-size: cover;
+  image-rendering: pixelated;
+}
+
+/* Planning Scene - Simple Background */
+.scene-planejamento {
+  background: url('planejamento-background.png') center center no-repeat;
+  background-size: cover;
+  image-rendering: pixelated;
+}
+
+/* Shopping Scene - Simple Background */
+.scene-compras {
+  background: url('compras-background.png') center center no-repeat;
+  background-size: cover;
+  image-rendering: pixelated;
+}
+
+/* Cooking Scene - Simple Background */
+.scene-preparo {
+  background: url('preparo-background.png') center center no-repeat;
+  background-size: cover;
+  image-rendering: pixelated;
+}
+
+/* Outings Scene - Simple Background */
+.scene-passeios {
+  background: url('passeios-background.png') center center no-repeat;
+  background-size: cover;
+  image-rendering: pixelated;
+}
+
+/* Beach styles for passeios */
 .beach { display: flex; flex-direction: column; }
 .beach__head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
 .beach__head h3 { font-size: 16px; }

@@ -123,13 +123,9 @@ const Passeios = (() => {
   function render() {
     const el = $("#passeios");
     const s = snap;
-    const hoje = s.dias.hoje;
     const fase = { inicial: "Primeira leitura da semana, previsão ainda pode mudar", atualizada: "Atualizado no meio da semana", consolidada: "Visão consolidada" }[s.fase_semana];
     const velho = !dataAberta && s.data !== hojeISO();
-    const destaques = melhoresRefs((a) => a.adequado_0_6 !== "nao").filter((r) => r.ordem < 20 || s.atividades[r.id].destaque).slice(0, 4);
     const praiaRefs = melhoresRefs((a) => a.categoria === "praia" || a.categoria === "agua");
-    const parques = melhoresRefs((a) => ["parque", "playground", "zoologico_aquario", "fazenda"].includes(a.categoria));
-    const chuva = melhoresRefs((a) => a.ambiente !== "outdoor" && a.categoria !== "praia");
     const fdsInfo = s.dias[fdsDia];
     const diaFds = (k) => `${k === "sabado" ? "Sábado" : "Domingo"}<small>${s.dias[k].icone} ${s.dias[k].tempo ? `${Math.round(s.dias[k].tempo.tmax)}° · ${s.dias[k].tempo.chuva_prob}%` : "–"}</small>`;
     const recomendados = (refs) => refs.filter((r) => r.ordem < 40);
@@ -140,16 +136,7 @@ const Passeios = (() => {
       ${dataAberta ? `<button class="alert alert--orange" data-passeios-atual><span class="card__icon">🕘</span><div><strong>Histórico de ${fmtData(s.data)}</strong><p>Toque para voltar aos dados de hoje.</p></div><span class="chev">›</span></button>` : ""}
       ${velho ? `<div class="alert alert--orange"><span class="card__icon">⚠️</span><div><strong>Dados de ${fmtData(s.data)}</strong><p>A atualização de hoje ainda não rodou.</p></div></div>` : ""}
 
-      <div class="section" style="margin-top:16px">${cardTempo(hoje, dataAberta ? "Neste dia" : "Hoje")}</div>
-
-      <div class="section">
-        ${sectionTitle("👶 O que fazer hoje", `${recomendados(hoje.atividades).length} opções`)}
-        ${listaAtividades(recomendados(hoje.atividades), "Nenhuma opção confirmada para hoje. Veja o fim de semana e os próximos dias.")}
-      </div>
-
-      ${destaques.length ? `<div class="section">${sectionTitle("⭐ Destaques")}${destaques.map((r) => cardAtividade(r)).join("")}</div>` : ""}
-
-      <div class="section" id="fds">
+      <div class="section" id="fds" style="margin-top:16px">
         ${sectionTitle("📅 Próximo fim de semana", fase)}
         <div class="card card--accent"><p style="color:var(--text);font-weight:600">${esc(s.fim_de_semana.comparacao)}</p></div>
         <div class="seg" role="group" aria-label="Dia do fim de semana">
@@ -165,21 +152,6 @@ const Passeios = (() => {
         <div class="carousel carousel--wide">${s.praias.map(cardPraia).join("")}</div>
         <p class="hint">${esc(s.nota_distancias)}</p>
         ${praiaRefs.length ? `<div style="margin-top:12px">${listaAtividades(praiaRefs, "", 4)}</div>` : ""}
-      </div>
-
-      <div class="section">
-        ${sectionTitle("🌳 Parques e ar livre", `${parques.length}`)}
-        ${listaAtividades(parques, "Nenhum parque na curadoria de hoje.", 5)}
-      </div>
-
-      <div class="section">
-        ${sectionTitle("🌧️ Se chover", `${chuva.length} cobertos`)}
-        ${listaAtividades(chuva, "Nenhuma opção coberta na curadoria de hoje.", 5)}
-      </div>
-
-      <div class="section">
-        ${sectionTitle("📆 Próximos dias")}
-        ${s.proximos.length ? s.proximos.map((d) => `<div class="day-group"><div class="day-group__head"><b>${fmtData(d.data)}</b><span>${d.icone} ${esc(d.rotulo)}${d.tempo ? ` · ${Math.round(d.tempo.tmax)}°` : ""}</span></div>${d.atividades.map((id) => cardAtividade({ id, tags: [] })).join("")}</div>`).join("") : '<div class="note"><span>🔎</span><span>Nenhum evento com data marcada nos próximos 14 dias.</span></div>'}
       </div>
 
       <div class="section">

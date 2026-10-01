@@ -13,14 +13,17 @@
   {
    "id": "compra1",
    "icone": "🛒",
-   "titulo": "Compra 1",
+   "titulo": "Compras da semana",
    "quando": "Início da semana",
    "dia": 0,
-   "descricao": "Para as primeiras 3 refeições.",
+   "descricao": "Para todas as refeições da semana.",
    "refeicoes": [
     1,
     2,
-    3
+    3,
+    4,
+    5,
+    6
    ],
    "itens": [
     "Arroz",
@@ -36,29 +39,12 @@
     "Macarrão penne",
     "Molho de tomate",
     "Queijo ralado",
-    "Almôndegas"
-   ]
-  },
-  {
-   "id": "compra2",
-   "icone": "🛒",
-   "titulo": "Compra 2",
-   "quando": "Meio da semana",
-   "dia": 3,
-   "descricao": "Para as últimas 3 refeições.",
-   "refeicoes": [
-    4,
-    5,
-    6
-   ],
-   "itens": [
+    "Almôndegas",
     "Peito de frango",
-    "Alface",
     "Fígado",
     "Tomate",
     "Pão",
     "Espetinhos",
-    "Cebola",
     "Tomate para vinagrete",
     "Pimentão, se gostar",
     "Cheiro-verde",
@@ -434,7 +420,7 @@
    "dia": 4,
    "titulo": "Strogonoff de frango, arroz, batata palha e salada de alface",
    "resumo": "Strogonoff de frango + arroz + batata palha + alface",
-   "compra": "compra2",
+   "compra": "compra1",
    "descongelar": "frango",
    "tempo": "30 min",
    "ingredientes": [
@@ -531,7 +517,7 @@
    "dia": 5,
    "titulo": "Fígado acebolado, arroz, feijão e salada de tomate",
    "resumo": "Fígado acebolado + arroz + feijão + tomate",
-   "compra": "compra2",
+   "compra": "compra1",
    "descongelar": "fígado",
    "tempo": "25 min",
    "ingredientes": [
@@ -625,7 +611,7 @@
    "dia": 6,
    "titulo": "Pão com espetinho e vinagrete",
    "resumo": "Pão + espetinho + vinagrete",
-   "compra": "compra2",
+   "compra": "compra1",
    "descongelar": "espetinho",
    "tempo": "20 min",
    "ingredientes": [

@@ -1,6 +1,6 @@
 const DIAS = ["Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado"];
 const STORE_KEY = "planejamento-semanal:v1";
-const TABS = ["planejamento", "compras", "preparo", "passeios"];
+const TABS = ["dash", "planejamento", "compras", "preparo", "passeios"];
 
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const $ = (sel, root = document) => root.querySelector(sel);
@@ -31,7 +31,7 @@ const sectionTitle = (title, aside = "") => `<div class="section__title"><h2>${e
 const checkItem = (key, label) => `<label class="check"><input type="checkbox" data-key="${esc(key)}" ${store.get(key) ? "checked" : ""}><span>${esc(label)}</span></label>`;
 const compraDoDia = (d) => DATA.compras.find((c) => c.id !== "despensa" && c.dia === d);
 const refeicaoDoDia = (d) => DATA.refeicoes.find((r) => r.dia === d);
-const compraDaSemana = (d) => (d === 0 || d < DATA.compras.find((c) => c.id === "compra2").dia ? "compra1" : "compra2");
+const compraDaSemana = (d) => "compra1";
 
 function toast(msg) {
   const el = $("#toast");
@@ -44,7 +44,6 @@ function toast(msg) {
 function renderHoje() {
   const refHoje = refeicaoDoDia(HOJE);
   const refAmanha = refeicaoDoDia((HOJE + 1) % 7);
-  const compraHoje = compraDoDia(HOJE);
   let hero;
   if (refHoje) {
     hero = `<div class="hero" id="today">
@@ -53,37 +52,23 @@ function renderHoje() {
       <div class="pills"><span class="pill">⏱ ~${esc(refHoje.tempo)}</span><span class="pill">${refHoje.etapas.length} etapas</span></div>
       <button class="hero__cta" data-goto-meal="${refHoje.numero}">Começar preparo →</button>
     </div>`;
-  } else if (compraHoje) {
-    hero = `<div class="hero" id="today">
-      <div class="eyebrow">Hoje · Dia de compras</div>
-      <h2>${esc(compraHoje.titulo)} · ${esc(compraHoje.descricao)}</h2>
-      <div class="pills"><span class="pill">🛒 ${compraHoje.itens.length} itens</span></div>
-      <button class="hero__cta" data-goto-list="${compraHoje.id}">Abrir lista →</button>
-    </div>`;
   } else {
-    hero = `<div class="hero" id="today"><div class="eyebrow">Hoje</div><h2>Dia livre! Aproveite para conferir o que tem em casa antes da Compra 1.</h2></div>`;
+    hero = `<div class="hero" id="today"><div class="eyebrow">Hoje</div><h2>Dia livre! Aproveite para conferir o que tem em casa antes das compras.</h2></div>`;
   }
   const alertas = [];
-  if (compraHoje && refHoje) {
-    alertas.push(`<button class="alert alert--green" data-goto-list="${compraHoje.id}"><span class="card__icon">🛒</span><div><strong>Dia da ${esc(compraHoje.titulo)}</strong><p>${compraHoje.itens.length} itens · ${esc(compraHoje.descricao)}</p></div><span class="chev">›</span></button>`);
-  }
   if (refAmanha) {
     alertas.push(`<button class="alert alert--orange" data-goto-meal="${refAmanha.numero}"><span class="card__icon">❄️</span><div><strong>Descongelar ${esc(refAmanha.descongelar)}</strong><p>Passe do freezer para a geladeira hoje para a Refeição ${refAmanha.numero} de amanhã.</p></div><span class="chev">›</span></button>`);
   }
   return hero + alertas.join("");
 }
 
-function renderPlanejamento() {
+function renderDash() {
   const dias = [1, 2, 3, 4, 5, 6, 0].map((d) => {
     const ref = refeicaoDoDia(d);
-    const compra = compraDoDia(d);
-    const cls = ["day", d === HOJE ? "is-today" : "", compra && !ref ? "day--shop" : ""].join(" ");
-    const meta = [
-      compra ? `<span class="pill pill--green">🛒 ${esc(compra.titulo)}</span>` : "",
-      ref ? `<span class="pill">⏱ ${esc(ref.tempo)}</span>` : "",
-    ].join("");
-    const title = ref ? esc(ref.resumo) : compra ? "Fazer a compra e organizar a geladeira" : "Livre";
-    const attrs = ref ? `data-goto-meal="${ref.numero}"` : compra ? `data-goto-list="${compra.id}"` : "";
+    const cls = ["day", d === HOJE ? "is-today" : ""].join(" ");
+    const meta = ref ? `<span class="pill">⏱ ${esc(ref.tempo)}</span>` : "";
+    const title = ref ? esc(ref.resumo) : "Livre";
+    const attrs = ref ? `data-goto-meal="${ref.numero}"` : "";
     return `<button class="${cls}" data-dia="${d}" ${attrs}>
       <div class="day__name">${DIAS[d]}${d === HOJE ? " · hoje" : ""}</div>
       <div class="day__num">${ref ? `Refeição ${ref.numero}` : "&nbsp;"}</div>
@@ -92,15 +77,66 @@ function renderPlanejamento() {
     </button>`;
   });
 
-  $("#planejamento").innerHTML = `
-    <h1 class="large-title">Sua <span class="grad">semana</span></h1>
-    <p class="subtitle">${esc(DATA.titulo)}</p>
-    ${renderHoje()}
+  // Resumo das compras (agora só 1 lista por semana)
+  const compraTotal = DATA.compras.reduce((acc, c) => acc + c.itens.length, 0);
+  const comprasCompletas = DATA.compras.filter(c => {
+    const itens = c.itens.map((_, i) => store.get(`${c.id}:${i}`));
+    return itens.every(i => i);
+  }).length;
+
+  // Resumo do preparo
+  const refHoje = refeicaoDoDia(HOJE);
+  const refAmanha = refeicaoDoDia((HOJE + 1) % 7);
+
+  $("#dash").innerHTML = `
+    <h1 class="large-title">Home</h1>
+    <p class="subtitle">Visão rápida do dia a dia</p>
 
     <div class="section">
       ${sectionTitle("Cardápio", "deslize →")}
       <div class="carousel" id="week">${dias.join("")}</div>
     </div>
+
+    <div class="section">
+      ${sectionTitle("Resumo")}
+      <div class="dashboard-grid">
+        <button class="dash-card" data-tab="compras">
+          <span class="dash-card__icon">🛒</span>
+          <div class="dash-card__content">
+            <div class="dash-card__title">Compras</div>
+            <div class="dash-card__info">${comprasCompletas}/${DATA.compras.length} listas completas</div>
+            <div class="dash-card__detail">${compraTotal} itens no total</div>
+          </div>
+          <span class="dash-card__arrow">→</span>
+        </button>
+
+        <button class="dash-card" data-tab="preparo">
+          <span class="dash-card__icon">🍳</span>
+          <div class="dash-card__content">
+            <div class="dash-card__title">Preparo</div>
+            <div class="dash-card__info">${refHoje ? `Refeição ${refHoje.numero} hoje` : "Dia livre"}</div>
+            <div class="dash-card__detail">${refAmanha ? `Descongelar ${refAmanha.descongelar}` : "Sem alertas"}</div>
+          </div>
+          <span class="dash-card__arrow">→</span>
+        </button>
+
+        <button class="dash-card" data-tab="passeios">
+          <span class="dash-card__icon">👨‍👩‍👧‍👦</span>
+          <div class="dash-card__content">
+            <div class="dash-card__title">Passeios</div>
+            <div class="dash-card__info">Fim de semana</div>
+            <div class="dash-card__detail">Sugestões para família</div>
+          </div>
+          <span class="dash-card__arrow">→</span>
+        </button>
+      </div>
+    </div>`;
+}
+
+function renderPlanejamento() {
+  $("#planejamento").innerHTML = `
+    <h1 class="large-title">Planejamento</h1>
+    <p class="subtitle">Configuração da semana</p>
 
     <div class="section">
       ${sectionTitle("Estratégia de preparo", "3 blocos")}
@@ -137,14 +173,12 @@ function renderPlanejamento() {
 }
 
 function renderCompras() {
-  const seg = DATA.compras.map((c) => `<button class="seg__btn ${c.id === listaAtual ? "is-active" : ""}" data-list-btn="${esc(c.id)}">${esc(c.titulo)}<small>${esc(c.quando)}</small></button>`).join("");
   const c = DATA.compras.find((x) => x.id === listaAtual);
   const refs = c.refeicoes.map((n) => DATA.refeicoes.find((r) => r.numero === n));
 
   $("#compras").innerHTML = `
     <h1 class="large-title">Compras</h1>
-    <p class="subtitle">Duas compras para não lotar a geladeira pequena.</p>
-    <div class="seg" role="group" aria-label="Listas">${seg}</div>
+    <p class="subtitle">Uma compra por semana para simplificar.</p>
 
     <div class="card card--accent" style="margin-top:14px" data-list="${esc(c.id)}">
       <div class="card-row">
@@ -262,8 +296,8 @@ function updateProgress() {
 
 function updateBadge() {
   const badge = $("#badge-compras");
-  const compra = compraDoDia(HOJE);
-  const faltam = compra ? compra.itens.filter((_, i) => !store.get(`${compra.id}:${i}`)).length : 0;
+  const c = DATA.compras.find((x) => x.id === listaAtual);
+  const faltam = c ? c.itens.filter((_, i) => !store.get(`${c.id}:${i}`)).length : 0;
   badge.hidden = !faltam;
   badge.textContent = faltam;
   $("#tab-compras").setAttribute("aria-label", faltam ? `Compras, ${faltam} itens pendentes` : "Compras");
@@ -280,13 +314,38 @@ function updateStep(details) {
 }
 
 function setTab(tab) {
-  if (!TABS.includes(tab)) tab = "planejamento";
+  if (!TABS.includes(tab)) tab = "dash";
   TABS.forEach((t) => {
     $(`#${t}`).classList.toggle("is-active", t === tab);
     $(`#tab-${t}`).setAttribute("aria-selected", String(t === tab));
   });
   tabAtual = tab;
   if (tab === "preparo") scrollPickerToActive();
+  updatePixelScene(tab);
+}
+
+function updatePixelScene(tab) {
+  const scene = $("#pixelScene");
+
+  if (!scene) return;
+
+  // Mapeamento de tab para cena
+  const tabToScene = {
+    "dash": "home",
+    "planejamento": "planejamento",
+    "compras": "compras",
+    "preparo": "preparo",
+    "passeios": "passeios"
+  };
+
+  const sceneName = tabToScene[tab] || "home";
+
+  // Remove todas as classes de cena
+  scene.classList.remove("scene-home", "scene-dash", "scene-planejamento", "scene-compras", "scene-preparo", "scene-passeios");
+
+  // Adiciona a classe correspondente à aba
+  const sceneClass = `scene-${sceneName}`;
+  scene.classList.add(sceneClass);
 }
 
 function route() {
@@ -295,10 +354,6 @@ function route() {
   if (tab === "preparo" && param !== undefined) {
     const n = Number(param);
     if (param !== "" && (n === 0 || DATA.refeicoes.some((r) => r.numero === n)) && n !== mealAtual) { mealAtual = n; renderPreparo(); }
-  }
-  if (tab === "compras" && param && param !== listaAtual && DATA.compras.some((c) => c.id === param)) {
-    listaAtual = param;
-    renderCompras();
   }
   if (tab === "passeios") Passeios.abrir(param);
   setTab(tab);
@@ -320,7 +375,7 @@ document.addEventListener("change", (e) => {
 });
 
 document.addEventListener("click", async (e) => {
-  const t = e.target.closest("[data-tab],[data-meal],[data-goto-meal],[data-goto-list],[data-list-btn],[data-reset],[data-expand],[data-share]");
+  const t = e.target.closest("[data-tab],[data-meal],[data-goto-meal],[data-goto-list],[data-reset],[data-expand],[data-share]");
   if (!t) return;
   if (t.dataset.tab) {
     if (tabAtual === t.dataset.tab) window.scrollTo({ top: 0, behavior: "smooth" });
@@ -328,7 +383,6 @@ document.addEventListener("click", async (e) => {
   } else if (t.dataset.meal !== undefined) location.hash = `preparo/${t.dataset.meal}`;
   else if (t.dataset.gotoMeal) { location.hash = `preparo/${t.dataset.gotoMeal}`; window.scrollTo({ top: 0 }); }
   else if (t.dataset.gotoList) { location.hash = `compras/${t.dataset.gotoList}`; window.scrollTo({ top: 0 }); }
-  else if (t.dataset.listBtn) location.hash = `compras/${t.dataset.listBtn}`;
   else if (t.dataset.reset) {
     store.clear(t.dataset.reset);
     $$(`input[data-key^="${t.dataset.reset}"]`).forEach((b) => { b.checked = false; });
@@ -362,6 +416,7 @@ fetch("data.json")
     $("#appbar-day").textContent = DIAS[HOJE];
     mealAtual = (refeicaoDoDia(HOJE) || DATA.refeicoes[0]).numero;
     listaAtual = compraDaSemana(HOJE);
+    renderDash();
     renderPlanejamento();
     renderCompras();
     renderPreparo();
